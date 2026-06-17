@@ -11,7 +11,7 @@ function waLink(message: string) {
 // ─── Helper to wrap technical terms for correct Arabic RTL visual direction ──
 function formatTechTerms(text: string) {
   if (!text) return "";
-  // Match the specific technical terms to wrap them in dir="ltr" spans
+  // Match the specific technical terms to wrap them in bdi tags for correct bi-directional rendering
   const regex = /\b(WordPress|WooCommerce|Laravel|API|Backend|CRM|ERP|RTL)\b/g;
   const parts = text.split(regex);
   if (parts.length === 1) return text;
@@ -20,9 +20,9 @@ function formatTechTerms(text: string) {
       {parts.map((part, index) => {
         if (index % 2 === 1) {
           return (
-            <span key={index} dir="ltr" className="inline-block font-sans">
+            <bdi key={index} className="mx-0.5">
               {part}
-            </span>
+            </bdi>
           );
         }
         return part;
@@ -258,7 +258,7 @@ export default async function ServicesPage({
           </p>
           <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight leading-tight mb-6">
             {isAr
-              ? formatTechTerms("خدمات WordPress وWooCommerce وLaravel مبنية على سير العمل الحقيقي للشركات.")
+              ? formatTechTerms("خدمات WordPress و WooCommerce و Laravel مبنية على سير العمل الحقيقي للشركات.")
               : "WordPress, WooCommerce & Laravel services built around real business workflows."}
           </h1>
           <p className="text-[#94A3B8] text-lg md:text-xl max-w-3xl mx-auto leading-relaxed mb-10">
