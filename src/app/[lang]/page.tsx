@@ -58,11 +58,11 @@ export default async function Home({
         </div>
       </section>
 
-      {/* 2. Problems I Help Fix */}
-      <section className="container mx-auto px-4 py-14 max-w-6xl">
-        <div className="text-center mb-12">
-          <h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold tracking-tight mb-4">
-            WordPress &amp; WooCommerce Problems I Help Businesses Fix
+      {/* 2. Problems I Solve */}
+      <section className="container mx-auto px-4 py-12 max-w-6xl">
+        <div className="text-center mb-8">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold tracking-tight mb-3">
+            Problems I Solve for WordPress &amp; WooCommerce Businesses
           </h2>
           <p className="text-[#94A3B8] text-base md:text-lg max-w-2xl mx-auto leading-relaxed">
             I help businesses improve, customize, and scale their WordPress platforms with practical solutions built around real workflows.
@@ -110,6 +110,15 @@ export default async function Home({
               <p className="text-[#94A3B8] text-sm leading-relaxed">{item.desc}</p>
             </div>
           ))}
+        </div>
+        {/* CTA */}
+        <div className="flex justify-center mt-10">
+          <Link
+            href={`/${lang}/work`}
+            className="px-7 py-3 rounded-xl bg-[#38BDF8]/10 border border-[#38BDF8]/30 text-[#38BDF8] font-semibold text-base hover:bg-[#38BDF8]/20 hover:border-[#38BDF8]/60 transition-all"
+          >
+            View Related Work
+          </Link>
         </div>
       </section>
 
