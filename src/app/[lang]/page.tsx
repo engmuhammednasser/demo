@@ -445,7 +445,7 @@ export default async function Home({
               category: "Healthcare",
               desc: "منصة ويب طبية لعرض خدمات العيادة، معلومات المرضى، وبناء حضور موثوق للعلامة الطبية.",
               tags: ["Healthcare", "WordPress", "موقع خدمات"],
-              image: "", // Placeholder
+              image: "/demo/projects/ozone-clinic/frontend/01-homepage-hero-desktop.png",
               hasDetail: false,
             },
           ] : [
@@ -501,7 +501,7 @@ export default async function Home({
               category: "Healthcare",
               desc: "A healthcare web platform for presenting clinic services, patient information, and a trustworthy medical brand experience.",
               tags: ["Healthcare", "WordPress", "Service Website"],
-              image: "", // Placeholder
+              image: "/demo/projects/ozone-clinic/frontend/01-homepage-hero-desktop.png",
               hasDetail: false,
             },
           ];
@@ -528,7 +528,7 @@ export default async function Home({
                           alt={item.title}
                           fill
                           sizes="(max-width: 768px) 100vw, (max-width: 1280px) 50vw, 33vw"
-                          className="object-cover opacity-90 group-hover:opacity-100 group-hover:scale-105 transition-all duration-500"
+                          className="object-cover object-top opacity-90 group-hover:opacity-100 group-hover:scale-105 transition-all duration-500"
                         />
                       ) : (
                         <div className="absolute inset-0 bg-gradient-to-br from-[#1E293B] via-[#0F172A] to-[#020617] flex flex-col items-center justify-center p-6 text-center">

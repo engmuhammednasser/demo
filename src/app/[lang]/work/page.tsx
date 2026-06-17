@@ -43,7 +43,7 @@ export default async function WorkPage({
                       alt={locale === "ar" ? project.titleAr : project.title}
                       fill
                       sizes="(max-width: 768px) 100vw, (max-width: 1280px) 50vw, 33vw"
-                      className="object-cover opacity-90 group-hover:opacity-100 group-hover:scale-105 transition-all duration-500"
+                      className="object-cover object-top opacity-90 group-hover:opacity-100 group-hover:scale-105 transition-all duration-500"
                     />
                   ) : (
                     <div className="w-full h-full flex items-center justify-center text-[#94A3B8] font-medium">No Image</div>
