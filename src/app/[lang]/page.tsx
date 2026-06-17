@@ -618,7 +618,7 @@ export default async function Home({
                 alt={lang === "ar" ? "محمد ناصر، مطور WordPress وWooCommerce" : "Muhammed Nasser, WordPress and WooCommerce Developer"}
                 fill
                 sizes="(max-width: 1024px) 224px, 256px"
-                className="object-cover object-top"
+                className="object-cover object-[50%_8%]"
                 priority
               />
               <div className="absolute inset-0 bg-gradient-to-t from-[#0B1020]/40 via-transparent to-transparent pointer-events-none" />
@@ -626,7 +626,7 @@ export default async function Home({
             <div className="mt-5 text-center lg:text-start">
               <p className="text-white font-bold text-lg">Muhammed Nasser</p>
               <p className="text-[#38BDF8] text-sm font-medium mt-1">
-                {lang === "ar" ? "مطور WordPress & WooCommerce" : "WordPress & WooCommerce Developer"}
+                {lang === "ar" ? "مطور WordPress وWooCommerce وLaravel" : "WordPress, WooCommerce & Laravel Developer"}
               </p>
               <div className="flex items-center gap-2 mt-3 justify-center lg:justify-start">
                 <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
