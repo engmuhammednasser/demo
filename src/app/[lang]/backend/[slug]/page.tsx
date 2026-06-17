@@ -10,8 +10,13 @@ export async function generateStaticParams() {
   const params: { lang: string; slug: string }[] = [];
   ['en', 'ar'].forEach(lang => {
     projects.forEach(project => {
-      // Only include backend projects (laravel, php, etc.)
-      if (project.type.includes("laravel") || project.type.includes("php")) {
+      // Include backend projects (laravel, php) or any project with backend/dashboard screenshots
+      if (
+        project.type.includes("laravel") || 
+        project.type.includes("php") || 
+        (project.backendScreenshots && project.backendScreenshots.length > 0) || 
+        (project.dashboardScreenshots && project.dashboardScreenshots.length > 0)
+      ) {
         params.push({ lang, slug: project.slug });
       }
     });
