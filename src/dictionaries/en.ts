@@ -9,9 +9,9 @@ export const en = {
     contact: "Contact",
   },
   home: {
-    heroTitle: "WordPress & WooCommerce Developer building custom stores, plugins, themes, and Laravel-powered business systems.",
+    heroTitle: "WordPress & WooCommerce Developer for Custom Stores, Plugins & Laravel Systems.",
     heroExperience: "8+ years of WordPress experience, 2+ years of Laravel/PHP backend development.",
-    heroCopy: "I help businesses turn WordPress into fast, scalable, and business-ready platforms — from WooCommerce stores to custom plugins and internal dashboards.",
+    heroCopy: "I help businesses build fast, scalable WordPress platforms — from WooCommerce stores and custom plugins to themes and Laravel-powered dashboards.",
     viewWork: "View Case Studies",
     startProject: "Start a Project",
     exploreLab: "Explore Developer Lab",

@@ -17,7 +17,7 @@ export default async function Home({
   return (
     <div className="space-y-24 pb-20">
       {/* 1. Hero */}
-      <section className="container mx-auto px-4 pt-32 pb-16 text-center max-w-5xl space-y-8 relative">
+      <section className="container mx-auto px-4 pt-16 pb-16 text-center max-w-5xl space-y-8 relative">
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[400px] bg-[#38BDF8]/8 blur-[140px] rounded-full pointer-events-none -z-10" />
         {/* Badge */}
         <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[#38BDF8]/10 border border-[#38BDF8]/20 text-[#38BDF8] text-sm font-semibold tracking-wide uppercase">
