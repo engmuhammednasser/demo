@@ -133,9 +133,11 @@ export default async function RootLayout({
         <footer className="border-t border-white/10 bg-[#0B1020] py-8 mt-12">
           <div className="container mx-auto px-4 text-center text-[#94A3B8]">
             <p>
-              © {new Date().getFullYear()}{" "}
-              {lang === "ar" ? "محمد ناصر" : "Muhammed Nasser"}. All rights
-              reserved.
+              {lang === "ar" ? (
+                "© 2026 محمد ناصر. جميع الحقوق محفوظة."
+              ) : (
+                <>© {new Date().getFullYear()} Muhammed Nasser. All rights reserved.</>
+              )}
             </p>
           </div>
         </footer>

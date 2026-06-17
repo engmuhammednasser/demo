@@ -8,6 +8,29 @@ function waLink(message: string) {
   return `https://wa.me/${WA_PHONE}?text=${encodeURIComponent(message)}`;
 }
 
+// ─── Helper to wrap technical terms for correct Arabic RTL visual direction ──
+function formatTechTerms(text: string) {
+  if (!text) return "";
+  // Match the specific technical terms to wrap them in dir="ltr" spans
+  const regex = /\b(WordPress|WooCommerce|Laravel|API|Backend|CRM|ERP|RTL)\b/g;
+  const parts = text.split(regex);
+  if (parts.length === 1) return text;
+  return (
+    <>
+      {parts.map((part, index) => {
+        if (index % 2 === 1) {
+          return (
+            <span key={index} dir="ltr" className="inline-block font-sans">
+              {part}
+            </span>
+          );
+        }
+        return part;
+      })}
+    </>
+  );
+}
+
 // ─── Service Data ────────────────────────────────────────────────────────────
 const services = [
   {
@@ -224,7 +247,7 @@ export default async function ServicesPage({
   const workHref = `/${lang}/work/`;
 
   return (
-    <div dir={dir} className="min-h-screen">
+    <div dir={dir} className="min-h-screen overflow-x-hidden">
 
       {/* ── 1. HERO ─────────────────────────────────────────────────────── */}
       <section className="relative overflow-hidden border-b border-white/5">
@@ -235,12 +258,12 @@ export default async function ServicesPage({
           </p>
           <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight leading-tight mb-6">
             {isAr
-              ? "خدمات WordPress وWooCommerce وLaravel مبنية حول احتياجات العمل الحقيقية."
+              ? formatTechTerms("خدمات WordPress وWooCommerce وLaravel مبنية على سير العمل الحقيقي للشركات.")
               : "WordPress, WooCommerce & Laravel services built around real business workflows."}
           </h1>
           <p className="text-[#94A3B8] text-lg md:text-xl max-w-3xl mx-auto leading-relaxed mb-10">
             {isAr
-              ? "من مواقع WordPress المخصصة ومتاجر WooCommerce إلى الإضافات، تحسين الأداء، ولوحات Laravel — أساعد الشركات على بناء حلول رقمية موثوقة تناسب طريقة عملها الفعلية."
+              ? formatTechTerms("من مواقع WordPress المخصصة ومتاجر WooCommerce إلى الإضافات، تحسين الأداء، ولوحات Laravel — أساعد الشركات على بناء حلول رقمية موثوقة تناسب طريقة عملها الفعلية.")
               : "From custom WordPress websites and WooCommerce stores to plugins, performance improvements, and Laravel dashboards — I help businesses build reliable digital solutions that fit how they actually work."}
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
@@ -290,17 +313,17 @@ export default async function ServicesPage({
 
                 {/* Title */}
                 <h3 className="text-lg font-bold text-white mb-3 leading-snug">
-                  {s.title}
+                  {formatTechTerms(s.title)}
                 </h3>
 
                 {/* Problem */}
-                <p className="text-[#64748B] text-sm leading-relaxed mb-4 italic border-s-2 border-[#38BDF8]/30 ps-3">
-                  {s.problem}
+                <p className={`text-[#64748B] text-[15px] leading-relaxed mb-4 border-s-2 border-[#38BDF8]/30 ps-3 ${isAr ? "" : "italic"}`}>
+                  {formatTechTerms(s.problem)}
                 </p>
 
                 {/* What I build */}
-                <p className="text-[#94A3B8] text-sm leading-relaxed mb-4">
-                  {s.build}
+                <p className="text-[#94A3B8] text-[15px] leading-relaxed mb-4">
+                  {formatTechTerms(s.build)}
                 </p>
 
                 {/* Examples */}
@@ -312,7 +335,7 @@ export default async function ServicesPage({
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M5 13l4 4L19 7" />
                         </svg>
                       </span>
-                      <span dir="auto">{ex}</span>
+                      <span dir="auto">{formatTechTerms(ex)}</span>
                     </li>
                   ))}
                 </ul>
@@ -324,7 +347,7 @@ export default async function ServicesPage({
                   rel="noopener noreferrer"
                   className="mt-auto w-full px-4 py-3 bg-[#1E293B] hover:bg-[#38BDF8]/10 border border-white/5 hover:border-[#38BDF8]/30 text-[#38BDF8] text-sm font-bold rounded-xl transition-all text-center"
                 >
-                  {s.cta} →
+                  {formatTechTerms(s.cta)} →
                 </a>
               </div>
             );
@@ -344,7 +367,7 @@ export default async function ServicesPage({
               </h2>
               <p className="text-[#94A3B8] text-lg leading-relaxed max-w-2xl">
                 {isAr
-                  ? "إذا لم تكن متأكدًا هل مشروعك يحتاج إلى موقع، متجر، إضافة، تخصيص، أو نظام Laravel، ابدأ برسالة قصيرة. سأساعدك في تحديد الاتجاه الأنسب بناءً على طريقة عملك وأهدافك."
+                  ? formatTechTerms("إذا لم تكن متأكدًا هل مشروعك يحتاج إلى موقع، متجر، إضافة، تخصيص، أو نظام Laravel، ابدأ برسالة قصيرة. سأساعدك في تحديد الاتجاه الأنسب بناءً على طريقة عملك وأهدافك.")
                   : "If you are not sure whether your project needs a website, store, plugin, customization, or Laravel system, start with a short message. I'll help you identify the right direction based on your workflow and goals."}
               </p>
             </div>
@@ -362,8 +385,8 @@ export default async function ServicesPage({
                 { q: "Need a faster existing website?", a: "Performance Optimization" },
               ]).map((item, i) => (
                 <div key={i} className="bg-[#0B1020] border border-white/5 rounded-xl p-5">
-                  <p className="text-[#94A3B8] text-sm mb-2">{item.q}</p>
-                  <p className="text-[#38BDF8] text-sm font-bold">→ {item.a}</p>
+                  <p className="text-[#94A3B8] text-sm mb-2">{formatTechTerms(item.q)}</p>
+                  <p className="text-[#38BDF8] text-sm font-bold">→ {formatTechTerms(item.a)}</p>
                 </div>
               ))}
             </div>
@@ -381,14 +404,14 @@ export default async function ServicesPage({
       </section>
 
       {/* ── 4. WORK PROCESS ─────────────────────────────────────────────── */}
-      <section className="border-t border-white/5">
-        <div className="container mx-auto px-4 py-20 max-w-5xl">
+      <section className="border-t border-white/5 bg-[#080B15]/40 py-20">
+        <div className="container mx-auto px-4 max-w-5xl">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-extrabold tracking-tight mb-4">
               {isAr ? "كيف تتم عملية تنفيذ الخدمة؟" : "How the service process works"}
             </h2>
           </div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
             {(isAr ? [
               { num: "01", label: "فهم المتطلبات" },
               { num: "02", label: "تحديد الحل المناسب" },
@@ -404,7 +427,7 @@ export default async function ServicesPage({
                 <div className="w-14 h-14 bg-[#0B1020] border-2 border-white/10 rounded-full flex items-center justify-center text-[#38BDF8] font-bold text-xl mb-4 group-hover:border-[#38BDF8]/50 group-hover:bg-[#38BDF8]/10 transition-all">
                   {step.num}
                 </div>
-                <p className="text-white font-semibold text-sm leading-snug">{step.label}</p>
+                <p className="text-white font-bold text-base leading-relaxed">{step.label}</p>
               </div>
             ))}
           </div>
@@ -420,12 +443,12 @@ export default async function ServicesPage({
 
             <h2 className="relative z-10 text-3xl md:text-4xl font-extrabold text-white tracking-tight leading-tight mb-5">
               {isAr
-                ? "لديك مشروع WordPress أو WooCommerce أو Laravel؟"
+                ? formatTechTerms("لديك مشروع WordPress أو WooCommerce أو Laravel؟")
                 : "Have a WordPress, WooCommerce, or Laravel project in mind?"}
             </h2>
             <p className="relative z-10 text-[#94A3B8] text-lg max-w-2xl mx-auto leading-relaxed mb-10">
               {isAr
-                ? "أرسل رسالة قصيرة عن ما تحتاج إلى بنائه، تخصيصه، تحسينه، أو ربطه — ودعنا نناقش الحل المناسب."
+                ? formatTechTerms("أرسل رسالة قصيرة عن ما تحتاج إلى بنائه، تخصيصه، تحسينه، أو ربطه — ودعنا نناقش الحل المناسب.")
                 : "Send a short message about what you need built, customized, improved, or connected — and let's discuss the right solution."}
             </p>
             <div className="relative z-10 flex flex-col sm:flex-row items-center justify-center gap-4">

@@ -5,7 +5,7 @@ export const ar = {
     lab: "المعمل البرمجي",
     backend: "أنظمة Backend",
     services: "الخدمات",
-    about: "عنّي",
+    about: "عن محمد",
     contact: "تواصل",
   },
   home: {
