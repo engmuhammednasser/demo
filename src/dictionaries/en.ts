@@ -15,13 +15,6 @@ export const en = {
     viewWork: "View Case Studies",
     startProject: "Start a Project",
     exploreLab: "Explore Developer Lab",
-    choosePath: "Choose Your Path",
-    pathWoo: "I need a WooCommerce Store",
-    pathPlugin: "I need a Custom Plugin",
-    pathTheme: "I need a Custom Theme",
-    pathLaravel: "I need a Laravel Dashboard or API",
-    pathPerformance: "I need Performance Optimization",
-    pathSimilar: "I want to see similar work",
   },
   work: {
     filters: "Filters",
