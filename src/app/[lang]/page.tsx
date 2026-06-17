@@ -700,6 +700,75 @@ export default async function Home({
           </div>
         </div>
       </section>
+
+      {/* The Stack Behind the Solutions Section */}
+      {(() => {
+        const stackGroups = [
+          {
+            title: "WordPress",
+            items: lang === "ar" 
+              ? ["قوالب مخصصة", "إضافات", "Hooks", "CPT", "ACF", "REST API"]
+              : ["Custom Themes", "Plugins", "Hooks", "CPT", "ACF", "REST API"]
+          },
+          {
+            title: "WooCommerce",
+            items: lang === "ar"
+              ? ["مسارات الدفع", "بوابات الدفع", "منطق المنتجات", "تخصيص السلة", "تخصيص الطلبات"]
+              : ["Checkout Flows", "Payment Gateways", "Product Logic", "Cart Customization", "Order Customization"]
+          },
+          {
+            title: "Backend",
+            items: lang === "ar"
+              ? ["PHP", "Laravel", "MySQL", "APIs", "لوحات تحكم"]
+              : ["PHP", "Laravel", "MySQL", "APIs", "Dashboards"]
+          },
+          {
+            title: "Frontend",
+            items: lang === "ar"
+              ? ["HTML", "CSS", "JavaScript", "واجهات متجاوبة", "دعم RTL"]
+              : ["HTML", "CSS", "JavaScript", "Responsive UI", "RTL Interfaces"]
+          },
+          {
+            title: "Delivery",
+            items: lang === "ar"
+              ? ["GitHub", "الاستضافة", "النشر", "تحسين الأداء"]
+              : ["GitHub", "Hosting", "Deployment", "Performance Optimization"]
+          }
+        ];
+
+        return (
+          <section className="container mx-auto px-4 py-24 border-t border-white/5 relative">
+            <div className="max-w-4xl mx-auto text-center mb-16 space-y-6">
+              <h2 className="text-3xl md:text-5xl font-extrabold tracking-tight leading-tight">
+                {lang === "ar" ? "التقنيات وراء الحلول" : "The Stack Behind the Solutions"}
+              </h2>
+              <p className="text-[#94A3B8] text-lg max-w-2xl mx-auto leading-relaxed">
+                {lang === "ar"
+                  ? "مجموعة تقنيات عملية لبناء حلول WordPress وWooCommerce وLaravel مخصصة — من تجربة المتجر إلى سير العمل والأنظمة الخلفية."
+                  : "A practical stack for building custom WordPress, WooCommerce, and Laravel systems — from storefront UX to backend workflows."}
+              </p>
+            </div>
+
+            <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+              {stackGroups.map((group, idx) => (
+                <div key={idx} className="bg-[#111827]/50 border border-white/5 p-6 rounded-2xl flex flex-col items-start hover:border-[#38BDF8]/20 transition-colors">
+                  <h3 className="text-lg font-bold text-white mb-4 flex items-center gap-2">
+                    <span className="w-2 h-2 rounded-full bg-[#38BDF8] opacity-80"></span>
+                    {group.title}
+                  </h3>
+                  <div className="flex flex-wrap gap-2">
+                    {group.items.map((item, i) => (
+                      <span key={i} className="px-3 py-1.5 bg-[#1E293B] border border-white/5 text-[#94A3B8] text-sm font-medium rounded-lg" dir="auto">
+                        {item}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+              ))}
+            </div>
+          </section>
+        );
+      })()}
     </div>
   );
 }
