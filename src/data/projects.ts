@@ -1014,7 +1014,7 @@ export const projects: Project[] = [
     problem: "Tourism platforms need to help users discover experiences quickly, understand trip details clearly, and move toward booking without confusion. The interface also needs to support Arabic RTL users, mobile browsing, trust content, and support flows.",
     problemAr: "منصات السياحة تحتاج إلى مساعدة المستخدم في اكتشاف التجارب بسرعة، فهم تفاصيل الرحلة بوضوح، والانتقال للحجز بدون تعقيد. كما تحتاج الواجهة لدعم المستخدم العربي RTL، التصفح من الموبايل، محتوى الثقة، ومسارات الدعم.",
     solution: "A responsive, SEO-friendly Laravel marketplace architecture focused on clear discovery and booking funnels. The platform presents robust tour detail pages, heritage product commerce flows, and well-organized support pages to increase user trust and conversions.",
-    solutionAr: "منصة مبنية بـ Laravel تتميز ببنية تدعم تحسين محركات البحث وتجربة مستخدم تركز على وضوح التصفح وسهولة مسار الحجز. تتضمن المنصة صفحات تفصيلية للجولات وعمليات شراء المنتجات التراثية وصفحات دعم منظمة لزيادة ثقة المستخدم ومعدلات التحويل.",
+    solutionAr: "منصة مبنية بـ لارافيل تتميز ببنية تدعم تحسين محركات البحث وتجربة مستخدم تركز على وضوح التصفح وسهولة مسار الحجز. تتضمن المنصة صفحات تفصيلية للجولات وعمليات شراء المنتجات التراثية وصفحات دعم منظمة لزيادة ثقة المستخدم ومعدلات التحويل.",
     role: [
       "Worked on presenting and structuring the public-facing marketplace experience.",
       "Built or contributed to responsive RTL frontend pages for tours, gifts, support, and booking flows.",
@@ -1024,7 +1024,7 @@ export const projects: Project[] = [
     roleAr: [
       "شاركت في بناء وتنظيم تجربة الواجهة العامة للمنصة.",
       "عملت على واجهات RTL متجاوبة لصفحات الجولات، المنتجات، الدعم، ومسار الحجز.",
-      "جهزت المشروع للعرض داخل البرتفوليو كدراسة حالة لمنصة Marketplace مبنية بـ Laravel.",
+      "جهزت المشروع للعرض داخل البرتفوليو كدراسة حالة لمنصة Marketplace مبنية بـ لارافيل.",
       "نظمت صور الواجهة الأمامية لتوضيح تجربة الاكتشاف، الحجز، الدعم، والموبايل."
     ],
     stack: ["Laravel", "PHP", "HTML", "CSS", "JavaScript"],
@@ -1078,7 +1078,7 @@ export const projects: Project[] = [
       "تصفح أسهل للجولات والمنتجات التراثية.",
       "مسار حجز أكثر وضوحًا من خلال أزرار CTA ظاهرة.",
       "تجربة دعم أفضل من خلال FAQ وHelp Center ونموذج التواصل.",
-      "عرض أقوى للمشروع كدراسة حالة لمنصة Marketplace مبنية بـ Laravel."
+      "عرض أقوى للمشروع كدراسة حالة لمنصة Marketplace مبنية بـ لارافيل."
     ],
     screenshots: [
       "/demo/projects/atour/frontend/01-homepage-hero-desktop.png"
@@ -2199,11 +2199,11 @@ export const projects: Project[] = [
     industry: "Management",
     goal: ["order-management", "crm", "woocommerce"],
     summary: "A full CRM and order management dashboard built for managing customer orders, customers, payment statuses, shipment statuses, returns, delays, follow-ups, dynamic lookup tables, user roles, permissions, and WooCommerce webhook integration from one centralized Arabic RTL dashboard.",
-    summaryAr: "نظام CRM متكامل لإدارة الطلبات والعملاء، يتضمن لوحة تحكم تحليلية، إدارة الطلبات، العملاء، المستخدمين، الأدوار، الصلاحيات، الإعدادات، الجداول الديناميكية، حالات الدفع والشحن والمرتجعات، أسباب التأخير والإلغاء، ومزامنة الطلبات مع WooCommerce من خلال Webhooks.",
+    summaryAr: "نظام CRM متكامل لإدارة الطلبات والعملاء، يتضمن لوحة تحكم تحليلية، إدارة الطلبات، العملاء، المستخدمين، الأدوار، الصلاحيات، الإعدادات، الجداول الديناميكية، حالات الدفع والشحن والمرتجعات، أسباب التأخير والإلغاء، ومزامنة الطلبات مع ووكومرس من خلال Webhooks.",
     problem: "Many businesses receive orders from multiple sources such as WooCommerce, websites, social media, phone calls, and manual entries. Managing these orders manually makes it difficult to track customers, order statuses, payments, shipments, returns, delays, cancellation reasons, and follow-up priorities in one place.",
-    problemAr: "تستقبل الكثير من الشركات الطلبات من مصادر متعددة مثل WooCommerce، الموقع الإلكتروني، السوشيال ميديا، المكالمات، والإدخال اليدوي. إدارة هذه الطلبات بشكل يدوي تجعل متابعة العملاء، حالات الطلب، الدفع، الشحن، المرتجعات، التأخير، أسباب الإلغاء، وأولويات المتابعة عملية صعبة وغير منظمة.",
+    problemAr: "تستقبل الكثير من الشركات الطلبات من مصادر متعددة مثل ووكومرس، الموقع الإلكتروني، السوشيال ميديا، المكالمات، والإدخال اليدوي. إدارة هذه الطلبات بشكل يدوي تجعل متابعة العملاء، حالات الطلب، الدفع، الشحن، المرتجعات، التأخير، أسباب الإلغاء، وأولويات المتابعة عملية صعبة وغير منظمة.",
     solution: "I built a centralized CRM dashboard that organizes the full order management workflow in one system. The platform includes authentication, dashboard analytics, order management, customer management, users, roles, permissions, settings, WooCommerce webhook integration, dynamic lookup tables, order statuses, payment methods, shipment statuses, return statuses, delay statuses, lead sources, lead statuses, follow-up statuses, attachment types, and reasons for cancellation, delay, and returns.",
-    solutionAr: "تم بناء لوحة تحكم CRM مركزية تنظم دورة إدارة الطلبات بالكامل داخل نظام واحد. يشمل النظام تسجيل الدخول، لوحة مؤشرات تحليلية، إدارة الطلبات، إدارة العملاء، المستخدمين، الأدوار، الصلاحيات، الإعدادات، ربط WooCommerce، الجداول الديناميكية، حالات الطلبات، وسائل الدفع، حالات الدفع، حالات الشحن، حالات المرتجعات، حالات التأخير، مصادر العملاء المحتملين، حالات العملاء المحتملين، حالات المتابعة، أنواع المرفقات، وأسباب الإلغاء والتأخير والمرتجعات.",
+    solutionAr: "تم بناء لوحة تحكم CRM مركزية تنظم دورة إدارة الطلبات بالكامل داخل نظام واحد. يشمل النظام تسجيل الدخول، لوحة مؤشرات تحليلية، إدارة الطلبات، إدارة العملاء، المستخدمين، الأدوار، الصلاحيات، الإعدادات، ربط ووكومرس، الجداول الديناميكية، حالات الطلبات، وسائل الدفع، حالات الدفع، حالات الشحن، حالات المرتجعات، حالات التأخير، مصادر العملاء المحتملين، حالات العملاء المحتملين، حالات المتابعة، أنواع المرفقات، وأسباب الإلغاء والتأخير والمرتجعات.",
     features: [
       "Arabic RTL Dashboard",
       "Light & Dark Mode",
@@ -2241,7 +2241,7 @@ export const projects: Project[] = [
       "إدارة الأدوار",
       "إدارة الصلاحيات",
       "إعدادات النظام",
-      "ربط WooCommerce عبر Webhooks",
+      "ربط ووكومرس عبر Webhooks",
       "تحليلات ورسوم بيانية",
       "جدول آخر الطلبات",
       "البحث والفلاتر وتقسيم الصفحات",
@@ -2301,7 +2301,7 @@ export const projects: Project[] = [
       "وحدة إدارة الأدوار لتعريف أدوار مثل Admin وModerator وOperations.",
       "وحدة إدارة الصلاحيات للتحكم في الوصول.",
       "وحدة الإعدادات لإدارة قيم النظام القابلة للتعديل.",
-      "صفحة ربط WooCommerce تحتوي على Delivery URL وEndpoint URL وAPI Key وخطوات الإعداد وقائمة تحقق ودعم للمشكلات.",
+      "صفحة ربط ووكومرس تحتوي على Delivery URL وEndpoint URL وAPI Key وخطوات الإعداد وقائمة تحقق ودعم للمشكلات.",
       "جداول ديناميكية لتصنيفات المنتجات، وسائل الدفع، أنواع المرفقات، مصادر العملاء المحتملين، حالات العملاء المحتملين، حالات المتابعة، حالات الطلبات، حالات الدفع، حالات الشحنات، حالات المرتجعات، حالات التأخير، أسباب الإلغاء، أسباب التأخير، وأسباب المرتجعات.",
       "جداول قابلة للبحث وتقسيم الصفحات مع إجراءات تعديل وحذف.",
       "Badges للحالات، مؤشرات نشط وافتراضي، فرز، وتحكم منظم في الجداول.",
@@ -2321,7 +2321,7 @@ export const projects: Project[] = [
       "تقليل الاعتماد على الملفات المنفصلة والتتبع اليدوي.",
       "تحسين وضوح حالة الطلب، الدفع، الشحن، المرتجعات، التأخير، والمتابعات.",
       "توفير نظام صلاحيات منظم حسب الأدوار لأعضاء الفريق.",
-      "تسهيل ربط WooCommerce من خلال حقول واضحة وخطوات إعداد وقائمة تحقق.",
+      "تسهيل ربط ووكومرس من خلال حقول واضحة وخطوات إعداد وقائمة تحقق.",
       "جعل بيانات النظام الديناميكية قابلة للإدارة بدون تعديل الكود.",
       "بناء أساس CRM قابل للتوسع لإضافة تكاملات، تحليلات، أتمتة، وسير عمل للفريق."
     ],
@@ -2329,7 +2329,7 @@ export const projects: Project[] = [
       "/demo/projects/crm-order-management/dashboard.png",
       "/demo/projects/crm-order-management/إدارة الطلبات.png",
       "/demo/projects/crm-order-management/العملاء.png",
-      "/demo/projects/crm-order-management/ربط WooCommerce.png"
+      "/demo/projects/crm-order-management/ربط ووكومرس.png"
     ],
     authThemeScreenshots: [
       {
@@ -2434,9 +2434,9 @@ export const projects: Project[] = [
     ],
     woocommerceScreenshots: [
       {
-        src: "/demo/projects/crm-order-management/ربط WooCommerce.png",
-        alt: { en: "WooCommerce webhook integration setup screen", ar: "شاشة إعداد ربط WooCommerce عبر Webhooks" },
-        caption: { en: "WooCommerce Integration", ar: "ربط WooCommerce" },
+        src: "/demo/projects/crm-order-management/ربط ووكومرس.png",
+        alt: { en: "WooCommerce webhook integration setup screen", ar: "شاشة إعداد ربط ووكومرس عبر Webhooks" },
+        caption: { en: "WooCommerce Integration", ar: "ربط ووكومرس" },
         type: "settings",
         viewport: "desktop"
       }

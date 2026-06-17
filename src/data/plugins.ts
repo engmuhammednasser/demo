@@ -38,22 +38,22 @@ export const plugins: PluginItem[] = [
   {
     slug: "custom-currency-icon",
     name: "Custom Currency Icon for WooCommerce",
-    nameAr: "تخصيص أيقونة العملة لـ WooCommerce",
+    nameAr: "تخصيص أيقونة العملة لـ ووكومرس",
     version: "v1.0.0",
     category: "WordPress Plugin / WooCommerce / Customization",
     categoryAr: "إضافة ووردبريس / ووكومرس / تخصيص واجهة",
     description:
       "A lightweight WooCommerce plugin that allows store owners to easily replace the default text-based currency symbol with a custom SVG or image icon, enhancing the brand's visual identity across the storefront.",
     descriptionAr:
-      "إضافة خفيفة لمتجر WooCommerce تسمح لأصحاب المتاجر بتغيير رمز العملة الافتراضي (النصي) بأيقونة مخصصة (SVG أو صورة) لتعزيز الهوية البصرية للمتجر في كافة الصفحات وسلة المشتريات.",
+      "إضافة خفيفة لمتجر ووكومرس تسمح لأصحاب المتاجر بتغيير رمز العملة الافتراضي (النصي) بأيقونة مخصصة (SVG أو صورة) لتعزيز الهوية البصرية للمتجر في كافة الصفحات وسلة المشتريات.",
     problem:
       "WooCommerce by default only allows text-based currency symbols, which limits design flexibility when a store wants to use a branded icon, SVG, or a unique graphic for its currency display.",
     problemAr:
-      "يسمح WooCommerce افتراضياً باستخدام رموز نصية للعملات فقط، مما يقيد المرونة في التصميم عندما يرغب المتجر في استخدام أيقونة مميزة، ملف SVG، أو شعار خاص للعملة.",
+      "يسمح ووكومرس افتراضياً باستخدام رموز نصية للعملات فقط، مما يقيد المرونة في التصميم عندما يرغب المتجر في استخدام أيقونة مميزة، ملف SVG، أو شعار خاص للعملة.",
     solution:
       "Developed a custom WordPress plugin that hooks into WooCommerce currency filters, providing a simple settings page to upload and display a custom currency icon seamlessly across all product prices and cart summaries.",
     solutionAr:
-      "تطوير إضافة ووردبريس مخصصة تتصل بفلاتر عملة WooCommerce، وتقدم صفحة إعدادات بسيطة تتيح رفع وعرض أيقونة عملة مخصصة بسلاسة على كافة أسعار المنتجات وملخصات السلة.",
+      "تطوير إضافة ووردبريس مخصصة تتصل بفلاتر عملة ووكومرس، وتقدم صفحة إعدادات بسيطة تتيح رفع وعرض أيقونة عملة مخصصة بسلاسة على كافة أسعار المنتجات وملخصات السلة.",
     features: [
       "Custom Settings Page in WooCommerce",
       "Media Uploader Integration",
@@ -62,8 +62,8 @@ export const plugins: PluginItem[] = [
       "Lightweight without affecting performance",
     ],
     featuresAr: [
-      "صفحة إعدادات مخصصة داخل WooCommerce",
-      "الربط مع مكتبة وسائط WordPress",
+      "صفحة إعدادات مخصصة داخل ووكومرس",
+      "الربط مع مكتبة وسائط وردبريس",
       "دعم الصور وملفات SVG",
       "تكامل سلس مع أسعار المنتجات وسلة المشتريات",
       "إضافة خفيفة لا تؤثر على سرعة المتجر",
@@ -98,22 +98,22 @@ export const plugins: PluginItem[] = [
   {
     slug: "geidea-payment-gateway",
     name: "Geidea Payment Gateway for Custom WordPress Booking",
-    nameAr: "إضافة Geidea Payment Gateway لحجوزات WordPress المخصصة",
+    nameAr: "إضافة Geidea Payment Gateway لحجوزات وردبريس المخصصة",
     version: "v2.3.9",
     category: "WordPress Plugin / Payment Gateway / Custom Booking Workflow",
     categoryAr: "إضافة ووردبريس / بوابة دفع / مسار حجز مخصص",
     description:
       "This plugin was built for a custom WordPress car booking website that was not using the standard WooCommerce checkout workflow. Geidea provides an official WooCommerce plugin, but the project required a custom WordPress payment integration that works with a custom booking flow outside the traditional WooCommerce cart and checkout process.\n\nThe plugin integrates Geidea HPP Checkout V2 using a redirect-based payment flow. The user is redirected to Geidea’s secure payment page, then returned to the website after payment, where the booking status is updated based on the payment result.",
     descriptionAr:
-      "تم بناء هذه الإضافة لموقع حجوزات سيارات مبني داخل WordPress بطريقة مخصصة خارج منطق WooCommerce التقليدي. كانت بوابة Geidea توفر إضافة جاهزة لـ WooCommerce، لكن المشروع كان يحتاج إلى تكامل دفع مخصص يناسب booking workflow خاص داخل WordPress.\n\nتعتمد الإضافة على Geidea HPP Checkout V2 من خلال redirect payment flow، حيث يتم تحويل المستخدم إلى صفحة الدفع الخاصة بـ Geidea بشكل واضح وآمن، ثم يعود إلى الموقع بعد انتهاء العملية ليتم تحديث حالة الحجز بناءً على نتيجة الدفع.",
+      "تم بناء هذه الإضافة لموقع حجوزات سيارات مبني داخل وردبريس بطريقة مخصصة خارج منطق ووكومرس التقليدي. كانت بوابة Geidea توفر إضافة جاهزة لـ ووكومرس، لكن المشروع كان يحتاج إلى تكامل دفع مخصص يناسب booking workflow خاص داخل وردبريس.\n\nتعتمد الإضافة على Geidea HPP Checkout V2 من خلال redirect payment flow، حيث يتم تحويل المستخدم إلى صفحة الدفع الخاصة بـ Geidea بشكل واضح وآمن، ثم يعود إلى الموقع بعد انتهاء العملية ليتم تحديث حالة الحجز بناءً على نتيجة الدفع.",
     problem:
       "Geidea provides a WooCommerce-ready payment plugin, but the project needed a secure custom WordPress payment flow for a booking system that was not built on the standard WooCommerce cart and checkout workflow.",
     problemAr:
-      "كانت المشكلة أن بوابة Geidea توفر إضافة جاهزة لـ WooCommerce، لكن موقع الحجز كان مبنيًا بطريقة مخصصة خارج cart وcheckout التقليديين، لذلك احتاج المشروع إلى بناء payment flow مخصص وآمن داخل WordPress.",
+      "كانت المشكلة أن بوابة Geidea توفر إضافة جاهزة لـ ووكومرس، لكن موقع الحجز كان مبنيًا بطريقة مخصصة خارج cart وcheckout التقليديين، لذلك احتاج المشروع إلى بناء payment flow مخصص وآمن داخل وردبريس.",
     solution:
       "Built a custom WordPress plugin that creates a Geidea payment session, redirects the user to the Geidea hosted payment page, handles return and callback URLs, and updates the booking status after payment success or failure.",
     solutionAr:
-      "تم بناء إضافة WordPress مخصصة تقوم بإنشاء جلسة دفع مع Geidea، وتحويل المستخدم إلى صفحة الدفع المستضافة، ثم التعامل مع return وcallback URLs وتحديث حالة الحجز بعد نجاح أو فشل عملية الدفع.",
+      "تم بناء إضافة وردبريس مخصصة تقوم بإنشاء جلسة دفع مع Geidea، وتحويل المستخدم إلى صفحة الدفع المستضافة، ثم التعامل مع return وcallback URLs وتحديث حالة الحجز بعد نجاح أو فشل عملية الدفع.",
     features: [
       "Geidea HPP Checkout V2 integration",
       "Redirect payment mode",
@@ -128,9 +128,9 @@ export const plugins: PluginItem[] = [
     featuresAr: [
       "تكامل مع Geidea HPP Checkout V2",
       "Redirect payment mode",
-      "دعم booking workflow مخصص داخل WordPress",
+      "دعم booking workflow مخصص داخل وردبريس",
       "إعدادات Test وLive",
-      "صفحة إعدادات داخل لوحة تحكم WordPress",
+      "صفحة إعدادات داخل لوحة تحكم وردبريس",
       "التعامل مع Callback URL",
       "التعامل مع Return URL",
       "تحديث حالة الحجز بعد الدفع",
@@ -157,7 +157,7 @@ export const plugins: PluginItem[] = [
       "Safer payment experience compared to forcing the user into a WooCommerce checkout flow that did not fit the project",
     ],
     builtAr: [
-      "هيكل إضافة WordPress مخصصة",
+      "هيكل إضافة وردبريس مخصصة",
       "صفحة إعدادات داخل لوحة التحكم",
       "إعدادات بيانات Geidea وبيئة Test/Live",
       "إنشاء payment session",
@@ -197,11 +197,11 @@ export const plugins: PluginItem[] = [
     problem:
       "WordPress websites often lack clear visibility into who accessed the admin dashboard, when the access happened, which IP address was used, and whether there are repeated failed login attempts. Without a dedicated log and alert system, suspicious access patterns can be missed.",
     problemAr:
-      "في كثير من مواقع WordPress لا توجد رؤية واضحة لمن قام بالدخول إلى لوحة التحكم، ومتى حدث الدخول، وما هو عنوان الـ IP المستخدم، وهل توجد محاولات دخول فاشلة متكررة أم لا. بدون سجل واضح وتنبيهات، قد تمر الأنشطة المشبوهة بدون ملاحظة.",
+      "في كثير من مواقع وردبريس لا توجد رؤية واضحة لمن قام بالدخول إلى لوحة التحكم، ومتى حدث الدخول، وما هو عنوان الـ IP المستخدم، وهل توجد محاولات دخول فاشلة متكررة أم لا. بدون سجل واضح وتنبيهات، قد تمر الأنشطة المشبوهة بدون ملاحظة.",
     solution:
       "AccessTrail provides a dedicated admin login monitoring system inside WordPress. It logs successful admin logins, failed login attempts, IP activity, user-agent details, and provides configurable email notifications, new IP alerts, failed attempt threshold alerts, filters, CSV export, and automatic log cleanup.",
     solutionAr:
-      "AccessTrail توفر نظام مراقبة مخصص داخل WordPress لتتبع نشاط دخول الأدمن. تقوم الإضافة بتسجيل الدخول الناجح، ومحاولات الدخول الفاشلة، ونشاط الـ IP، وبيانات User-Agent، مع تنبيهات بريد إلكتروني قابلة للتخصيص، وتنبيهات عند الدخول من IP جديد، وتنبيهات عند تكرار المحاولات الفاشلة، بالإضافة إلى الفلترة، وتصدير CSV، والتنظيف التلقائي للسجلات القديمة.",
+      "AccessTrail توفر نظام مراقبة مخصص داخل وردبريس لتتبع نشاط دخول الأدمن. تقوم الإضافة بتسجيل الدخول الناجح، ومحاولات الدخول الفاشلة، ونشاط الـ IP، وبيانات User-Agent، مع تنبيهات بريد إلكتروني قابلة للتخصيص، وتنبيهات عند الدخول من IP جديد، وتنبيهات عند تكرار المحاولات الفاشلة، بالإضافة إلى الفلترة، وتصدير CSV، والتنظيف التلقائي للسجلات القديمة.",
     features: [
       "Successful admin login tracking",
       "Failed login attempt monitoring",
@@ -234,7 +234,7 @@ export const plugins: PluginItem[] = [
       "اكتشاف آمن للـ IP مع دعم اختياري لـ Cloudflare والـ Proxy",
       "دعم Multisite و Super Admin",
       "لا يتم تخزين كلمات مرور أو بيانات حساسة",
-      "جاهزة للترجمة باستخدام WordPress i18n",
+      "جاهزة للترجمة باستخدام وردبريس i18n",
     ],
     stack: [
       "WordPress",
@@ -270,12 +270,12 @@ export const plugins: PluginItem[] = [
       "GitHub updater fallback and plugin information support",
     ],
     builtAr: [
-      "بناء هيكل إضافة WordPress مخصص",
+      "بناء هيكل إضافة وردبريس مخصص",
       "استخدام Activation و Deactivation hooks",
       "إنشاء جدول مخصص في قاعدة البيانات لحفظ سجلات الدخول",
-      "تتبع دخول الأدمن الناجح باستخدام WordPress hooks",
+      "تتبع دخول الأدمن الناجح باستخدام وردبريس hooks",
       "تتبع محاولات تسجيل الدخول الفاشلة",
-      "بناء Dashboard داخل لوحة تحكم WordPress لعرض نشاط الدخول",
+      "بناء Dashboard داخل لوحة تحكم وردبريس لعرض نشاط الدخول",
       "كروت إحصائيات لعرض إجمالي الأحداث، الدخول الناجح، المحاولات الفاشلة، آخر دخول ناجح، وآخر محاولة فاشلة",
       "فلترة حسب الحالة، اسم المستخدم، عنوان الـ IP، والتاريخ",
       "تصدير CSV مع حماية nonce validation",
@@ -291,11 +291,11 @@ export const plugins: PluginItem[] = [
     learningNote:
       "This project focused on building a practical WordPress security monitoring tool with a clean admin experience. The main challenge was balancing useful access tracking with safe data handling, secure IP detection, configurable alerts, and a simple dashboard that site owners can understand quickly.",
     learningNoteAr:
-      "ركز هذا المشروع على بناء أداة عملية لمراقبة أمان الدخول في WordPress مع تجربة استخدام واضحة داخل لوحة التحكم. التحدي الأساسي كان تحقيق توازن بين تتبع بيانات الدخول المهمة، والتعامل الآمن مع البيانات، واكتشاف الـ IP بشكل صحيح، والتنبيهات القابلة للتخصيص، ولوحة تحكم سهلة الفهم لأصحاب المواقع.",
+      "ركز هذا المشروع على بناء أداة عملية لمراقبة أمان الدخول في وردبريس مع تجربة استخدام واضحة داخل لوحة التحكم. التحدي الأساسي كان تحقيق توازن بين تتبع بيانات الدخول المهمة، والتعامل الآمن مع البيانات، واكتشاف الـ IP بشكل صحيح، والتنبيهات القابلة للتخصيص، ولوحة تحكم سهلة الفهم لأصحاب المواقع.",
     securityNote:
       "AccessTrail does not store passwords or sensitive credentials. It only records security-relevant metadata such as username, user ID, login status, IP address, user-agent, timestamps, and internal event details. All admin actions are protected using WordPress capabilities and nonce checks.",
     securityNoteAr:
-      "AccessTrail لا تقوم بتخزين كلمات المرور أو أي بيانات حساسة. الإضافة تحفظ فقط بيانات مرتبطة بالمراقبة الأمنية مثل اسم المستخدم، رقم المستخدم، حالة الدخول، عنوان الـ IP، بيانات User-Agent، وقت الحدث، وتفاصيل داخلية. كل إجراءات لوحة التحكم محمية باستخدام صلاحيات WordPress و nonce checks.",
+      "AccessTrail لا تقوم بتخزين كلمات المرور أو أي بيانات حساسة. الإضافة تحفظ فقط بيانات مرتبطة بالمراقبة الأمنية مثل اسم المستخدم، رقم المستخدم، حالة الدخول، عنوان الـ IP، بيانات User-Agent، وقت الحدث، وتفاصيل داخلية. كل إجراءات لوحة التحكم محمية باستخدام صلاحيات وردبريس و nonce checks.",
     githubUrl: "https://github.com/engmuhammednasser/AccessTrail",
     screenshots: [
       "/demo/plugins/access-trail/cover.png",

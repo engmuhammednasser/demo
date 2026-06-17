@@ -42,7 +42,7 @@ export default async function AboutPage({
 
   // Reusable WhatsApp Messages
   const WA_GENERAL_EN = "Hi Muhammed, I saw your About page and I'd like to discuss a custom WordPress, WooCommerce or Laravel project.";
-  const WA_GENERAL_AR = "مرحبًا محمد، شاهدت صفحة التعريف الشخصية وأرغب في مناقشة مشروع WordPress أو WooCommerce أو Laravel مخصص.";
+  const WA_GENERAL_AR = "مرحبًا محمد، شاهدت صفحة التعريف الشخصية وأرغب في مناقشة مشروع وردبريس أو ووكومرس أو لارافيل مخصص.";
 
   const workHref = `/${lang}/work/`;
   const servicesHref = `/${lang}/services/`;
@@ -59,12 +59,12 @@ export default async function AboutPage({
           </span>
           <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight leading-tight mb-8">
             {isAr
-              ? formatTechTerms("مطور WordPress وWooCommerce وLaravel يركز على بناء حلول ويب جاهزة لاحتياجات العمل.")
+              ? formatTechTerms("مطور وردبريس وووكومرس ولارافيل يركز على بناء حلول ويب جاهزة لاحتياجات العمل.")
               : "WordPress, WooCommerce & Laravel Developer focused on business-ready web solutions."}
           </h1>
           <p className="text-[#94A3B8] text-lg md:text-xl max-w-3xl mx-auto leading-relaxed mb-12">
             {isAr
-              ? formatTechTerms("أنا محمد ناصر، مطور بخبرة أكثر من 8 سنوات في بناء مواقع WordPress مخصصة، متاجر WooCommerce، إضافات، قوالب، وأنظمة Laravel مبنية على احتياجات عمل حقيقية.")
+              ? formatTechTerms("أنا محمد ناصر، مطور بخبرة أكثر من 8 سنوات في بناء مواقع وردبريس مخصصة، متاجر ووكومرس، إضافات، قوالب، وأنظمة لارافيل مبنية على احتياجات عمل حقيقية.")
               : "I’m Muhammed Nasser, a developer with 8+ years of experience building custom WordPress websites, WooCommerce stores, plugins, themes, and Laravel-powered systems for real business needs."}
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
@@ -103,7 +103,7 @@ export default async function AboutPage({
           {/* Text Content */}
           <div className="md:col-span-7 space-y-6">
             <h2 className="text-3xl md:text-4xl font-extrabold tracking-tight text-white">
-              {isAr ? formatTechTerms("أكثر من مجرد تنفيذ WordPress") : "More than a WordPress implementer"}
+              {isAr ? formatTechTerms("أكثر من مجرد تنفيذ وردبريس") : "More than a WordPress implementer"}
             </h2>
             <div className="text-[#94A3B8] text-[16px] leading-relaxed space-y-4">
               <p>
@@ -113,7 +113,7 @@ export default async function AboutPage({
               </p>
               <p>
                 {isAr
-                  ? formatTechTerms("أجمع بين مرونة WordPress، منطق التجارة في WooCommerce، والتفكير الخلفي باستخدام Laravel لبناء مواقع وأنظمة عملية، قابلة للتوسع، وسهلة الإدارة.")
+                  ? formatTechTerms("أجمع بين مرونة وردبريس، منطق التجارة في ووكومرس، والتفكير الخلفي باستخدام لارافيل لبناء مواقع وأنظمة عملية، قابلة للتوسع، وسهلة الإدارة.")
                   : "My work combines WordPress flexibility, WooCommerce commerce logic, and Laravel backend thinking to build websites and systems that are practical, scalable, and easy to manage."}
               </p>
             </div>
@@ -133,13 +133,13 @@ export default async function AboutPage({
             {([
               {
                 titleEn: "Custom WordPress websites",
-                titleAr: "مواقع WordPress مخصصة",
+                titleAr: "مواقع وردبريس مخصصة",
                 descEn: "I build websites that are clear, fast, editable, and structured around your content and business goals.",
                 descAr: "أبني مواقع واضحة، سريعة، سهلة التعديل، ومبنية حول محتواك وأهداف عملك.",
               },
               {
                 titleEn: "WooCommerce stores",
-                titleAr: "متاجر WooCommerce",
+                titleAr: "متاجر ووكومرس",
                 descEn: "I create online stores with product logic, checkout flows, payment setup, and a better buying experience.",
                 descAr: "أنفذ متاجر إلكترونية بمنطق منتجات واضح، تجربة دفع مناسبة، إعدادات دفع، وتجربة شراء أفضل.",
               },
@@ -147,11 +147,11 @@ export default async function AboutPage({
                 titleEn: "Custom plugins and features",
                 titleAr: "إضافات ووظائف مخصصة",
                 descEn: "I build custom WordPress functionality when existing plugins are too limited or too heavy.",
-                descAr: "أبني وظائف مخصصة داخل WordPress عندما تكون الإضافات الجاهزة محدودة أو ثقيلة.",
+                descAr: "أبني وظائف مخصصة داخل وردبريس عندما تكون الإضافات الجاهزة محدودة أو ثقيلة.",
               },
               {
                 titleEn: "Laravel dashboards and APIs",
-                titleAr: "لوحات Laravel وواجهات API",
+                titleAr: "لوحات لارافيل وواجهات API",
                 descEn: "I build backend systems, dashboards, and APIs for workflows that need more than a standard website.",
                 descAr: "أبني أنظمة خلفية، لوحات تحكم، وواجهات API لسير العمل الذي يحتاج إلى أكثر من موقع تقليدي.",
               },
@@ -189,7 +189,7 @@ export default async function AboutPage({
                 titleEn: "Custom development capability",
                 titleAr: "قدرة على التطوير المخصص",
                 descEn: "I can extend WordPress and WooCommerce beyond ready-made limitations.",
-                descAr: "أستطيع توسيع WordPress وWooCommerce بما يتجاوز حدود الحلول الجاهزة.",
+                descAr: "أستطيع توسيع وردبريس وووكومرس بما يتجاوز حدود الحلول الجاهزة.",
               },
               {
                 titleEn: "Arabic, English & RTL experience",
@@ -230,10 +230,10 @@ export default async function AboutPage({
             </div>
             <div className="grid grid-cols-1 gap-4">
               {([
-                { en: "8+ years WordPress experience", ar: "أكثر من 8 سنوات خبرة في WordPress" },
-                { en: "WooCommerce store development", ar: "تطوير متاجر WooCommerce" },
+                { en: "8+ years WordPress experience", ar: "أكثر من 8 سنوات خبرة في وردبريس" },
+                { en: "WooCommerce store development", ar: "تطوير متاجر ووكومرس" },
                 { en: "Custom plugins and themes", ar: "إضافات وقوالب مخصصة" },
-                { en: "Laravel dashboards and APIs", ar: "لوحات Laravel وواجهات API" },
+                { en: "Laravel dashboards and APIs", ar: "لوحات لارافيل وواجهات API" },
                 { en: "Arabic / English / RTL websites", ar: "مواقع عربية / إنجليزية / RTL" },
                 { en: "Business workflow integrations", ar: "ربط سير العمل والأنظمة" },
               ]).map((stat, i) => (
@@ -290,7 +290,7 @@ export default async function AboutPage({
           </h2>
           <p className="text-[#94A3B8] text-lg leading-relaxed max-w-2xl mx-auto">
             {isAr
-              ? formatTechTerms("WordPress وWooCommerce وLaravel مجرد أدوات. القيمة الحقيقية تظهر عندما تُستخدم لتبسيط العمليات، تحسين تجربة المستخدم، دعم المبيعات، أتمتة سير العمل، وتسهيل الإدارة.")
+              ? formatTechTerms("وردبريس وووكومرس ولارافيل مجرد أدوات. القيمة الحقيقية تظهر عندما تُستخدم لتبسيط العمليات، تحسين تجربة المستخدم، دعم المبيعات، أتمتة سير العمل، وتسهيل الإدارة.")
               : "WordPress, WooCommerce, and Laravel are tools. The real value comes from using them to simplify operations, improve user experience, support sales, automate workflows, and make management easier."}
           </p>
         </div>
@@ -310,7 +310,7 @@ export default async function AboutPage({
             </h2>
             <p className="relative z-10 text-[#94A3B8] text-lg max-w-2xl mx-auto leading-relaxed mb-10">
               {isAr
-                ? formatTechTerms("أرسل رسالة قصيرة عن مشروعك، ودعنا نناقش الحل المناسب باستخدام WordPress أو WooCommerce أو Laravel.")
+                ? formatTechTerms("أرسل رسالة قصيرة عن مشروعك، ودعنا نناقش الحل المناسب باستخدام وردبريس أو ووكومرس أو لارافيل.")
                 : "Send a short message about your project, and let’s discuss the right WordPress, WooCommerce, or Laravel solution."}
             </p>
             <div className="relative z-10 flex flex-col sm:flex-row items-center justify-center gap-4">

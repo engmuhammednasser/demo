@@ -50,23 +50,23 @@ export default async function ContactPage({
   const choices = [
     {
       titleEn: "WooCommerce Store",
-      titleAr: "متجر WooCommerce",
+      titleAr: "متجر ووكومرس",
       descEn: "Discuss building or improving an online store.",
       descAr: "ناقش بناء أو تحسين متجر إلكتروني لمشروعك.",
       ctaEn: "Discuss a WooCommerce Store",
-      ctaAr: "ناقش متجر WooCommerce",
+      ctaAr: "ناقش متجر ووكومرس",
       waEn: "Hi Muhammed, I’d like to discuss building or improving a WooCommerce store for my business.",
-      waAr: "مرحبًا محمد، أرغب في مناقشة بناء أو تحسين متجر WooCommerce لمشروعي.",
+      waAr: "مرحبًا محمد، أرغب في مناقشة بناء أو تحسين متجر ووكومرس لمشروعي.",
     },
     {
       titleEn: "WordPress Website",
-      titleAr: "موقع WordPress",
+      titleAr: "موقع وردبريس",
       descEn: "Discuss building a custom corporate or content site.",
-      descAr: "ناقش بناء موقع WordPress مخصص لعملك.",
+      descAr: "ناقش بناء موقع وردبريس مخصص لعملك.",
       ctaEn: "Discuss a WordPress Website",
-      ctaAr: "ناقش موقع WordPress",
+      ctaAr: "ناقش موقع وردبريس",
       waEn: "Hi Muhammed, I’d like to discuss building a custom WordPress website for my business.",
-      waAr: "مرحبًا محمد، أرغب في مناقشة بناء موقع WordPress مخصص لعملي.",
+      waAr: "مرحبًا محمد، أرغب في مناقشة بناء موقع وردبريس مخصص لعملي.",
     },
     {
       titleEn: "Custom Plugin or Feature",
@@ -76,17 +76,17 @@ export default async function ContactPage({
       ctaEn: "Discuss a Custom Plugin",
       ctaAr: "ناقش إضافة مخصصة",
       waEn: "Hi Muhammed, I need a custom WordPress plugin or feature and would like to discuss the requirements.",
-      waAr: "مرحبًا محمد، أحتاج إلى إضافة WordPress مخصصة أو وظيفة خاصة وأرغب في مناقشة المتطلبات.",
+      waAr: "مرحبًا محمد، أحتاج إلى إضافة وردبريس مخصصة أو وظيفة خاصة وأرغب في مناقشة المتطلبات.",
     },
     {
       titleEn: "Laravel Dashboard / API",
-      titleAr: "لوحة Laravel أو API",
+      titleAr: "لوحة لارافيل أو API",
       descEn: "Discuss a backend system or custom business workflow.",
       descAr: "ناقش بناء لوحة أو نظام خلفي لسير العمل في مشروعك.",
       ctaEn: "Discuss a Laravel System",
-      ctaAr: "ناقش نظام Laravel",
+      ctaAr: "ناقش نظام لارافيل",
       waEn: "Hi Muhammed, I’d like to discuss a Laravel dashboard, API, or backend system for my business workflow.",
-      waAr: "مرحبًا محمد، أرغب في مناقشة لوحة Laravel أو API أو نظام خلفي مناسب لسير العمل في مشروعي.",
+      waAr: "مرحبًا محمد، أرغب في مناقشة لوحة لارافيل أو API أو نظام خلفي مناسب لسير العمل في مشروعي.",
     },
     {
       titleEn: "Performance Optimization",
@@ -96,7 +96,7 @@ export default async function ContactPage({
       ctaEn: "Discuss Performance",
       ctaAr: "ناقش تحسين الأداء",
       waEn: "Hi Muhammed, I need help improving the speed and performance of my WordPress or WooCommerce website.",
-      waAr: "مرحبًا محمد، أحتاج إلى تحسين سرعة وأداء موقع WordPress أو متجر WooCommerce.",
+      waAr: "مرحبًا محمد، أحتاج إلى تحسين سرعة وأداء موقع وردبريس أو متجر ووكومرس.",
     },
     {
       titleEn: "Not Sure Yet",
@@ -122,7 +122,7 @@ export default async function ContactPage({
           </span>
           <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight leading-tight mb-6 text-white">
             {isAr
-              ? formatTechTerms("ابدأ مشروع WordPress أو WooCommerce أو Laravel.")
+              ? formatTechTerms("ابدأ مشروع وردبريس أو ووكومرس أو لارافيل.")
               : "Start a WordPress, WooCommerce, or Laravel project."}
           </h1>
           <p className="text-[#94A3B8] text-lg md:text-xl max-w-2xl mx-auto leading-relaxed mb-10">

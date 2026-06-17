@@ -66,14 +66,14 @@ export default async function Home({
           </h2>
           <p className="text-[#94A3B8] text-base md:text-lg max-w-2xl mx-auto leading-relaxed">
             {lang === "ar"
-              ? "أساعد الشركات على تحسين وتخصيص وتوسيع منصات WordPress وWooCommerce بحلول عملية مبنية حول احتياجات العمل الفعلية."
+              ? "أساعد الشركات على تحسين وتخصيص وتوسيع منصات وردبريس وووكومرس بحلول عملية مبنية حول احتياجات العمل الفعلية."
               : "I help businesses improve, customize, and scale WordPress and WooCommerce platforms with practical solutions built around real workflows."}
           </p>
         </div>
         {(() => {
           const problemCards = lang === "ar" ? [
             {
-              title: "بطء متاجر WooCommerce",
+              title: "بطء متاجر ووكومرس",
               desc: "أحسّن أداء المتاجر البطيئة التي تؤثر على تجربة المستخدم ومعدلات التحويل والمبيعات.",
               icon: (
                 <svg className="w-6 h-6 text-[#38BDF8]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
@@ -93,7 +93,7 @@ export default async function Home({
             },
             {
               title: "قيود الإضافات الجاهزة",
-              desc: "أطوّر إضافات WordPress مخصصة عندما لا تناسب الحلول الجاهزة سير العمل المطلوب.",
+              desc: "أطوّر إضافات وردبريس مخصصة عندما لا تناسب الحلول الجاهزة سير العمل المطلوب.",
               icon: (
                 <svg className="w-6 h-6 text-[#38BDF8]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
                   <path strokeLinecap="round" strokeLinejoin="round" d="M11 4a2 2 0 114 0v1h3a1 1 0 011 1v3h1a2 2 0 010 4h-1v3a1 1 0 01-1 1H5a1 1 0 01-1-1v-3H3a2 2 0 010-4h1V6a1 1 0 011-1h3V4z" />
@@ -102,7 +102,7 @@ export default async function Home({
             },
             {
               title: "منطق عمل مخصص",
-              desc: "أبني حلول WordPress وLaravel مخصصة للحجوزات، CRM، ERP، لوحات التحكم، والعمليات الداخلية.",
+              desc: "أبني حلول وردبريس ولارافيل مخصصة للحجوزات، CRM، ERP، لوحات التحكم، والعمليات الداخلية.",
               icon: (
                 <svg className="w-6 h-6 text-[#38BDF8]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
                   <path strokeLinecap="round" strokeLinejoin="round" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" />
@@ -238,38 +238,38 @@ export default async function Home({
           const cards = lang === "ar" ? [
             {
               type: "whatsapp" as const,
-              title: "أحتاج إلى متجر WooCommerce",
-              desc: "بناء أو تحسين متجر WooCommerce سريع ومهيأ للبيع، مع تخصيص المنتجات وسلة الشراء والدفع.",
+              title: "أحتاج إلى متجر ووكومرس",
+              desc: "بناء أو تحسين متجر ووكومرس سريع ومهيأ للبيع، مع تخصيص المنتجات وسلة الشراء والدفع.",
               cta: "ابدأ عبر واتساب",
-              message: "مرحبًا محمد، أحتاج إلى متجر WooCommerce. أود مناقشة تفاصيل المشروع، المميزات المطلوبة، المدة المتوقعة، والتكلفة التقديرية.",
+              message: "مرحبًا محمد، أحتاج إلى متجر ووكومرس. أود مناقشة تفاصيل المشروع، المميزات المطلوبة، المدة المتوقعة، والتكلفة التقديرية.",
             },
             {
               type: "whatsapp" as const,
-              title: "أحتاج إلى إضافة WordPress مخصصة",
-              desc: "تطوير وظائف مخصصة داخل WordPress عندما لا تناسب الإضافات الجاهزة طريقة عملك.",
+              title: "أحتاج إلى إضافة وردبريس مخصصة",
+              desc: "تطوير وظائف مخصصة داخل وردبريس عندما لا تناسب الإضافات الجاهزة طريقة عملك.",
               cta: "ابدأ عبر واتساب",
-              message: "مرحبًا محمد، أحتاج إلى إضافة WordPress مخصصة. أود شرح سير العمل المطلوب ومعرفة أفضل طريقة لتنفيذها.",
+              message: "مرحبًا محمد، أحتاج إلى إضافة وردبريس مخصصة. أود شرح سير العمل المطلوب ومعرفة أفضل طريقة لتنفيذها.",
             },
             {
               type: "whatsapp" as const,
-              title: "أحتاج إلى قالب WordPress مخصص",
-              desc: "تطوير قالب WordPress نظيف ومتجاوب وقابل للتوسع بما يناسب هوية علامتك ومحتواك واحتياجات عملك.",
+              title: "أحتاج إلى قالب وردبريس مخصص",
+              desc: "تطوير قالب وردبريس نظيف ومتجاوب وقابل للتوسع بما يناسب هوية علامتك ومحتواك واحتياجات عملك.",
               cta: "ابدأ عبر واتساب",
-              message: "مرحبًا محمد، أحتاج إلى قالب WordPress مخصص. أود مناقشة التصميم، الصفحات، التجاوب، وطريقة التنفيذ.",
+              message: "مرحبًا محمد، أحتاج إلى قالب وردبريس مخصص. أود مناقشة التصميم، الصفحات، التجاوب، وطريقة التنفيذ.",
             },
             {
               type: "whatsapp" as const,
-              title: "أحتاج إلى لوحة تحكم أو API بـ Laravel",
+              title: "أحتاج إلى لوحة تحكم أو API بـ لارافيل",
               desc: "بناء لوحات تحكم داخلية، أنظمة إدارة، APIs، وحلول خلفية لإدارة العمليات الفعلية.",
               cta: "ابدأ عبر واتساب",
-              message: "مرحبًا محمد، أحتاج إلى لوحة تحكم أو API باستخدام Laravel. أود مناقشة سير العمل، الأقسام المطلوبة، ومتطلبات النظام الخلفي.",
+              message: "مرحبًا محمد، أحتاج إلى لوحة تحكم أو API باستخدام لارافيل. أود مناقشة سير العمل، الأقسام المطلوبة، ومتطلبات النظام الخلفي.",
             },
             {
               type: "whatsapp" as const,
               title: "أحتاج إلى تحسين الأداء",
-              desc: "تحسين سرعة واستقرار وتجربة استخدام مواقع WordPress وWooCommerce، مع التركيز على الأداء وCore Web Vitals.",
+              desc: "تحسين سرعة واستقرار وتجربة استخدام مواقع وردبريس وووكومرس، مع التركيز على الأداء وCore Web Vitals.",
               cta: "ابدأ عبر واتساب",
-              message: "مرحبًا محمد، أحتاج إلى تحسين أداء موقع WordPress أو WooCommerce. أود طلب مراجعة للسرعة والأداء.",
+              message: "مرحبًا محمد، أحتاج إلى تحسين أداء موقع وردبريس أو ووكومرس. أود طلب مراجعة للسرعة والأداء.",
             },
             {
               type: "internal" as const,
@@ -370,7 +370,7 @@ export default async function Home({
             </h2>
             <p className="text-[#94A3B8] text-base max-w-2xl leading-relaxed">
               {lang === "ar"
-                ? "مجموعة مختارة من متاجر WooCommerce، ومنصات WordPress، وأنظمة الأعمال المبنية حول احتياجات تشغيلية حقيقية."
+                ? "مجموعة مختارة من متاجر ووكومرس، ومنصات وردبريس، وأنظمة الأعمال المبنية حول احتياجات تشغيلية حقيقية."
                 : "A curated selection of WooCommerce stores, WordPress platforms, and business systems built around real workflows."}
             </p>
           </div>
@@ -396,7 +396,7 @@ export default async function Home({
             {
               slug: "eventgift",
               title: "منصة EventGift متعددة الأسواق",
-              category: "WooCommerce / تجارة إلكترونية",
+              category: "ووكومرس / تجارة إلكترونية",
               desc: "منصة هدايا متعددة الأسواق تم تنفيذها للإمارات والسعودية ومصر، مع واجهات محلية، كتالوجات منتجات، ومسارات طلب مخصصة.",
               tags: ["WooCommerce", "متعدد الأسواق", "تجربة استخدام مخصصة"],
               markets: ["الإمارات", "السعودية", "مصر"],
@@ -406,7 +406,7 @@ export default async function Home({
             {
               slug: "techmart",
               title: "تجربة Techmart لمتجر Apple Retail",
-              category: "WooCommerce / تجارة إلكترونية",
+              category: "ووكومرس / تجارة إلكترونية",
               desc: "تجربة متجر إلكتروني موجهة لمنتجات Apple، مع تنظيم واضح للمنتجات والعروض وتجربة شراء نظيفة.",
               tags: ["WooCommerce", "Retail", "تجربة منتجات"],
               image: "/demo/projects/techmart/cover.png",
@@ -424,7 +424,7 @@ export default async function Home({
             {
               slug: "botella",
               title: "متجر Bottella للمنتجات المباشرة",
-              category: "WooCommerce / تجارة إلكترونية",
+              category: "ووكومرس / تجارة إلكترونية",
               desc: "متجر منتجات مباشر للمستهلك مبني حول عرض المنتجات، تنظيم المجموعات، وتجربة تصفح سلسة.",
               tags: ["WooCommerce", "DTC", "متجر منتجات"],
               image: "/demo/projects/botella/cover.png",
@@ -615,7 +615,7 @@ export default async function Home({
             <div className="relative w-56 h-56 lg:w-64 lg:h-64 rounded-2xl overflow-hidden border border-white/10 shadow-2xl">
               <Image
                 src="/demo/profile.png"
-                alt={lang === "ar" ? "محمد ناصر، مطور WordPress وWooCommerce" : "Muhammed Nasser, WordPress and WooCommerce Developer"}
+                alt={lang === "ar" ? "محمد ناصر، مطور وردبريس وووكومرس" : "Muhammed Nasser, WordPress and WooCommerce Developer"}
                 fill
                 sizes="(max-width: 1024px) 224px, 256px"
                 className="object-cover object-[50%_8%]"
@@ -626,7 +626,7 @@ export default async function Home({
             <div className="mt-5 text-center lg:text-start">
               <p className="text-white font-bold text-lg">Muhammed Nasser</p>
               <p className="text-[#38BDF8] text-sm font-medium mt-1">
-                {lang === "ar" ? "مطور WordPress وWooCommerce وLaravel" : "WordPress, WooCommerce & Laravel Developer"}
+                {lang === "ar" ? "مطور وردبريس وووكومرس ولارافيل" : "WordPress, WooCommerce & Laravel Developer"}
               </p>
               <div className="flex items-center gap-2 mt-3 justify-center lg:justify-start">
                 <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
@@ -645,17 +645,17 @@ export default async function Home({
                 {lang === "ar" ? "عن محمد" : "About Muhammed"}
               </p>
               <h2 className="text-3xl md:text-5xl font-extrabold tracking-tight leading-tight">
-                {lang === "ar" ? "أكثر من مجرد تنفيذ WordPress" : "More than a WordPress implementer"}
+                {lang === "ar" ? "أكثر من مجرد تنفيذ وردبريس" : "More than a WordPress implementer"}
               </h2>
               <div className="space-y-4 text-[#94A3B8] text-lg leading-relaxed max-w-2xl">
                 <p>
                   {lang === "ar"
-                    ? "أنا محمد ناصر، مطور WordPress وWooCommerce بخبرة أكثر من 8 سنوات في بناء مواقع مخصصة، متاجر إلكترونية، إضافات، وأنظمة ويب موجهة لاحتياجات الأعمال."
+                    ? "أنا محمد ناصر، مطور وردبريس وووكومرس بخبرة أكثر من 8 سنوات في بناء مواقع مخصصة، متاجر إلكترونية، إضافات، وأنظمة ويب موجهة لاحتياجات الأعمال."
                     : "I'm Muhammed Nasser, a WordPress & WooCommerce developer with 8+ years of experience building custom websites, online stores, plugins, and business-focused web systems."}
                 </p>
                 <p>
                   {lang === "ar"
-                    ? "أبني حلول WordPress وWooCommerce وLaravel مبنية على سير العمل الحقيقي للشركات — وليس مجرد صفحات أو قوالب جاهزة أو تركيب إضافات."
+                    ? "أبني حلول وردبريس وووكومرس ولارافيل مبنية على سير العمل الحقيقي للشركات — وليس مجرد صفحات أو قوالب جاهزة أو تركيب إضافات."
                     : "I build WordPress, WooCommerce, and Laravel solutions around real business workflows — not just pages, themes, or plugin installations."}
                 </p>
               </div>
@@ -689,11 +689,11 @@ export default async function Home({
                   </svg>
                 </div>
                 <h3 className="text-base font-bold text-white mb-2">
-                  {lang === "ar" ? "قدرة على تخصيص WordPress" : "Custom WordPress capability"}
+                  {lang === "ar" ? "قدرة على تخصيص وردبريس" : "Custom WordPress capability"}
                 </h3>
                 <p className="text-[#94A3B8] text-sm leading-relaxed">
                   {lang === "ar"
-                    ? "قوالب، إضافات، مسارات WooCommerce، وتجارب إدارة مبنية حول احتياجات فعلية."
+                    ? "قوالب، إضافات، مسارات ووكومرس، وتجارب إدارة مبنية حول احتياجات فعلية."
                     : "Themes, plugins, WooCommerce flows, and admin experiences built around real needs."}
                 </p>
               </div>
@@ -706,7 +706,7 @@ export default async function Home({
                   </svg>
                 </div>
                 <h3 className="text-base font-bold text-white mb-2">
-                  {lang === "ar" ? "تفكير يجمع بين WooCommerce والأنظمة الخلفية" : "WooCommerce + backend thinking"}
+                  {lang === "ar" ? "تفكير يجمع بين ووكومرس والأنظمة الخلفية" : "WooCommerce + backend thinking"}
                 </h3>
                 <p className="text-[#94A3B8] text-sm leading-relaxed">
                   {lang === "ar"
@@ -786,7 +786,7 @@ export default async function Home({
               </h2>
               <p className="text-[#94A3B8] text-lg max-w-2xl mx-auto leading-relaxed">
                 {lang === "ar"
-                  ? "مجموعة تقنيات عملية لبناء حلول WordPress وWooCommerce وLaravel مخصصة — من تجربة المتجر إلى سير العمل والأنظمة الخلفية."
+                  ? "مجموعة تقنيات عملية لبناء حلول وردبريس وووكومرس ولارافيل مخصصة — من تجربة المتجر إلى سير العمل والأنظمة الخلفية."
                   : "A practical stack for building custom WordPress, WooCommerce, and Laravel systems — from storefront UX to backend workflows."}
               </p>
             </div>
@@ -832,7 +832,7 @@ export default async function Home({
             num: "03",
             title: lang === "ar" ? "التطوير" : "Development",
             desc: lang === "ar"
-              ? "أبني حلول WordPress أو WooCommerce أو الإضافات أو القوالب أو أنظمة Laravel بكود منظم وقابل للتوسع."
+              ? "أبني حلول وردبريس أو ووكومرس أو الإضافات أو القوالب أو أنظمة لارافيل بكود منظم وقابل للتوسع."
               : "I build the website, store, plugin, theme, or Laravel system with clean, scalable code."
           },
           {
@@ -862,7 +862,7 @@ export default async function Home({
               </h2>
               <p className="text-[#94A3B8] text-lg max-w-2xl mx-auto leading-relaxed">
                 {lang === "ar"
-                  ? "عملية واضحة لتحويل احتياجات العمل إلى حلول WordPress وWooCommerce وLaravel موثوقة."
+                  ? "عملية واضحة لتحويل احتياجات العمل إلى حلول وردبريس وووكومرس ولارافيل موثوقة."
                   : "A clear process for turning business needs into reliable WordPress, WooCommerce, and Laravel solutions."}
               </p>
             </div>
@@ -909,12 +909,12 @@ export default async function Home({
           
           <h2 className="text-3xl md:text-5xl font-extrabold text-white tracking-tight leading-tight mb-6 relative z-10">
             {lang === "ar"
-              ? "جاهز لبناء حل WordPress أسرع وأكثر ذكاءً؟"
+              ? "جاهز لبناء حل وردبريس أسرع وأكثر ذكاءً؟"
               : "Ready to build a faster, smarter WordPress solution?"}
           </h2>
           <p className="text-[#94A3B8] text-lg md:text-xl max-w-2xl mx-auto leading-relaxed mb-10 relative z-10">
             {lang === "ar"
-              ? "سواء كنت تحتاج إلى متجر WooCommerce، إضافة مخصصة، قالب WordPress، أو نظام خلفي بـ Laravel، دعنا نحول سير عملك إلى منتج رقمي موثوق."
+              ? "سواء كنت تحتاج إلى متجر ووكومرس، إضافة مخصصة، قالب وردبريس، أو نظام خلفي بـ لارافيل، دعنا نحول سير عملك إلى منتج رقمي موثوق."
               : "Whether you need a WooCommerce store, custom plugin, WordPress theme, or Laravel backend system, let’s turn your workflow into a reliable digital product."}
           </p>
           

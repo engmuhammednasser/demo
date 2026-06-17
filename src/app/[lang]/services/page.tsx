@@ -49,12 +49,12 @@ const services = [
       wa: "Hi Muhammed, I'm interested in your WordPress Website Development service. I'd like to discuss building or improving a professional website.",
     },
     ar: {
-      title: "تطوير مواقع WordPress",
+      title: "تطوير مواقع وردبريس",
       problem: "تحتاج إلى موقع احترافي يعرض شركتك بوضوح، يعمل بسرعة، ويسهل إدارته.",
-      build: "أبني مواقع WordPress مخصصة للشركات، مقدمي الخدمات، والعلامات التجارية.",
+      build: "أبني مواقع وردبريس مخصصة للشركات، مقدمي الخدمات، والعلامات التجارية.",
       examples: ["مواقع شركات", "مواقع تعريفية", "صفحات هبوط", "مواقع متعددة اللغات", "أقسام محتوى مخصصة"],
-      cta: "ناقش موقع WordPress",
-      wa: "مرحبًا محمد، أنا مهتم بخدمة تطوير مواقع WordPress وأرغب في مناقشة بناء أو تحسين موقع احترافي.",
+      cta: "ناقش موقع وردبريس",
+      wa: "مرحبًا محمد، أنا مهتم بخدمة تطوير مواقع وردبريس وأرغب في مناقشة بناء أو تحسين موقع احترافي.",
     },
   },
   {
@@ -73,12 +73,12 @@ const services = [
       wa: "Hi Muhammed, I'm interested in your WooCommerce Store Development service. I'd like to discuss building or improving an online store.",
     },
     ar: {
-      title: "تطوير متاجر WooCommerce",
+      title: "تطوير متاجر ووكومرس",
       problem: "تحتاج إلى متجر إلكتروني واضح وسريع ومصمم لتحويل الزوار إلى عملاء.",
-      build: "أبني متاجر WooCommerce بهياكل منتجات مخصصة، خطوات شراء واضحة، إعدادات دفع، وواجهة متجاوبة.",
+      build: "أبني متاجر ووكومرس بهياكل منتجات مخصصة، خطوات شراء واضحة، إعدادات دفع، وواجهة متجاوبة.",
       examples: ["متاجر منتجات", "متاجر DTC", "متاجر متعددة الأقسام", "إعداد بوابات الدفع", "تحسين تجربة الدفع"],
-      cta: "ناقش متجر WooCommerce",
-      wa: "مرحبًا محمد، أنا مهتم بخدمة تطوير متجر WooCommerce وأرغب في مناقشة بناء أو تحسين متجر إلكتروني.",
+      cta: "ناقش متجر ووكومرس",
+      wa: "مرحبًا محمد، أنا مهتم بخدمة تطوير متجر ووكومرس وأرغب في مناقشة بناء أو تحسين متجر إلكتروني.",
     },
   },
   {
@@ -97,12 +97,12 @@ const services = [
       wa: "Hi Muhammed, I'm interested in your Custom Plugin Development service. I'd like to discuss building a custom WordPress plugin for a specific workflow or feature.",
     },
     ar: {
-      title: "تطوير إضافات WordPress مخصصة",
+      title: "تطوير إضافات وردبريس مخصصة",
       problem: "الإضافات الجاهزة لا تناسب دائمًا طريقة عملك أو قواعد مشروعك.",
-      build: "أبني إضافات WordPress مخصصة لإضافة وظائف محددة، أتمتة خطوات العمل، أو ربط الأنظمة.",
+      build: "أبني إضافات وردبريس مخصصة لإضافة وظائف محددة، أتمتة خطوات العمل، أو ربط الأنظمة.",
       examples: ["نماذج مخصصة", "منطق حجز", "أدوات لوحة التحكم", "أتمتة العمليات", "ربط API"],
       cta: "ناقش إضافة مخصصة",
-      wa: "مرحبًا محمد، أنا مهتم بخدمة تطوير إضافة WordPress مخصصة وأرغب في مناقشة بناء إضافة لوظيفة أو سير عمل معين.",
+      wa: "مرحبًا محمد، أنا مهتم بخدمة تطوير إضافة وردبريس مخصصة وأرغب في مناقشة بناء إضافة لوظيفة أو سير عمل معين.",
     },
   },
   {
@@ -121,12 +121,12 @@ const services = [
       wa: "Hi Muhammed, I'm interested in your Custom Theme Development service. I'd like to discuss building a custom WordPress theme.",
     },
     ar: {
-      title: "تطوير قوالب WordPress مخصصة",
+      title: "تطوير قوالب وردبريس مخصصة",
       problem: "القوالب الجاهزة قد تقيّد التصميم، الأداء، والمرونة.",
-      build: "أبني قوالب WordPress مخصصة بتصميم نظيف، واجهات متجاوبة، وأقسام محتوى سهلة التعديل.",
+      build: "أبني قوالب وردبريس مخصصة بتصميم نظيف، واجهات متجاوبة، وأقسام محتوى سهلة التعديل.",
       examples: ["تنفيذ تصميم مخصص", "أقسام مبنية بـ ACF", "واجهات متجاوبة", "دعم RTL", "تحسين أداء القالب"],
       cta: "ناقش قالب مخصص",
-      wa: "مرحبًا محمد، أنا مهتم بخدمة تطوير قالب WordPress مخصص وأرغب في مناقشة بناء قالب يناسب تصميمي واحتياجاتي.",
+      wa: "مرحبًا محمد، أنا مهتم بخدمة تطوير قالب وردبريس مخصص وأرغب في مناقشة بناء قالب يناسب تصميمي واحتياجاتي.",
     },
   },
   {
@@ -146,12 +146,12 @@ const services = [
       wa: "Hi Muhammed, I'm interested in your WooCommerce Customization service. I'd like to discuss customizing checkout, products, or order workflows in my store.",
     },
     ar: {
-      title: "تخصيص WooCommerce",
+      title: "تخصيص ووكومرس",
       problem: "قد يحتاج متجرك إلى تخصيص تجربة الدفع، منطق المنتجات، قواعد الشحن، أو طريقة إدارة الطلبات.",
-      build: "أنفذ تخصيصات WooCommerce تناسب منتجاتك، عملياتك، ورحلة العميل داخل المتجر.",
+      build: "أنفذ تخصيصات ووكومرس تناسب منتجاتك، عملياتك، ورحلة العميل داخل المتجر.",
       examples: ["تخصيص Checkout", "منطق المنتجات", "قواعد السلة", "منطق الشحن", "تحسين إدارة الطلبات"],
-      cta: "ناقش تخصيص WooCommerce",
-      wa: "مرحبًا محمد، أنا مهتم بخدمة تخصيص WooCommerce وأرغب في مناقشة تخصيص تجربة الدفع أو المنتجات أو إدارة الطلبات.",
+      cta: "ناقش تخصيص ووكومرس",
+      wa: "مرحبًا محمد، أنا مهتم بخدمة تخصيص ووكومرس وأرغب في مناقشة تخصيص تجربة الدفع أو المنتجات أو إدارة الطلبات.",
     },
   },
   {
@@ -172,10 +172,10 @@ const services = [
     ar: {
       title: "تحسين الأداء والسرعة",
       problem: "المواقع البطيئة تخسر الزوار، الترتيب في محركات البحث، والمبيعات.",
-      build: "أحسن أداء مواقع WordPress وWooCommerce للتركيز على السرعة، الاستقرار، وتجربة المستخدم.",
+      build: "أحسن أداء مواقع وردبريس وووكومرس للتركيز على السرعة، الاستقرار، وتجربة المستخدم.",
       examples: ["مراجعة سرعة الموقع", "تحسين Core Web Vitals", "تحسين ملفات CSS/JS", "تنظيف الإضافات", "حل مشاكل بطء المتجر"],
       cta: "ناقش تحسين الأداء",
-      wa: "مرحبًا محمد، أنا مهتم بخدمة تحسين الأداء والسرعة وأرغب في مناقشة تسريع موقعي الحالي على WordPress أو WooCommerce.",
+      wa: "مرحبًا محمد، أنا مهتم بخدمة تحسين الأداء والسرعة وأرغب في مناقشة تسريع موقعي الحالي على وردبريس أو ووكومرس.",
     },
   },
   {
@@ -194,12 +194,12 @@ const services = [
       wa: "Hi Muhammed, I'm interested in your Laravel Dashboard / API service. I'd like to discuss building a custom backend system, dashboard, or API.",
     },
     ar: {
-      title: "لوحات Laravel وواجهات API",
-      problem: "بعض احتياجات العمل تحتاج إلى أكثر من صفحات WordPress أو إضافات جاهزة.",
-      build: "أبني لوحات Laravel وواجهات API وأنظمة خلفية مخصصة لسير العمل، التقارير، والربط بين الأنظمة.",
+      title: "لوحات لارافيل وواجهات API",
+      problem: "بعض احتياجات العمل تحتاج إلى أكثر من صفحات وردبريس أو إضافات جاهزة.",
+      build: "أبني لوحات لارافيل وواجهات API وأنظمة خلفية مخصصة لسير العمل، التقارير، والربط بين الأنظمة.",
       examples: ["لوحات تحكم", "Backend API", "ربط CRM/ERP", "أدوات تقارير", "أنظمة داخلية للشركات"],
-      cta: "ناقش نظام Laravel",
-      wa: "مرحبًا محمد، أنا مهتم بخدمة لوحات Laravel وواجهات API وأرغب في مناقشة بناء نظام خلفي مخصص أو لوحة تحكم.",
+      cta: "ناقش نظام لارافيل",
+      wa: "مرحبًا محمد، أنا مهتم بخدمة لوحات لارافيل وواجهات API وأرغب في مناقشة بناء نظام خلفي مخصص أو لوحة تحكم.",
     },
   },
   {
@@ -220,17 +220,17 @@ const services = [
     ar: {
       title: "صيانة ودعم المواقع",
       problem: "موقعك يحتاج إلى تحديثات، إصلاحات، متابعة، وتحسينات مستمرة بعد الإطلاق.",
-      build: "أقدم دعمًا مستمرًا لمواقع WordPress وWooCommerce للحفاظ على الاستقرار، الأمان، والتحسين المستمر.",
+      build: "أقدم دعمًا مستمرًا لمواقع وردبريس وووكومرس للحفاظ على الاستقرار، الأمان، والتحسين المستمر.",
       examples: ["إصلاح الأخطاء", "تحديث القوالب والإضافات", "تحديث المحتوى", "دعم فني", "تحسينات صغيرة مستمرة"],
       cta: "ناقش الصيانة والدعم",
-      wa: "مرحبًا محمد، أنا مهتم بخدمة صيانة ودعم المواقع وأرغب في مناقشة الدعم المستمر لموقعي على WordPress أو WooCommerce.",
+      wa: "مرحبًا محمد، أنا مهتم بخدمة صيانة ودعم المواقع وأرغب في مناقشة الدعم المستمر لموقعي على وردبريس أو ووكومرس.",
     },
   },
 ];
 
 // ─── WhatsApp Messages (general) ─────────────────────────────────────────────
 const WA_GENERAL_EN = "Hi Muhammed, I'm interested in your WordPress, WooCommerce & Laravel development services. I'd like to discuss a project.";
-const WA_GENERAL_AR = "مرحبًا محمد، أنا مهتم بخدمات تطوير WordPress وWooCommerce وLaravel. أرغب في مناقشة مشروع.";
+const WA_GENERAL_AR = "مرحبًا محمد، أنا مهتم بخدمات تطوير وردبريس وووكومرس ولارافيل. أرغب في مناقشة مشروع.";
 const WA_CHOOSE_EN = "Hi Muhammed, I'm not sure which service I need. Can you help me figure out the right solution for my project?";
 const WA_CHOOSE_AR = "مرحبًا محمد، لست متأكدًا من الخدمة المناسبة لي. هل يمكنك مساعدتي في تحديد الحل الأنسب لمشروعي؟";
 
@@ -258,12 +258,12 @@ export default async function ServicesPage({
           </p>
           <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight leading-tight mb-6">
             {isAr
-              ? formatTechTerms("خدمات WordPress و WooCommerce و Laravel مبنية على سير العمل الحقيقي للشركات.")
+              ? formatTechTerms("خدمات وردبريس و ووكومرس و لارافيل مبنية على سير العمل الحقيقي للشركات.")
               : "WordPress, WooCommerce & Laravel services built around real business workflows."}
           </h1>
           <p className="text-[#94A3B8] text-lg md:text-xl max-w-3xl mx-auto leading-relaxed mb-10">
             {isAr
-              ? formatTechTerms("من مواقع WordPress المخصصة ومتاجر WooCommerce إلى الإضافات، تحسين الأداء، ولوحات Laravel — أساعد الشركات على بناء حلول رقمية موثوقة تناسب طريقة عملها الفعلية.")
+              ? formatTechTerms("من مواقع وردبريس المخصصة ومتاجر ووكومرس إلى الإضافات، تحسين الأداء، ولوحات لارافيل — أساعد الشركات على بناء حلول رقمية موثوقة تناسب طريقة عملها الفعلية.")
               : "From custom WordPress websites and WooCommerce stores to plugins, performance improvements, and Laravel dashboards — I help businesses build reliable digital solutions that fit how they actually work."}
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
@@ -367,16 +367,16 @@ export default async function ServicesPage({
               </h2>
               <p className="text-[#94A3B8] text-lg leading-relaxed max-w-2xl">
                 {isAr
-                  ? formatTechTerms("إذا لم تكن متأكدًا هل مشروعك يحتاج إلى موقع، متجر، إضافة، تخصيص، أو نظام Laravel، ابدأ برسالة قصيرة. سأساعدك في تحديد الاتجاه الأنسب بناءً على طريقة عملك وأهدافك.")
+                  ? formatTechTerms("إذا لم تكن متأكدًا هل مشروعك يحتاج إلى موقع، متجر، إضافة، تخصيص، أو نظام لارافيل، ابدأ برسالة قصيرة. سأساعدك في تحديد الاتجاه الأنسب بناءً على طريقة عملك وأهدافك.")
                   : "If you are not sure whether your project needs a website, store, plugin, customization, or Laravel system, start with a short message. I'll help you identify the right direction based on your workflow and goals."}
               </p>
             </div>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-10 relative z-10">
               {(isAr ? [
-                { q: "تريد بيع منتجات؟", a: "تطوير متجر WooCommerce" },
-                { q: "تحتاج وظيفة غير موجودة افتراضيًا في WordPress؟", a: "تطوير إضافة مخصصة" },
-                { q: "لديك سير عمل خاص داخل شركتك؟", a: "لوحة Laravel أو API" },
+                { q: "تريد بيع منتجات؟", a: "تطوير متجر ووكومرس" },
+                { q: "تحتاج وظيفة غير موجودة افتراضيًا في وردبريس؟", a: "تطوير إضافة مخصصة" },
+                { q: "لديك سير عمل خاص داخل شركتك؟", a: "لوحة لارافيل أو API" },
                 { q: "لديك موقع حالي بطيء؟", a: "تحسين الأداء" },
               ] : [
                 { q: "Need to sell products?", a: "WooCommerce Store Development" },
@@ -443,7 +443,7 @@ export default async function ServicesPage({
 
             <h2 className="relative z-10 text-3xl md:text-4xl font-extrabold text-white tracking-tight leading-tight mb-5">
               {isAr
-                ? formatTechTerms("لديك مشروع WordPress أو WooCommerce أو Laravel؟")
+                ? formatTechTerms("لديك مشروع وردبريس أو ووكومرس أو لارافيل؟")
                 : "Have a WordPress, WooCommerce, or Laravel project in mind?"}
             </h2>
             <p className="relative z-10 text-[#94A3B8] text-lg max-w-2xl mx-auto leading-relaxed mb-10">
