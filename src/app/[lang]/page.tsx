@@ -62,54 +62,49 @@ export default async function Home({
       <section className="container mx-auto px-4 py-12 max-w-6xl">
         <div className="text-center mb-8">
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold tracking-tight mb-3">
-            Problems I Solve for WordPress &amp; WooCommerce Businesses
+            Problems I Solve
           </h2>
           <p className="text-[#94A3B8] text-base md:text-lg max-w-2xl mx-auto leading-relaxed">
-            I help businesses improve, customize, and scale their WordPress platforms with practical solutions built around real workflows.
+            I help businesses improve, customize, and scale WordPress and WooCommerce platforms with practical solutions built around real workflows.
           </p>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
-          {[
-            {
-              icon: "⚡",
-              title: "Slow WooCommerce Stores",
-              desc: "I optimize slow stores that affect user experience, conversions, and sales.",
-            },
-            {
-              icon: "💳",
-              title: "Checkout & Payment Issues",
-              desc: "I customize checkout flows and integrate payment methods that match business needs.",
-            },
-            {
-              icon: "🔌",
-              title: "Plugin Limitations",
-              desc: "I build custom plugins when ready-made solutions don't fit your workflow.",
-            },
-            {
-              icon: "⚙️",
-              title: "Custom Business Logic",
-              desc: "I create custom WordPress and Laravel solutions for booking, CRM, ERP, dashboards, and internal operations.",
-            },
-            {
-              icon: "🌐",
-              title: "Arabic & RTL Experiences",
-              desc: "I build clean Arabic, English, and bilingual interfaces with proper RTL support.",
-            },
-            {
-              icon: "📊",
-              title: "Admin Dashboards",
-              desc: "I develop backend systems and dashboards that help teams manage real business processes.",
-            },
-          ].map((item, i) => (
-            <div
-              key={i}
-              className="bg-[#0D1526] border border-white/5 rounded-2xl p-6 flex flex-col gap-3 hover:border-[#38BDF8]/25 hover:shadow-[0_0_20px_rgba(56,189,248,0.06)] transition-all"
-            >
-              <span className="text-2xl">{item.icon}</span>
-              <h3 className="text-base font-bold text-[#F8FAFC] leading-snug">{item.title}</h3>
-              <p className="text-[#94A3B8] text-sm leading-relaxed">{item.desc}</p>
-            </div>
-          ))}
+          {/* Card 1 — Speed */}
+          <div className="bg-[#0D1526] border border-white/5 rounded-2xl p-6 flex flex-col gap-3 hover:border-[#38BDF8]/25 hover:shadow-[0_0_20px_rgba(56,189,248,0.06)] transition-all">
+            <svg className="w-6 h-6 text-[#38BDF8]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}><path strokeLinecap="round" strokeLinejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z" /></svg>
+            <h3 className="text-base font-bold text-[#F8FAFC] leading-snug">Slow WooCommerce Stores</h3>
+            <p className="text-[#94A3B8] text-sm leading-relaxed">I optimize slow stores that affect user experience, conversions, and sales.</p>
+          </div>
+          {/* Card 2 — Payment */}
+          <div className="bg-[#0D1526] border border-white/5 rounded-2xl p-6 flex flex-col gap-3 hover:border-[#38BDF8]/25 hover:shadow-[0_0_20px_rgba(56,189,248,0.06)] transition-all">
+            <svg className="w-6 h-6 text-[#38BDF8]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}><rect x="2" y="5" width="20" height="14" rx="2" /><path strokeLinecap="round" strokeLinejoin="round" d="M2 10h20" /></svg>
+            <h3 className="text-base font-bold text-[#F8FAFC] leading-snug">Checkout &amp; Payment Issues</h3>
+            <p className="text-[#94A3B8] text-sm leading-relaxed">I customize checkout flows and integrate payment methods that match business needs.</p>
+          </div>
+          {/* Card 3 — Plugin */}
+          <div className="bg-[#0D1526] border border-white/5 rounded-2xl p-6 flex flex-col gap-3 hover:border-[#38BDF8]/25 hover:shadow-[0_0_20px_rgba(56,189,248,0.06)] transition-all">
+            <svg className="w-6 h-6 text-[#38BDF8]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}><path strokeLinecap="round" strokeLinejoin="round" d="M11 4a2 2 0 114 0v1h3a1 1 0 011 1v3h1a2 2 0 010 4h-1v3a1 1 0 01-1 1H5a1 1 0 01-1-1v-3H3a2 2 0 010-4h1V6a1 1 0 011-1h3V4z" /></svg>
+            <h3 className="text-base font-bold text-[#F8FAFC] leading-snug">Plugin Limitations</h3>
+            <p className="text-[#94A3B8] text-sm leading-relaxed">I build custom plugins when ready-made solutions don&apos;t fit your workflow.</p>
+          </div>
+          {/* Card 4 — Business Logic */}
+          <div className="bg-[#0D1526] border border-white/5 rounded-2xl p-6 flex flex-col gap-3 hover:border-[#38BDF8]/25 hover:shadow-[0_0_20px_rgba(56,189,248,0.06)] transition-all">
+            <svg className="w-6 h-6 text-[#38BDF8]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}><path strokeLinecap="round" strokeLinejoin="round" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" /><circle cx="12" cy="12" r="3" /></svg>
+            <h3 className="text-base font-bold text-[#F8FAFC] leading-snug">Custom Business Logic</h3>
+            <p className="text-[#94A3B8] text-sm leading-relaxed">I create custom WordPress and Laravel solutions for booking, CRM, ERP, dashboards, and internal operations.</p>
+          </div>
+          {/* Card 5 — RTL */}
+          <div className="bg-[#0D1526] border border-white/5 rounded-2xl p-6 flex flex-col gap-3 hover:border-[#38BDF8]/25 hover:shadow-[0_0_20px_rgba(56,189,248,0.06)] transition-all">
+            <svg className="w-6 h-6 text-[#38BDF8]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}><circle cx="12" cy="12" r="10" /><path strokeLinecap="round" strokeLinejoin="round" d="M2 12h20M12 2a15.3 15.3 0 010 20M12 2a15.3 15.3 0 000 20" /></svg>
+            <h3 className="text-base font-bold text-[#F8FAFC] leading-snug">Arabic &amp; RTL Experiences</h3>
+            <p className="text-[#94A3B8] text-sm leading-relaxed">I build clean Arabic, English, and bilingual interfaces with proper RTL support.</p>
+          </div>
+          {/* Card 6 — Dashboard */}
+          <div className="bg-[#0D1526] border border-white/5 rounded-2xl p-6 flex flex-col gap-3 hover:border-[#38BDF8]/25 hover:shadow-[0_0_20px_rgba(56,189,248,0.06)] transition-all">
+            <svg className="w-6 h-6 text-[#38BDF8]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}><rect x="3" y="3" width="7" height="7" rx="1" /><rect x="14" y="3" width="7" height="7" rx="1" /><rect x="14" y="14" width="7" height="7" rx="1" /><rect x="3" y="14" width="7" height="7" rx="1" /></svg>
+            <h3 className="text-base font-bold text-[#F8FAFC] leading-snug">Admin Dashboards</h3>
+            <p className="text-[#94A3B8] text-sm leading-relaxed">I develop backend systems and dashboards that help teams manage real business processes.</p>
+          </div>
         </div>
         {/* CTA */}
         <div className="flex justify-center mt-10">
@@ -121,6 +116,7 @@ export default async function Home({
           </Link>
         </div>
       </section>
+
 
       {/* 3. Choose Your Path */}
       <section className="container mx-auto px-4 py-12">
