@@ -453,7 +453,7 @@ export default async function Home({
               slug: "eventgift",
               title: "EventGift Multi-Market Gifting Platform",
               category: "WooCommerce / eCommerce",
-              desc: "A multi-market gifting platform built across UAE, Saudi Arabia, and Egypt, with localized storefronts, product catalogs, and custom order flows.",
+              desc: "A multi-market gifting platform built across the UAE, Saudi Arabia, and Egypt, with localized storefronts, product catalogs, and custom order flows.",
               tags: ["WooCommerce", "Multi-market", "Custom UX"],
               markets: ["UAE", "Saudi Arabia", "Egypt"],
               image: "/demo/projects/eventgift/cover.png",
@@ -536,7 +536,7 @@ export default async function Home({
                             {item.title}
                           </span>
                           <span className="text-[10px] text-[#64748B] font-semibold uppercase tracking-widest">
-                            {lang === "ar" ? "دراسة حالة قريباً" : "Case Study Coming Soon"}
+                            {item.category}
                           </span>
                         </div>
                       )}
