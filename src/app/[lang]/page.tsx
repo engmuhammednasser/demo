@@ -733,6 +733,12 @@ export default async function Home({
             items: lang === "ar"
               ? ["GitHub", "الاستضافة", "النشر", "تحسين الأداء"]
               : ["GitHub", "Hosting", "Deployment", "Performance Optimization"]
+          },
+          {
+            title: "Integrations",
+            items: lang === "ar"
+              ? ["APIs الدفع", "منطق الشحن", "ربط خدمات خارجية", "Webhooks", "مسارات CRM/ERP"]
+              : ["Payment APIs", "Shipping Logic", "Third-party APIs", "Webhooks", "CRM/ERP Flows"]
           }
         ];
 
