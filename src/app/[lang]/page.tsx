@@ -617,7 +617,7 @@ export default async function Home({
             <div className="space-y-6 text-[#94A3B8] text-lg leading-relaxed">
               <p>
                 {lang === "ar"
-                  ? "أبني حلول WordPress وWooCommerce وLaravel حول سير العمل الحقيقي للشركات — وليس مجرد صفحات أو قوالب أو تركيب إضافات."
+                  ? "أبني حلول WordPress وWooCommerce وLaravel مبنية على سير العمل الحقيقي للشركات — وليس مجرد صفحات أو قوالب جاهزة أو تركيب إضافات."
                   : "I build WordPress, WooCommerce, and Laravel solutions around real business workflows — not just pages, themes, or plugin installations."}
               </p>
               <p>
@@ -693,7 +693,7 @@ export default async function Home({
               </h3>
               <p className="text-[#94A3B8] text-sm leading-relaxed">
                 {lang === "ar"
-                  ? "أبني تجارب ثنائية اللغة وداعمة لاتجاه RTL للشركات في منطقة الخليج والشرق الأوسط."
+                  ? "أبني تجارب ثنائية اللغة وداعمة لاتجاه RTL للشركات في الخليج والشرق الأوسط."
                   : "I build bilingual and RTL-friendly experiences for MENA and GCC businesses."}
               </p>
             </div>
