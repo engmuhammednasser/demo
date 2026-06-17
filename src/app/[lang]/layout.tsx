@@ -66,7 +66,7 @@ export default async function RootLayout({
         className={`${fontClass} bg-[#05070D] text-[#F8FAFC] antialiased min-h-screen flex flex-col`}
       >
         <header className="sticky top-0 z-50 w-full border-b border-white/10 bg-[#0B1020]/80 backdrop-blur">
-          <div className="container mx-auto px-4 h-16 flex items-center justify-between gap-4">
+          <div className="container mx-auto px-4 h-14 flex items-center justify-between gap-4">
             {/* Logo — plain img to avoid Next.js image optimizer issues with local PNGs */}
             <Link
               href={`/${lang}`}
@@ -78,8 +78,8 @@ export default async function RootLayout({
                 src={logoSrc}
                 alt={logoAlt}
                 width={300}
-                height={64}
-                className="h-12 md:h-16 w-auto object-contain"
+                height={48}
+                className="h-10 md:h-12 w-auto object-contain"
                 style={{ maxWidth: "100%" }}
               />
             </Link>
@@ -87,40 +87,41 @@ export default async function RootLayout({
             {/* Desktop nav */}
             <nav className="hidden md:flex items-center gap-6 flex-shrink-0">
               <Link
+                href={`/${lang}/services`}
+                className="hover:text-[#38BDF8] transition-colors whitespace-nowrap text-sm font-medium"
+              >
+                {t.nav.services}
+              </Link>
+              <Link
                 href={`/${lang}/work`}
-                className="hover:text-[#38BDF8] transition-colors whitespace-nowrap"
+                className="hover:text-[#38BDF8] transition-colors whitespace-nowrap text-sm font-medium"
               >
                 {t.nav.work}
               </Link>
               <Link
+                href={`/${lang}/about`}
+                className="hover:text-[#38BDF8] transition-colors whitespace-nowrap text-sm font-medium"
+              >
+                {t.nav.about}
+              </Link>
+              <Link
                 href={`/${lang}/lab`}
-                className="hover:text-[#38BDF8] transition-colors whitespace-nowrap"
+                className="hover:text-[#38BDF8] transition-colors whitespace-nowrap text-sm font-medium"
               >
                 {t.nav.lab}
               </Link>
               <Link
                 href={`/${lang}/backend`}
-                className="hover:text-[#38BDF8] transition-colors whitespace-nowrap"
+                className="hover:text-[#38BDF8] transition-colors whitespace-nowrap text-sm font-medium"
               >
                 {t.nav.backend}
               </Link>
-              <Link
-                href={`/${lang}/services`}
-                className="hover:text-[#38BDF8] transition-colors whitespace-nowrap"
-              >
-                {t.nav.services}
-              </Link>
-              <Link
-                href={`/${lang}/about`}
-                className="hover:text-[#38BDF8] transition-colors whitespace-nowrap"
-              >
-                {t.nav.about}
-              </Link>
+              {/* Start a Project CTA Button */}
               <Link
                 href={`/${lang}/contact`}
-                className="hover:text-[#38BDF8] transition-colors whitespace-nowrap"
+                className="px-4 py-2 bg-[#38BDF8]/10 hover:bg-[#38BDF8] text-[#38BDF8] hover:text-[#020617] border border-[#38BDF8]/20 hover:border-transparent rounded-lg text-sm font-bold transition-all whitespace-nowrap"
               >
-                {t.nav.contact}
+                {lang === "ar" ? "ابدأ مشروعك" : "Start a Project"}
               </Link>
               <LanguageSwitcher currentLang={locale} />
             </nav>
