@@ -797,7 +797,7 @@ export default async function Home({
             title: lang === "ar" ? "التطوير" : "Development",
             desc: lang === "ar"
               ? "أبني حلول WordPress أو WooCommerce أو الإضافات أو القوالب أو أنظمة Laravel بكود منظم وقابل للتوسع."
-              : "I build the WordPress, WooCommerce, plugin, theme, or Laravel system with clean, scalable code."
+              : "I build the website, store, plugin, theme, or Laravel system with clean, scalable code."
           },
           {
             num: "04",
@@ -831,11 +831,13 @@ export default async function Home({
               </p>
             </div>
 
-            <div className="max-w-7xl mx-auto relative">
+            <div className="max-w-7xl mx-auto relative px-4 sm:px-0">
               {/* Connecting Line (Desktop) */}
               <div className="hidden lg:block absolute top-6 left-0 right-0 h-[2px] bg-gradient-to-r from-transparent via-white/10 to-transparent pointer-events-none" />
+              {/* Connecting Line (Mobile) */}
+              <div className="block lg:hidden absolute top-0 bottom-0 left-1/2 -translate-x-1/2 w-[2px] bg-gradient-to-b from-transparent via-white/10 to-transparent pointer-events-none" />
               
-              <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-8 lg:gap-6 relative">
+              <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-12 lg:gap-6 relative">
                 {steps.map((step, idx) => (
                   <div key={idx} className="flex flex-col relative group">
                     {/* Number Indicator */}
