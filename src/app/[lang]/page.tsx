@@ -364,47 +364,242 @@ export default async function Home({
       {/* 4. Featured Case Studies */}
       <section className="container mx-auto px-4 py-16">
         <div className="flex flex-col sm:flex-row justify-between items-center sm:items-end mb-12 max-w-7xl mx-auto gap-4">
-          <h2 className="text-3xl md:text-4xl font-extrabold tracking-tight">{t.work.featured}</h2>
-          <Link href={`/${lang}/work`} className="text-[#38BDF8] hover:text-[#38BDF8]/80 font-semibold group flex items-center gap-2">
-            {t.work.viewAll}
-            <svg className="w-4 h-4 transform group-hover:translate-x-1 transition-transform rtl:rotate-180 rtl:group-hover:-translate-x-1" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg>
+          <div>
+            <h2 className="text-3xl md:text-4xl font-extrabold tracking-tight mb-3">
+              {lang === "ar" ? "دراسات حالة مختارة" : "Featured Case Studies"}
+            </h2>
+            <p className="text-[#94A3B8] text-base max-w-2xl leading-relaxed">
+              {lang === "ar"
+                ? "مجموعة مختارة من متاجر WooCommerce، ومنصات WordPress، وأنظمة الأعمال المبنية حول احتياجات تشغيلية حقيقية."
+                : "A curated selection of WooCommerce stores, WordPress platforms, and business systems built around real workflows."}
+            </p>
+          </div>
+          <Link
+            href={`/${lang}/work`}
+            className="text-[#38BDF8] hover:text-[#38BDF8]/80 font-semibold group flex items-center gap-2 shrink-0"
+          >
+            {lang === "ar" ? "عرض كل المشاريع" : "View All Projects"}
+            <svg
+              className="w-4 h-4 transform group-hover:translate-x-1 transition-transform rtl:rotate-180 rtl:group-hover:-translate-x-1"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+            </svg>
           </Link>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
-          {featuredProjects.map((project) => (
-            <Link 
-              key={project.slug} 
-              href={`/${lang}/work/${project.slug}`}
-              className="group flex flex-col bg-[#111827] rounded-2xl overflow-hidden border border-white/5 hover:border-[#38BDF8]/30 transition-all hover:shadow-[0_10px_30px_rgba(56,189,248,0.05)] hover:-translate-y-1"
-            >
-              <div className="relative aspect-[4/3] w-full bg-[#0B1020] overflow-hidden">
-                {project.screenshots.length > 0 ? (
-                  <Image 
-                    src={project.screenshots[0]} 
-                    alt={lang === "ar" ? project.titleAr : project.title}
-                    fill
-                    sizes="(max-width: 768px) 100vw, (max-width: 1280px) 50vw, 33vw"
-                    className="object-cover opacity-90 group-hover:opacity-100 group-hover:scale-105 transition-all duration-500"
-                  />
-                ) : (
-                  <div className="w-full h-full flex items-center justify-center text-[#94A3B8] font-medium">No Image</div>
-                )}
-                <div className="absolute inset-0 bg-gradient-to-t from-[#111827] via-transparent to-transparent opacity-80" />
-              </div>
-              <div className="p-8 flex-1 flex flex-col">
-                <div className="text-xs font-bold text-[#38BDF8] mb-3 uppercase tracking-widest">{project.category}</div>
-                <h3 className="text-2xl font-bold mb-3 leading-snug group-hover:text-[#38BDF8] transition-colors">{lang === "ar" ? project.titleAr : project.title}</h3>
-                <p className="text-[#94A3B8] line-clamp-2 leading-relaxed flex-1">
-                  {lang === "ar" ? project.summaryAr : project.summary}
-                </p>
-                <div className="mt-6 flex items-center text-sm font-semibold text-white/70 group-hover:text-white transition-colors">
-                  {lang === "ar" ? "قراءة التفاصيل" : "Read Case Study"}
-                  <svg className="w-4 h-4 ml-2 transform group-hover:translate-x-1 transition-transform rtl:mr-2 rtl:ml-0 rtl:rotate-180 rtl:group-hover:-translate-x-1" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg>
-                </div>
-              </div>
-            </Link>
-          ))}
-        </div>
+
+        {(() => {
+          // Curate exactly the 6 requested projects
+          const curatedList = lang === "ar" ? [
+            {
+              slug: "eventgift",
+              title: "منصة EventGift متعددة الأسواق",
+              category: "WooCommerce / تجارة إلكترونية",
+              desc: "منصة هدايا متعددة الأسواق تم تنفيذها للإمارات والسعودية ومصر، مع واجهات محلية، كتالوجات منتجات، ومسارات طلب مخصصة.",
+              tags: ["WooCommerce", "متعدد الأسواق", "تجربة استخدام مخصصة"],
+              markets: ["الإمارات", "السعودية", "مصر"],
+              image: "/demo/projects/eventgift/cover.png",
+              hasDetail: true,
+            },
+            {
+              slug: "techmart",
+              title: "تجربة Techmart لمتجر Apple Retail",
+              category: "WooCommerce / تجارة إلكترونية",
+              desc: "تجربة متجر إلكتروني موجهة لمنتجات Apple، مع تنظيم واضح للمنتجات والعروض وتجربة شراء نظيفة.",
+              tags: ["WooCommerce", "Retail", "تجربة منتجات"],
+              image: "/demo/projects/techmart/cover.png",
+              hasDetail: true,
+            },
+            {
+              slug: "ashhalan",
+              title: "منصة Ashhalan Group للهوية المؤسسية",
+              category: "موقع شركة / منصة أعمال",
+              desc: "منصة مؤسسية لعرض محفظة أعمال متنوعة بهوية واضحة، محتوى منظم، وحضور احترافي على الويب.",
+              tags: ["WordPress", "موقع مؤسسي", "Brand Platform"],
+              image: "/demo/projects/ashhalan/cover.png",
+              hasDetail: true,
+            },
+            {
+              slug: "botella",
+              title: "متجر Bottella للمنتجات المباشرة",
+              category: "WooCommerce / تجارة إلكترونية",
+              desc: "متجر منتجات مباشر للمستهلك مبني حول عرض المنتجات، تنظيم المجموعات، وتجربة تصفح سلسة.",
+              tags: ["WooCommerce", "DTC", "متجر منتجات"],
+              image: "/demo/projects/botella/cover.png",
+              hasDetail: true,
+            },
+            {
+              slug: "atour",
+              title: "منصة Atour للسياحة السعودية",
+              category: "سياحة / Marketplace",
+              desc: "تجربة Marketplace للسياحة السعودية تساعد المستخدمين على اكتشاف العروض والتجارب والخدمات السياحية.",
+              tags: ["Marketplace", "سياحة", "السعودية"],
+              image: "", // Placeholder
+              hasDetail: false,
+            },
+            {
+              slug: "ozone-clinic",
+              title: "منصة Ozone Clinic الطبية",
+              category: "Healthcare",
+              desc: "منصة ويب طبية لعرض خدمات العيادة، معلومات المرضى، وبناء حضور موثوق للعلامة الطبية.",
+              tags: ["Healthcare", "WordPress", "موقع خدمات"],
+              image: "", // Placeholder
+              hasDetail: false,
+            },
+          ] : [
+            {
+              slug: "eventgift",
+              title: "EventGift Multi-Market Gifting Platform",
+              category: "WooCommerce / eCommerce",
+              desc: "A multi-market gifting platform built across UAE, Saudi Arabia, and Egypt, with localized storefronts, product catalogs, and custom order flows.",
+              tags: ["WooCommerce", "Multi-market", "Custom UX"],
+              markets: ["UAE", "Saudi Arabia", "Egypt"],
+              image: "/demo/projects/eventgift/cover.png",
+              hasDetail: true,
+            },
+            {
+              slug: "techmart",
+              title: "Techmart Apple Retail eCommerce Experience",
+              category: "WooCommerce / eCommerce",
+              desc: "An Apple-focused retail eCommerce experience designed around structured product discovery, offers, and a clean shopping flow.",
+              tags: ["WooCommerce", "Retail", "Product UX"],
+              image: "/demo/projects/techmart/cover.png",
+              hasDetail: true,
+            },
+            {
+              slug: "ashhalan",
+              title: "Ashhalan Group Corporate Brand Platform",
+              category: "Corporate / Business Website",
+              desc: "A corporate platform built to present a diversified business portfolio with clear brand positioning, structured content, and a professional web presence.",
+              tags: ["WordPress", "Corporate", "Brand Platform"],
+              image: "/demo/projects/ashhalan/cover.png",
+              hasDetail: true,
+            },
+            {
+              slug: "botella",
+              title: "Bottella DTC Product Storefront",
+              category: "WooCommerce / eCommerce",
+              desc: "A direct-to-consumer product storefront built around product collections, visual presentation, and a smooth browsing experience.",
+              tags: ["WooCommerce", "DTC", "Product Storefront"],
+              image: "/demo/projects/botella/cover.png",
+              hasDetail: true,
+            },
+            {
+              slug: "atour",
+              title: "Atour Saudi Tourism Marketplace",
+              category: "Tourism / Marketplace",
+              desc: "A Saudi tourism marketplace experience designed to help users discover travel, tourism, and experience-based offerings.",
+              tags: ["Marketplace", "Tourism", "Saudi Arabia"],
+              image: "", // Placeholder
+              hasDetail: false,
+            },
+            {
+              slug: "ozone-clinic",
+              title: "Ozone Clinic Healthcare Platform",
+              category: "Healthcare",
+              desc: "A healthcare web platform for presenting clinic services, patient information, and a trustworthy medical brand experience.",
+              tags: ["Healthcare", "WordPress", "Service Website"],
+              image: "", // Placeholder
+              hasDetail: false,
+            },
+          ];
+
+          return (
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
+              {curatedList.map((item) => {
+                // Determine destination URL
+                const destination = item.hasDetail
+                  ? `/${lang}/work/${item.slug}`
+                  : `/${lang}/work/`;
+
+                return (
+                  <Link
+                    key={item.slug}
+                    href={destination}
+                    className="group flex flex-col bg-[#111827] rounded-2xl overflow-hidden border border-white/5 hover:border-[#38BDF8]/30 transition-all hover:shadow-[0_10px_30px_rgba(56,189,248,0.05)] hover:-translate-y-1"
+                  >
+                    {/* Image / Placeholder */}
+                    <div className="relative aspect-[4/3] w-full bg-[#0B1020] overflow-hidden flex items-center justify-center">
+                      {item.image ? (
+                        <Image
+                          src={item.image}
+                          alt={item.title}
+                          fill
+                          sizes="(max-width: 768px) 100vw, (max-width: 1280px) 50vw, 33vw"
+                          className="object-cover opacity-90 group-hover:opacity-100 group-hover:scale-105 transition-all duration-500"
+                        />
+                      ) : (
+                        <div className="absolute inset-0 bg-gradient-to-br from-[#1E293B] via-[#0F172A] to-[#020617] flex flex-col items-center justify-center p-6 text-center">
+                          <span className="text-[#38BDF8] text-base font-bold tracking-wide mb-2 uppercase px-4">
+                            {item.title}
+                          </span>
+                          <span className="text-[10px] text-[#64748B] font-semibold uppercase tracking-widest">
+                            {lang === "ar" ? "دراسة حالة قريباً" : "Case Study Coming Soon"}
+                          </span>
+                        </div>
+                      )}
+                      <div className="absolute inset-0 bg-gradient-to-t from-[#111827] via-transparent to-transparent opacity-80" />
+
+                      {/* Markets Badge Overlay */}
+                      {item.markets && item.markets.length > 0 && (
+                        <div className="absolute top-4 left-4 right-4 flex flex-wrap gap-1.5 z-10 pointer-events-none">
+                          {item.markets.map((market, idx) => (
+                            <span
+                              key={idx}
+                              className="px-2.5 py-0.5 rounded-full text-[10px] font-bold bg-[#38BDF8]/20 border border-[#38BDF8]/30 text-[#38BDF8] shadow-sm uppercase backdrop-blur-md"
+                            >
+                              {market}
+                            </span>
+                          ))}
+                        </div>
+                      )}
+                    </div>
+
+                    {/* Content */}
+                    <div className="p-8 flex-1 flex flex-col font-sans">
+                      <div className="text-xs font-bold text-[#38BDF8] mb-3 uppercase tracking-widest">
+                        {item.category}
+                      </div>
+                      <h3 className="text-xl font-bold mb-3 leading-snug group-hover:text-[#38BDF8] transition-colors">
+                        {item.title}
+                      </h3>
+                      <p className="text-[#94A3B8] text-sm leading-relaxed flex-1 line-clamp-3">
+                        {item.desc}
+                      </p>
+
+                      {/* Card Tags */}
+                      <div className="mt-4 flex flex-wrap gap-1.5">
+                        {item.tags.map((tag, idx) => (
+                          <span
+                            key={idx}
+                            className="px-2 py-0.5 rounded-md text-[11px] font-medium bg-[#1F2937]/50 text-[#94A3B8] border border-white/5"
+                          >
+                            {tag}
+                          </span>
+                        ))}
+                      </div>
+
+                      {/* CTA */}
+                      <div className="mt-6 flex items-center text-sm font-semibold text-white/70 group-hover:text-white transition-colors">
+                        {lang === "ar" ? "قراءة دراسة الحالة" : "Read Case Study"}
+                        <svg
+                          className="w-4 h-4 ml-2 transform group-hover:translate-x-1 transition-transform rtl:mr-2 rtl:ml-0 rtl:rotate-180 rtl:group-hover:-translate-x-1"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          stroke="currentColor"
+                        >
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                        </svg>
+                      </div>
+                    </div>
+                  </Link>
+                );
+              })}
+            </div>
+          );
+        })()}
       </section>
     </div>
   );
