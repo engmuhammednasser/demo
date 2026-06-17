@@ -860,6 +860,44 @@ export default async function Home({
           </section>
         );
       })()}
+
+      {/* Final CTA Section */}
+      <section className="container mx-auto px-4 py-24 border-t border-white/5 relative overflow-hidden">
+        {/* Subtle background glow */}
+        <div className="absolute inset-0 bg-gradient-to-b from-transparent to-[#0B1020]/80 -z-10" />
+        <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-3/4 h-[400px] bg-[#38BDF8]/5 blur-[120px] rounded-full -z-10 pointer-events-none" />
+
+        <div className="max-w-4xl mx-auto text-center bg-[#111827]/80 backdrop-blur-sm border border-white/5 rounded-3xl p-10 md:p-16 relative overflow-hidden shadow-2xl">
+          {/* Internal Glow */}
+          <div className="absolute top-0 right-0 w-64 h-64 bg-[#38BDF8]/10 blur-[80px] rounded-full pointer-events-none" />
+          
+          <h2 className="text-3xl md:text-5xl font-extrabold text-white tracking-tight leading-tight mb-6 relative z-10">
+            {lang === "ar"
+              ? "جاهز لبناء حل WordPress أسرع وأكثر ذكاءً؟"
+              : "Ready to build a faster, smarter WordPress solution?"}
+          </h2>
+          <p className="text-[#94A3B8] text-lg md:text-xl max-w-2xl mx-auto leading-relaxed mb-10 relative z-10">
+            {lang === "ar"
+              ? "سواء كنت تحتاج إلى متجر WooCommerce، إضافة مخصصة، قالب WordPress، أو نظام خلفي بـ Laravel، دعنا نحول سير عملك إلى منتج رقمي موثوق."
+              : "Whether you need a WooCommerce store, custom plugin, WordPress theme, or Laravel backend system, let’s turn your workflow into a reliable digital product."}
+          </p>
+          
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-4 relative z-10">
+            <Link
+              href={`/${lang}/contact/`}
+              className="w-full sm:w-auto px-8 py-4 bg-[#38BDF8] hover:bg-[#0284C7] hover:scale-105 text-[#020617] font-bold rounded-xl transition-all text-center"
+            >
+              {lang === "ar" ? "ابدأ مشروعك" : "Start a Project"}
+            </Link>
+            <Link
+              href={`/${lang}/work/`}
+              className="w-full sm:w-auto px-8 py-4 bg-transparent border border-white/10 hover:border-white/30 text-white font-bold rounded-xl transition-all text-center"
+            >
+              {lang === "ar" ? "عرض دراسات الحالة" : "View Case Studies"}
+            </Link>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }
