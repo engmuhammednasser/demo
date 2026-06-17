@@ -211,7 +211,7 @@ export default function MobileMenu({ lang, locale, nav }: MobileMenuProps) {
             {locale === "ar" ? "Switch to English" : "التبديل للعربية"}
           </Link>
           <a
-            href={`https://wa.me/201025811613?text=${encodeURIComponent(locale === "ar" ? "أهلاً محمد، بتواصل معاك من خلال البورتفوليو." : "Hello Muhammed, I'm reaching out from your portfolio.")}`}
+            href={`https://wa.me/201065942956?text=${encodeURIComponent(locale === "ar" ? "أهلاً محمد، بتواصل معاك من خلال البورتفوليو." : "Hello Muhammed, I'm reaching out from your portfolio.")}`}
             target="_blank"
             rel="noopener noreferrer"
             onClick={() => setIsOpen(false)}
