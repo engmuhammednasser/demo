@@ -55,8 +55,8 @@ export default async function RootLayout({
 
   const logoSrc =
     locale === "ar"
-      ? "/logos/logo-desktop-ar.png"
-      : "/logos/logo-desktop-en.png";
+      ? "/demo/logos/logo-desktop-ar.png"
+      : "/demo/logos/logo-desktop-en.png";
   const logoAlt =
     locale === "ar" ? "شعار محمد ناصر" : "Muhammed Nasser Logo";
 

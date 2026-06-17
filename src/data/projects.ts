@@ -91,9 +91,9 @@ export const projects: Project[] = [
     features: ["Custom Theme", "Performance Optimization", "SEO Structure"],
     featuresAr: ["ثيم مخصص", "تحسين الأداء", "تهيئة محركات البحث"],
     screenshots: [
-      "/projects/eventgift/cover.png",
-      "/projects/eventgift/preview-01.png",
-      "/projects/eventgift/preview-02.png"
+      "/demo/projects/eventgift/cover.png",
+      "/demo/projects/eventgift/preview-01.png",
+      "/demo/projects/eventgift/preview-02.png"
     ],
     liveUrl: "https://eventgift.com",
     isFeatured: true,
@@ -121,9 +121,9 @@ export const projects: Project[] = [
     features: ["Custom Theme", "Performance Optimization", "SEO Structure"],
     featuresAr: ["ثيم مخصص", "تحسين الأداء", "تهيئة محركات البحث"],
     screenshots: [
-      "/projects/techmart/cover.png",
-      "/projects/techmart/preview-01.png",
-      "/projects/techmart/preview-02.png"
+      "/demo/projects/techmart/cover.png",
+      "/demo/projects/techmart/preview-01.png",
+      "/demo/projects/techmart/preview-02.png"
     ],
     liveUrl: "https://techmartme.com/",
     isFeatured: true,
@@ -151,9 +151,9 @@ export const projects: Project[] = [
     features: ["Custom Theme", "Performance Optimization", "SEO Structure"],
     featuresAr: ["ثيم مخصص", "تحسين الأداء", "تهيئة محركات البحث"],
     screenshots: [
-      "/projects/ashhalan/cover.png",
-      "/projects/ashhalan/preview-01.png",
-      "/projects/ashhalan/preview-02.png"
+      "/demo/projects/ashhalan/cover.png",
+      "/demo/projects/ashhalan/preview-01.png",
+      "/demo/projects/ashhalan/preview-02.png"
     ],
     liveUrl: "https://ashhalan.com",
     isFeatured: true,
@@ -181,9 +181,9 @@ export const projects: Project[] = [
     features: ["Custom Theme", "Performance Optimization", "SEO Structure"],
     featuresAr: ["ثيم مخصص", "تحسين الأداء", "تهيئة محركات البحث"],
     screenshots: [
-      "/projects/botella/cover.png",
-      "/projects/botella/preview-01.png",
-      "/projects/botella/preview-02.png"
+      "/demo/projects/botella/cover.png",
+      "/demo/projects/botella/preview-01.png",
+      "/demo/projects/botella/preview-02.png"
     ],
     liveUrl: "https://botella.com",
     isFeatured: true,
@@ -211,9 +211,9 @@ export const projects: Project[] = [
     features: ["Custom Theme", "Performance Optimization", "SEO Structure"],
     featuresAr: ["ثيم مخصص", "تحسين الأداء", "تهيئة محركات البحث"],
     screenshots: [
-      "/projects/nora24jewelry/cover.png",
-      "/projects/nora24jewelry/preview-01.png",
-      "/projects/nora24jewelry/preview-02.png"
+      "/demo/projects/nora24jewelry/cover.png",
+      "/demo/projects/nora24jewelry/preview-01.png",
+      "/demo/projects/nora24jewelry/preview-02.png"
     ],
     liveUrl: "https://nora24jewelry.com",
     isFeatured: false,
@@ -241,9 +241,9 @@ export const projects: Project[] = [
     features: ["Custom Theme", "Performance Optimization", "SEO Structure"],
     featuresAr: ["ثيم مخصص", "تحسين الأداء", "تهيئة محركات البحث"],
     screenshots: [
-      "/projects/gobeagency/cover.png",
-      "/projects/gobeagency/preview-01.png",
-      "/projects/gobeagency/preview-02.png"
+      "/demo/projects/gobeagency/cover.png",
+      "/demo/projects/gobeagency/preview-01.png",
+      "/demo/projects/gobeagency/preview-02.png"
     ],
     liveUrl: "https://gobeagency.com",
     isFeatured: false,
@@ -271,9 +271,9 @@ export const projects: Project[] = [
     features: ["Custom Theme", "Performance Optimization", "SEO Structure"],
     featuresAr: ["ثيم مخصص", "تحسين الأداء", "تهيئة محركات البحث"],
     screenshots: [
-      "/projects/genedyeg/cover.png",
-      "/projects/genedyeg/preview-01.png",
-      "/projects/genedyeg/preview-02.png"
+      "/demo/projects/genedyeg/cover.png",
+      "/demo/projects/genedyeg/preview-01.png",
+      "/demo/projects/genedyeg/preview-02.png"
     ],
     liveUrl: "https://genedyeg.com",
     isFeatured: true,
@@ -301,9 +301,9 @@ export const projects: Project[] = [
     features: ["Custom Theme", "Performance Optimization", "SEO Structure"],
     featuresAr: ["ثيم مخصص", "تحسين الأداء", "تهيئة محركات البحث"],
     screenshots: [
-      "/projects/a2mkw/cover.png",
-      "/projects/a2mkw/preview-01.png",
-      "/projects/a2mkw/preview-02.png"
+      "/demo/projects/a2mkw/cover.png",
+      "/demo/projects/a2mkw/preview-01.png",
+      "/demo/projects/a2mkw/preview-02.png"
     ],
     liveUrl: "https://a2mkw.com",
     isFeatured: false,
@@ -331,9 +331,9 @@ export const projects: Project[] = [
     features: ["Custom Theme", "Performance Optimization", "SEO Structure"],
     featuresAr: ["ثيم مخصص", "تحسين الأداء", "تهيئة محركات البحث"],
     screenshots: [
-      "/projects/nuc-kw/cover.png",
-      "/projects/nuc-kw/preview-01.png",
-      "/projects/nuc-kw/preview-02.png"
+      "/demo/projects/nuc-kw/cover.png",
+      "/demo/projects/nuc-kw/preview-01.png",
+      "/demo/projects/nuc-kw/preview-02.png"
     ],
     liveUrl: "https://nuc-kw.com",
     isFeatured: false,
@@ -361,9 +361,9 @@ export const projects: Project[] = [
     features: ["Custom Theme", "Performance Optimization", "SEO Structure"],
     featuresAr: ["ثيم مخصص", "تحسين الأداء", "تهيئة محركات البحث"],
     screenshots: [
-      "/projects/tbinnovation/cover.png",
-      "/projects/tbinnovation/preview-01.png",
-      "/projects/tbinnovation/preview-02.png"
+      "/demo/projects/tbinnovation/cover.png",
+      "/demo/projects/tbinnovation/preview-01.png",
+      "/demo/projects/tbinnovation/preview-02.png"
     ],
     liveUrl: "https://tbinnovation.com",
     isFeatured: false,
@@ -391,9 +391,9 @@ export const projects: Project[] = [
     features: ["Custom Theme", "Performance Optimization", "SEO Structure"],
     featuresAr: ["ثيم مخصص", "تحسين الأداء", "تهيئة محركات البحث"],
     screenshots: [
-      "/projects/mediaandmore/cover.png",
-      "/projects/mediaandmore/preview-01.png",
-      "/projects/mediaandmore/preview-02.png"
+      "/demo/projects/mediaandmore/cover.png",
+      "/demo/projects/mediaandmore/preview-01.png",
+      "/demo/projects/mediaandmore/preview-02.png"
     ],
     liveUrl: "https://mediaandmore.com",
     isFeatured: false,
@@ -421,9 +421,9 @@ export const projects: Project[] = [
     features: ["Custom Theme", "Performance Optimization", "SEO Structure"],
     featuresAr: ["ثيم مخصص", "تحسين الأداء", "تهيئة محركات البحث"],
     screenshots: [
-      "/projects/pxls-creative/cover.png",
-      "/projects/pxls-creative/preview-01.png",
-      "/projects/pxls-creative/preview-02.png"
+      "/demo/projects/pxls-creative/cover.png",
+      "/demo/projects/pxls-creative/preview-01.png",
+      "/demo/projects/pxls-creative/preview-02.png"
     ],
     liveUrl: "https://pxls-creative.com",
     isFeatured: false,
@@ -451,9 +451,9 @@ export const projects: Project[] = [
     features: ["Custom Theme", "Performance Optimization", "SEO Structure"],
     featuresAr: ["ثيم مخصص", "تحسين الأداء", "تهيئة محركات البحث"],
     screenshots: [
-      "/projects/eventgift-sa/cover.png",
-      "/projects/eventgift-sa/preview-01.png",
-      "/projects/eventgift-sa/preview-02.png"
+      "/demo/projects/eventgift-sa/cover.png",
+      "/demo/projects/eventgift-sa/preview-01.png",
+      "/demo/projects/eventgift-sa/preview-02.png"
     ],
     liveUrl: "https://eventgift-sa.com",
     isFeatured: false,
@@ -481,9 +481,9 @@ export const projects: Project[] = [
     features: ["Custom Theme", "Performance Optimization", "SEO Structure"],
     featuresAr: ["ثيم مخصص", "تحسين الأداء", "تهيئة محركات البحث"],
     screenshots: [
-      "/projects/eventgift-eg/cover.png",
-      "/projects/eventgift-eg/preview-01.png",
-      "/projects/eventgift-eg/preview-02.png"
+      "/demo/projects/eventgift-eg/cover.png",
+      "/demo/projects/eventgift-eg/preview-01.png",
+      "/demo/projects/eventgift-eg/preview-02.png"
     ],
     liveUrl: "https://eventgift-eg.com",
     isFeatured: false,
@@ -511,9 +511,9 @@ export const projects: Project[] = [
     features: ["Custom Theme", "Performance Optimization", "SEO Structure"],
     featuresAr: ["ثيم مخصص", "تحسين الأداء", "تهيئة محركات البحث"],
     screenshots: [
-      "/projects/ashhalanksa/cover.png",
-      "/projects/ashhalanksa/preview-01.png",
-      "/projects/ashhalanksa/preview-02.png"
+      "/demo/projects/ashhalanksa/cover.png",
+      "/demo/projects/ashhalanksa/preview-01.png",
+      "/demo/projects/ashhalanksa/preview-02.png"
     ],
     liveUrl: "https://ashhalanksa.com",
     isFeatured: false,
@@ -541,9 +541,9 @@ export const projects: Project[] = [
     features: ["Custom Theme", "Performance Optimization", "SEO Structure"],
     featuresAr: ["ثيم مخصص", "تحسين الأداء", "تهيئة محركات البحث"],
     screenshots: [
-      "/projects/ashhalanlogistics/cover.png",
-      "/projects/ashhalanlogistics/preview-01.png",
-      "/projects/ashhalanlogistics/preview-02.png"
+      "/demo/projects/ashhalanlogistics/cover.png",
+      "/demo/projects/ashhalanlogistics/preview-01.png",
+      "/demo/projects/ashhalanlogistics/preview-02.png"
     ],
     liveUrl: "https://ashhalanlogistics.com",
     isFeatured: false,
@@ -571,9 +571,9 @@ export const projects: Project[] = [
     features: ["Custom Theme", "Performance Optimization", "SEO Structure"],
     featuresAr: ["ثيم مخصص", "تحسين الأداء", "تهيئة محركات البحث"],
     screenshots: [
-      "/projects/ashhalancarrental/cover.png",
-      "/projects/ashhalancarrental/preview-01.png",
-      "/projects/ashhalancarrental/preview-02.png"
+      "/demo/projects/ashhalancarrental/cover.png",
+      "/demo/projects/ashhalancarrental/preview-01.png",
+      "/demo/projects/ashhalancarrental/preview-02.png"
     ],
     liveUrl: "https://ashhalancarrental.com",
     isFeatured: false,
@@ -601,9 +601,9 @@ export const projects: Project[] = [
     features: ["Custom Theme", "Performance Optimization", "SEO Structure"],
     featuresAr: ["ثيم مخصص", "تحسين الأداء", "تهيئة محركات البحث"],
     screenshots: [
-      "/projects/mahmmoud-gomaa/cover.png",
-      "/projects/mahmmoud-gomaa/preview-01.png",
-      "/projects/mahmmoud-gomaa/preview-02.png"
+      "/demo/projects/mahmmoud-gomaa/cover.png",
+      "/demo/projects/mahmmoud-gomaa/preview-01.png",
+      "/demo/projects/mahmmoud-gomaa/preview-02.png"
     ],
     liveUrl: "https://mahmmoud-gomaa.com",
     isFeatured: false,
@@ -631,9 +631,9 @@ export const projects: Project[] = [
     features: ["Custom Theme", "Performance Optimization", "SEO Structure"],
     featuresAr: ["ثيم مخصص", "تحسين الأداء", "تهيئة محركات البحث"],
     screenshots: [
-      "/projects/mashora/cover.png",
-      "/projects/mashora/preview-01.png",
-      "/projects/mashora/preview-02.png"
+      "/demo/projects/mashora/cover.png",
+      "/demo/projects/mashora/preview-01.png",
+      "/demo/projects/mashora/preview-02.png"
     ],
     liveUrl: "https://mashora.com",
     isFeatured: false,
@@ -661,9 +661,9 @@ export const projects: Project[] = [
     features: ["Custom Theme", "Performance Optimization", "SEO Structure"],
     featuresAr: ["ثيم مخصص", "تحسين الأداء", "تهيئة محركات البحث"],
     screenshots: [
-      "/projects/originals-hub/cover.png",
-      "/projects/originals-hub/preview-01.png",
-      "/projects/originals-hub/preview-02.png"
+      "/demo/projects/originals-hub/cover.png",
+      "/demo/projects/originals-hub/preview-01.png",
+      "/demo/projects/originals-hub/preview-02.png"
     ],
     liveUrl: "https://originals-hub.com",
     isFeatured: true,
@@ -691,9 +691,9 @@ export const projects: Project[] = [
     features: ["Custom Theme", "Performance Optimization", "SEO Structure"],
     featuresAr: ["ثيم مخصص", "تحسين الأداء", "تهيئة محركات البحث"],
     screenshots: [
-      "/projects/arcadia-digital/cover.png",
-      "/projects/arcadia-digital/preview-01.png",
-      "/projects/arcadia-digital/preview-02.png"
+      "/demo/projects/arcadia-digital/cover.png",
+      "/demo/projects/arcadia-digital/preview-01.png",
+      "/demo/projects/arcadia-digital/preview-02.png"
     ],
     liveUrl: "https://arcadia-digital.com",
     isFeatured: false,
@@ -721,9 +721,9 @@ export const projects: Project[] = [
     features: ["Custom Theme", "Performance Optimization", "SEO Structure"],
     featuresAr: ["ثيم مخصص", "تحسين الأداء", "تهيئة محركات البحث"],
     screenshots: [
-      "/projects/diwaniya/cover.png",
-      "/projects/diwaniya/preview-01.png",
-      "/projects/diwaniya/preview-02.png"
+      "/demo/projects/diwaniya/cover.png",
+      "/demo/projects/diwaniya/preview-01.png",
+      "/demo/projects/diwaniya/preview-02.png"
     ],
     liveUrl: "https://diwaniya.com",
     isFeatured: false,
@@ -751,9 +751,9 @@ export const projects: Project[] = [
     features: ["Custom Theme", "Performance Optimization", "SEO Structure"],
     featuresAr: ["ثيم مخصص", "تحسين الأداء", "تهيئة محركات البحث"],
     screenshots: [
-      "/projects/kuwait-arc/cover.png",
-      "/projects/kuwait-arc/preview-01.png",
-      "/projects/kuwait-arc/preview-02.png"
+      "/demo/projects/kuwait-arc/cover.png",
+      "/demo/projects/kuwait-arc/preview-01.png",
+      "/demo/projects/kuwait-arc/preview-02.png"
     ],
     liveUrl: "https://kuwait-arc.com",
     isFeatured: false,
@@ -781,9 +781,9 @@ export const projects: Project[] = [
     features: ["Custom Theme", "Performance Optimization", "SEO Structure"],
     featuresAr: ["ثيم مخصص", "تحسين الأداء", "تهيئة محركات البحث"],
     screenshots: [
-      "/projects/arabic-window/cover.png",
-      "/projects/arabic-window/preview-01.png",
-      "/projects/arabic-window/preview-02.png"
+      "/demo/projects/arabic-window/cover.png",
+      "/demo/projects/arabic-window/preview-01.png",
+      "/demo/projects/arabic-window/preview-02.png"
     ],
     liveUrl: "https://arabic-window.com",
     isFeatured: false,
@@ -811,9 +811,9 @@ export const projects: Project[] = [
     features: ["Custom Theme", "Performance Optimization", "SEO Structure"],
     featuresAr: ["ثيم مخصص", "تحسين الأداء", "تهيئة محركات البحث"],
     screenshots: [
-      "/projects/meshari-alali/cover.png",
-      "/projects/meshari-alali/preview-01.png",
-      "/projects/meshari-alali/preview-02.png"
+      "/demo/projects/meshari-alali/cover.png",
+      "/demo/projects/meshari-alali/preview-01.png",
+      "/demo/projects/meshari-alali/preview-02.png"
     ],
     liveUrl: "https://meshari-alali.com",
     isFeatured: false,
@@ -841,9 +841,9 @@ export const projects: Project[] = [
     features: ["Custom Theme", "Performance Optimization", "SEO Structure"],
     featuresAr: ["ثيم مخصص", "تحسين الأداء", "تهيئة محركات البحث"],
     screenshots: [
-      "/projects/light-islam/cover.png",
-      "/projects/light-islam/preview-01.png",
-      "/projects/light-islam/preview-02.png"
+      "/demo/projects/light-islam/cover.png",
+      "/demo/projects/light-islam/preview-01.png",
+      "/demo/projects/light-islam/preview-02.png"
     ],
     liveUrl: "https://light-islam.com",
     isFeatured: false,
@@ -871,9 +871,9 @@ export const projects: Project[] = [
     features: ["Custom Theme", "Performance Optimization", "SEO Structure"],
     featuresAr: ["ثيم مخصص", "تحسين الأداء", "تهيئة محركات البحث"],
     screenshots: [
-      "/projects/juli-tourism/cover.png",
-      "/projects/juli-tourism/preview-01.png",
-      "/projects/juli-tourism/preview-02.png"
+      "/demo/projects/juli-tourism/cover.png",
+      "/demo/projects/juli-tourism/preview-01.png",
+      "/demo/projects/juli-tourism/preview-02.png"
     ],
     liveUrl: "https://juli-tourism.com",
     isFeatured: false,
@@ -901,9 +901,9 @@ export const projects: Project[] = [
     features: ["Custom Theme", "Performance Optimization", "SEO Structure"],
     featuresAr: ["ثيم مخصص", "تحسين الأداء", "تهيئة محركات البحث"],
     screenshots: [
-      "/projects/baslim-auto/cover.png",
-      "/projects/baslim-auto/preview-01.png",
-      "/projects/baslim-auto/preview-02.png"
+      "/demo/projects/baslim-auto/cover.png",
+      "/demo/projects/baslim-auto/preview-01.png",
+      "/demo/projects/baslim-auto/preview-02.png"
     ],
     liveUrl: "https://baslim-auto.com",
     isFeatured: false,
@@ -931,9 +931,9 @@ export const projects: Project[] = [
     features: ["Custom Theme", "Performance Optimization", "SEO Structure"],
     featuresAr: ["ثيم مخصص", "تحسين الأداء", "تهيئة محركات البحث"],
     screenshots: [
-      "/projects/fast-shopping/cover.png",
-      "/projects/fast-shopping/preview-01.png",
-      "/projects/fast-shopping/preview-02.png"
+      "/demo/projects/fast-shopping/cover.png",
+      "/demo/projects/fast-shopping/preview-01.png",
+      "/demo/projects/fast-shopping/preview-02.png"
     ],
     liveUrl: "https://fast-shopping.com",
     isFeatured: false,
@@ -961,9 +961,9 @@ export const projects: Project[] = [
     features: ["Custom Theme", "Performance Optimization", "SEO Structure"],
     featuresAr: ["ثيم مخصص", "تحسين الأداء", "تهيئة محركات البحث"],
     screenshots: [
-      "/projects/mishari-oud/cover.png",
-      "/projects/mishari-oud/preview-01.png",
-      "/projects/mishari-oud/preview-02.png"
+      "/demo/projects/mishari-oud/cover.png",
+      "/demo/projects/mishari-oud/preview-01.png",
+      "/demo/projects/mishari-oud/preview-02.png"
     ],
     liveUrl: "https://mishari-oud.com",
     isFeatured: false,
@@ -991,9 +991,9 @@ export const projects: Project[] = [
     features: ["Custom Theme", "Performance Optimization", "SEO Structure"],
     featuresAr: ["ثيم مخصص", "تحسين الأداء", "تهيئة محركات البحث"],
     screenshots: [
-      "/projects/lec-elevators/cover.png",
-      "/projects/lec-elevators/preview-01.png",
-      "/projects/lec-elevators/preview-02.png"
+      "/demo/projects/lec-elevators/cover.png",
+      "/demo/projects/lec-elevators/preview-01.png",
+      "/demo/projects/lec-elevators/preview-02.png"
     ],
     liveUrl: "https://lec-elevators.com",
     isFeatured: false,
@@ -1081,11 +1081,11 @@ export const projects: Project[] = [
       "عرض أقوى للمشروع كدراسة حالة لمنصة Marketplace مبنية بـ Laravel."
     ],
     screenshots: [
-      "/projects/atour/frontend/01-homepage-hero-desktop.png"
+      "/demo/projects/atour/frontend/01-homepage-hero-desktop.png"
     ],
     frontendScreenshots: [
       {
-        src: "/projects/atour/frontend/01-homepage-hero-desktop.png",
+        src: "/demo/projects/atour/frontend/01-homepage-hero-desktop.png",
         alt: {
           en: "Atour homepage hero section showing Saudi tourism experiences",
           ar: "واجهة الصفحة الرئيسية لمنصة جولة لعرض التجارب السياحية السعودية"
@@ -1098,7 +1098,7 @@ export const projects: Project[] = [
         viewport: "desktop"
       },
       {
-        src: "/projects/atour/frontend/03-trips-listing-desktop.png",
+        src: "/demo/projects/atour/frontend/03-trips-listing-desktop.png",
         alt: {
           en: "Tour listing page with dynamic cards, prices, and booking-oriented browsing",
           ar: "صفحة عرض الجولات ببطاقات ديناميكية، أسعار، وتجربة تصفح موجهة للحجز"
@@ -1111,7 +1111,7 @@ export const projects: Project[] = [
         viewport: "desktop"
       },
       {
-        src: "/projects/atour/frontend/05-trip-detail-desktop.png",
+        src: "/demo/projects/atour/frontend/05-trip-detail-desktop.png",
         alt: {
           en: "Dynamic tour detail page with trip information, highlights, and booking CTA",
           ar: "صفحة تفاصيل جولة ديناميكية تعرض معلومات الرحلة والمميزات وزر الحجز"
@@ -1124,7 +1124,7 @@ export const projects: Project[] = [
         viewport: "desktop"
       },
       {
-        src: "/projects/atour/frontend/04-offers-desktop.png",
+        src: "/demo/projects/atour/frontend/04-offers-desktop.png",
         alt: {
           en: "Heritage gifts commerce module with product details",
           ar: "موديول للهدايا التراثية يعرض تفاصيل المنتج"
@@ -1137,7 +1137,7 @@ export const projects: Project[] = [
         viewport: "desktop"
       },
       {
-        src: "/projects/atour/frontend/02-events-category-desktop.png",
+        src: "/demo/projects/atour/frontend/02-events-category-desktop.png",
         alt: {
           en: "Events category listing page",
           ar: "صفحة قائمة فئة الفعاليات"
@@ -1150,7 +1150,7 @@ export const projects: Project[] = [
         viewport: "desktop"
       },
       {
-        src: "/projects/atour/frontend/14-about-page-desktop.png",
+        src: "/demo/projects/atour/frontend/14-about-page-desktop.png",
         alt: {
           en: "About page",
           ar: "صفحة من نحن"
@@ -1163,7 +1163,7 @@ export const projects: Project[] = [
         viewport: "desktop"
       },
       {
-        src: "/projects/atour/frontend/11-articles-blog-desktop.png",
+        src: "/demo/projects/atour/frontend/11-articles-blog-desktop.png",
         alt: {
           en: "Articles and blog page",
           ar: "صفحة المقالات والمدونة"
@@ -1176,7 +1176,7 @@ export const projects: Project[] = [
         viewport: "desktop"
       },
       {
-        src: "/projects/atour/frontend/12-news-desktop.png",
+        src: "/demo/projects/atour/frontend/12-news-desktop.png",
         alt: {
           en: "News page",
           ar: "صفحة الأخبار"
@@ -1189,42 +1189,42 @@ export const projects: Project[] = [
         viewport: "desktop"
       },
       {
-        src: "/projects/atour/frontend/06-biography-2-desktop.png",
+        src: "/demo/projects/atour/frontend/06-biography-2-desktop.png",
         alt: { en: "Biography/Information page", ar: "صفحة معلومات وسيرة" },
         caption: { en: "Additional public information page.", ar: "صفحة معلومات عامة إضافية." },
         type: "frontend",
         viewport: "desktop"
       },
       {
-        src: "/projects/atour/frontend/07-biography-3-desktop.png",
+        src: "/demo/projects/atour/frontend/07-biography-3-desktop.png",
         alt: { en: "Biography/Information page", ar: "صفحة معلومات وسيرة" },
         caption: { en: "Additional public information page.", ar: "صفحة معلومات عامة إضافية." },
         type: "frontend",
         viewport: "desktop"
       },
       {
-        src: "/projects/atour/frontend/08-biography-4-desktop.png",
+        src: "/demo/projects/atour/frontend/08-biography-4-desktop.png",
         alt: { en: "Biography/Information page", ar: "صفحة معلومات وسيرة" },
         caption: { en: "Additional public information page.", ar: "صفحة معلومات عامة إضافية." },
         type: "frontend",
         viewport: "desktop"
       },
       {
-        src: "/projects/atour/frontend/09-biography-5-desktop.png",
+        src: "/demo/projects/atour/frontend/09-biography-5-desktop.png",
         alt: { en: "Biography/Information page", ar: "صفحة معلومات وسيرة" },
         caption: { en: "Additional public information page.", ar: "صفحة معلومات عامة إضافية." },
         type: "frontend",
         viewport: "desktop"
       },
       {
-        src: "/projects/atour/frontend/10-biography-6-desktop.png",
+        src: "/demo/projects/atour/frontend/10-biography-6-desktop.png",
         alt: { en: "Biography/Information page", ar: "صفحة معلومات وسيرة" },
         caption: { en: "Additional public information page.", ar: "صفحة معلومات عامة إضافية." },
         type: "frontend",
         viewport: "desktop"
       },
       {
-        src: "/projects/atour/frontend/16-terms-conditions-desktop.png",
+        src: "/demo/projects/atour/frontend/16-terms-conditions-desktop.png",
         alt: { en: "Terms and conditions page", ar: "صفحة الشروط والأحكام" },
         caption: { en: "Terms and conditions page.", ar: "صفحة الشروط والأحكام." },
         type: "frontend",
@@ -1233,7 +1233,7 @@ export const projects: Project[] = [
     ],
     bookingScreenshots: [
       {
-        src: "/projects/atour/frontend/05-trip-detail-desktop.png",
+        src: "/demo/projects/atour/frontend/05-trip-detail-desktop.png",
         alt: {
           en: "Booking-focused panel showing price, trust messages, and clear conversion actions",
           ar: "جزء موجه للتحويل يعرض السعر، رسائل الثقة، وإجراءات الحجز بوضوح"
@@ -1248,7 +1248,7 @@ export const projects: Project[] = [
     ],
     supportScreenshots: [
       {
-        src: "/projects/atour/frontend/13-faq-help-desktop.png",
+        src: "/demo/projects/atour/frontend/13-faq-help-desktop.png",
         alt: {
           en: "FAQ page for self-service support",
           ar: "صفحة الأسئلة الشائعة للدعم الذاتي"
@@ -1261,7 +1261,7 @@ export const projects: Project[] = [
         viewport: "desktop"
       },
       {
-        src: "/projects/atour/frontend/15-contact-ticket-desktop.png",
+        src: "/demo/projects/atour/frontend/15-contact-ticket-desktop.png",
         alt: {
           en: "Contact ticket flow",
           ar: "نموذج تواصل وتذاكر الدعم"
@@ -1276,77 +1276,77 @@ export const projects: Project[] = [
     ],
     backendScreenshots: [
       {
-        src: "/projects/atour/backend/backend-01-dashboard.jpeg",
+        src: "/demo/projects/atour/backend/backend-01-dashboard.jpeg",
         alt: { en: "Atour backend dashboard screenshot 1", ar: "لوحة تحكم Atour - الشاشة 1" },
         caption: { en: "Backend / Dashboard Screenshot.", ar: "لوحة التحكم الداخلية للمنصة." },
         type: "backend",
         viewport: "desktop"
       },
       {
-        src: "/projects/atour/backend/backend-02-dashboard.jpeg",
+        src: "/demo/projects/atour/backend/backend-02-dashboard.jpeg",
         alt: { en: "Atour backend dashboard screenshot 2", ar: "لوحة تحكم Atour - الشاشة 2" },
         caption: { en: "Backend / Dashboard Screenshot.", ar: "لوحة التحكم الداخلية للمنصة." },
         type: "backend",
         viewport: "desktop"
       },
       {
-        src: "/projects/atour/backend/backend-03-dashboard.jpeg",
+        src: "/demo/projects/atour/backend/backend-03-dashboard.jpeg",
         alt: { en: "Atour backend dashboard screenshot 3", ar: "لوحة تحكم Atour - الشاشة 3" },
         caption: { en: "Backend / Dashboard Screenshot.", ar: "لوحة التحكم الداخلية للمنصة." },
         type: "backend",
         viewport: "desktop"
       },
       {
-        src: "/projects/atour/backend/backend-04-dashboard.jpeg",
+        src: "/demo/projects/atour/backend/backend-04-dashboard.jpeg",
         alt: { en: "Atour backend dashboard screenshot 4", ar: "لوحة تحكم Atour - الشاشة 4" },
         caption: { en: "Backend / Dashboard Screenshot.", ar: "لوحة التحكم الداخلية للمنصة." },
         type: "backend",
         viewport: "desktop"
       },
       {
-        src: "/projects/atour/backend/backend-05-dashboard.jpeg",
+        src: "/demo/projects/atour/backend/backend-05-dashboard.jpeg",
         alt: { en: "Atour backend dashboard screenshot 5", ar: "لوحة تحكم Atour - الشاشة 5" },
         caption: { en: "Backend / Dashboard Screenshot.", ar: "لوحة التحكم الداخلية للمنصة." },
         type: "backend",
         viewport: "desktop"
       },
       {
-        src: "/projects/atour/backend/backend-06-dashboard.jpeg",
+        src: "/demo/projects/atour/backend/backend-06-dashboard.jpeg",
         alt: { en: "Atour backend dashboard screenshot 6", ar: "لوحة تحكم Atour - الشاشة 6" },
         caption: { en: "Backend / Dashboard Screenshot.", ar: "لوحة التحكم الداخلية للمنصة." },
         type: "backend",
         viewport: "desktop"
       },
       {
-        src: "/projects/atour/backend/backend-07-dashboard.jpeg",
+        src: "/demo/projects/atour/backend/backend-07-dashboard.jpeg",
         alt: { en: "Atour backend dashboard screenshot 7", ar: "لوحة تحكم Atour - الشاشة 7" },
         caption: { en: "Backend / Dashboard Screenshot.", ar: "لوحة التحكم الداخلية للمنصة." },
         type: "backend",
         viewport: "desktop"
       },
       {
-        src: "/projects/atour/backend/backend-08-dashboard.jpeg",
+        src: "/demo/projects/atour/backend/backend-08-dashboard.jpeg",
         alt: { en: "Atour backend dashboard screenshot 8", ar: "لوحة تحكم Atour - الشاشة 8" },
         caption: { en: "Backend / Dashboard Screenshot.", ar: "لوحة التحكم الداخلية للمنصة." },
         type: "backend",
         viewport: "desktop"
       },
       {
-        src: "/projects/atour/backend/backend-09-dashboard.jpeg",
+        src: "/demo/projects/atour/backend/backend-09-dashboard.jpeg",
         alt: { en: "Atour backend dashboard screenshot 9", ar: "لوحة تحكم Atour - الشاشة 9" },
         caption: { en: "Backend / Dashboard Screenshot.", ar: "لوحة التحكم الداخلية للمنصة." },
         type: "backend",
         viewport: "desktop"
       },
       {
-        src: "/projects/atour/backend/backend-10-dashboard.jpeg",
+        src: "/demo/projects/atour/backend/backend-10-dashboard.jpeg",
         alt: { en: "Atour backend dashboard screenshot 10", ar: "لوحة تحكم Atour - الشاشة 10" },
         caption: { en: "Backend / Dashboard Screenshot.", ar: "لوحة التحكم الداخلية للمنصة." },
         type: "backend",
         viewport: "desktop"
       },
       {
-        src: "/projects/atour/backend/backend-11-dashboard.jpeg",
+        src: "/demo/projects/atour/backend/backend-11-dashboard.jpeg",
         alt: { en: "Atour backend dashboard screenshot 11", ar: "لوحة تحكم Atour - الشاشة 11" },
         caption: { en: "Backend / Dashboard Screenshot.", ar: "لوحة التحكم الداخلية للمنصة." },
         type: "backend",
@@ -1704,11 +1704,11 @@ export const projects: Project[] = [
       "عرض جانب الموقع العام وجانب الإدارة الداخلي للمشروع."
     ],
     screenshots: [
-      "/projects/ozone-clinic/frontend/01-homepage-hero-desktop.png"
+      "/demo/projects/ozone-clinic/frontend/01-homepage-hero-desktop.png"
     ],
     frontendScreenshots: [
       {
-        src: "/projects/ozone-clinic/frontend/01-homepage-hero-desktop.png",
+        src: "/demo/projects/ozone-clinic/frontend/01-homepage-hero-desktop.png",
         alt: {
           en: "Live clinic homepage presenting services, booking actions, doctors, offers, and clinic information",
           ar: "الصفحة الرئيسية للموقع الحي تعرض الخدمات، الحجز، الأطباء، العروض، ومعلومات العيادة"
@@ -1721,7 +1721,7 @@ export const projects: Project[] = [
         viewport: "desktop"
       },
       {
-        src: "/projects/ozone-clinic/frontend/03-dental-services-desktop.png",
+        src: "/demo/projects/ozone-clinic/frontend/03-dental-services-desktop.png",
         alt: {
           en: "Dental services page with treatment and cosmetic service categories",
           ar: "صفحة خدمات الأسنان بتصنيف واضح للخدمات العلاجية والتجميلية"
@@ -1734,7 +1734,7 @@ export const projects: Project[] = [
         viewport: "desktop"
       },
       {
-        src: "/projects/ozone-clinic/frontend/04-dermatology-services-desktop.png",
+        src: "/demo/projects/ozone-clinic/frontend/04-dermatology-services-desktop.png",
         alt: {
           en: "Dermatology services page for skin and beauty treatments",
           ar: "صفحة خدمات الجلدية والعناية بالبشرة"
@@ -1747,7 +1747,7 @@ export const projects: Project[] = [
         viewport: "desktop"
       },
       {
-        src: "/projects/ozone-clinic/frontend/05-laser-services-desktop.png",
+        src: "/demo/projects/ozone-clinic/frontend/05-laser-services-desktop.png",
         alt: {
           en: "Laser services page presented in a clear clinic service layout",
           ar: "صفحة خدمات الليزر في تصميم واضح وسهل التصفح"
@@ -1760,7 +1760,7 @@ export const projects: Project[] = [
         viewport: "desktop"
       },
       {
-        src: "/projects/ozone-clinic/frontend/07-doctors-section-desktop.png",
+        src: "/demo/projects/ozone-clinic/frontend/07-doctors-section-desktop.png",
         alt: {
           en: "Doctors and specialties section designed to support trust before booking",
           ar: "قسم الأطباء والتخصصات لدعم الثقة قبل الحجز"
@@ -1773,7 +1773,7 @@ export const projects: Project[] = [
         viewport: "desktop"
       },
       {
-        src: "/projects/ozone-clinic/frontend/08-offers-section-desktop.png",
+        src: "/demo/projects/ozone-clinic/frontend/08-offers-section-desktop.png",
         alt: {
           en: "Offers section for healthcare campaigns and service promotions",
           ar: "قسم العروض لدعم الحملات والخدمات الترويجية"
@@ -1786,7 +1786,7 @@ export const projects: Project[] = [
         viewport: "desktop"
       },
       {
-        src: "/projects/ozone-clinic/frontend/09-blog-listing-desktop.png",
+        src: "/demo/projects/ozone-clinic/frontend/09-blog-listing-desktop.png",
         alt: {
           en: "Medical blog content supporting education, marketing, and SEO",
           ar: "محتوى مدونة طبي يدعم التثقيف، التسويق، والـ SEO"
@@ -1799,7 +1799,7 @@ export const projects: Project[] = [
         viewport: "desktop"
       },
       {
-        src: "/projects/ozone-clinic/frontend/10-contact-page-desktop.png",
+        src: "/demo/projects/ozone-clinic/frontend/10-contact-page-desktop.png",
         alt: {
           en: "Branch and contact information designed for quick clinic communication",
           ar: "بيانات الفروع والتواصل لتسهيل الوصول للعيادة"
@@ -1812,7 +1812,7 @@ export const projects: Project[] = [
         viewport: "desktop"
       },
       {
-        src: "/projects/ozone-clinic/frontend/11-about-page-desktop.png",
+        src: "/demo/projects/ozone-clinic/frontend/11-about-page-desktop.png",
         alt: {
           en: "About clinic page showing values and medical vision",
           ar: "صفحة عن العيادة تعرض القيم والرؤية الطبية"
@@ -1827,7 +1827,7 @@ export const projects: Project[] = [
     ],
     bookingScreenshots: [
       {
-        src: "/projects/ozone-clinic/frontend/06-reservation-booking-desktop.png",
+        src: "/demo/projects/ozone-clinic/frontend/06-reservation-booking-desktop.png",
         alt: {
           en: "Appointment booking flow for selecting branch, department, service, doctor, and time",
           ar: "مسار حجز موعد لاختيار الفرع، القسم، الخدمة، الطبيب، والوقت"
@@ -1840,7 +1840,7 @@ export const projects: Project[] = [
         viewport: "desktop"
       },
       {
-        src: "/projects/ozone-clinic/frontend/12-login-desktop.png",
+        src: "/demo/projects/ozone-clinic/frontend/12-login-desktop.png",
         alt: {
           en: "Login and authentication view for booking portal",
           ar: "واجهة تسجيل الدخول والمصادقة لبوابة الحجز"
@@ -1855,7 +1855,7 @@ export const projects: Project[] = [
     ],
     backendScreenshots: [
       {
-        src: "/projects/ozone-clinic/backend/01-dashboard-overview.png",
+        src: "/demo/projects/ozone-clinic/backend/01-dashboard-overview.png",
         alt: {
           en: "Backend dashboard overview for managing clinic operations",
           ar: "نظرة عامة على لوحة التحكم لإدارة عمليات العيادة"
@@ -1868,7 +1868,7 @@ export const projects: Project[] = [
         viewport: "desktop"
       },
       {
-        src: "/projects/ozone-clinic/backend/02-appointments-management.png",
+        src: "/demo/projects/ozone-clinic/backend/02-appointments-management.png",
         alt: {
           en: "Appointment management screen for reviewing and organizing bookings",
           ar: "شاشة إدارة المواعيد لمراجعة وتنظيم الحجوزات"
@@ -1881,7 +1881,7 @@ export const projects: Project[] = [
         viewport: "desktop"
       },
       {
-        src: "/projects/ozone-clinic/backend/03-bookings-list.png",
+        src: "/demo/projects/ozone-clinic/backend/03-bookings-list.png",
         alt: {
           en: "Bookings list view for administrative review",
           ar: "قائمة الحجوزات للمراجعة الإدارية"
@@ -1894,7 +1894,7 @@ export const projects: Project[] = [
         viewport: "desktop"
       },
       {
-        src: "/projects/ozone-clinic/backend/04-services-management.png",
+        src: "/demo/projects/ozone-clinic/backend/04-services-management.png",
         alt: {
           en: "Service management screen for organizing clinic departments and treatments",
           ar: "شاشة إدارة الخدمات لتنظيم أقسام العيادة والعلاجات"
@@ -1907,7 +1907,7 @@ export const projects: Project[] = [
         viewport: "desktop"
       },
       {
-        src: "/projects/ozone-clinic/backend/05-doctors-management.png",
+        src: "/demo/projects/ozone-clinic/backend/05-doctors-management.png",
         alt: {
           en: "Doctors management screen for handling doctors and specialties",
           ar: "شاشة إدارة الأطباء والتخصصات"
@@ -1920,7 +1920,7 @@ export const projects: Project[] = [
         viewport: "desktop"
       },
       {
-        src: "/projects/ozone-clinic/backend/06-branches-management.png",
+        src: "/demo/projects/ozone-clinic/backend/06-branches-management.png",
         alt: {
           en: "Branch management screen for clinic locations and contact details",
           ar: "شاشة إدارة الفروع وبيانات التواصل"
@@ -2050,11 +2050,11 @@ export const projects: Project[] = [
       "إنشاء أداة داخلية منظمة مناسبة للاستخدام الإداري والتشغيلي اليومي."
     ],
     screenshots: [
-      "/projects/gold-mine-erp/login.png"
+      "/demo/projects/gold-mine-erp/login.png"
     ],
     authScreenshots: [
       {
-        src: "/projects/gold-mine-erp/login.png",
+        src: "/demo/projects/gold-mine-erp/login.png",
         alt: { en: "Authentication - Login", ar: "تسجيل الدخول" },
         caption: { en: "Authentication", ar: "تسجيل الدخول" },
         type: "auth",
@@ -2063,21 +2063,21 @@ export const projects: Project[] = [
     ],
     adminScreenshots: [
       {
-        src: "/projects/gold-mine-erp/Departments.png",
+        src: "/demo/projects/gold-mine-erp/Departments.png",
         alt: { en: "Administration - Departments", ar: "الإدارة - الأقسام" },
         caption: { en: "Administration - Departments", ar: "الإدارة - الأقسام" },
         type: "dashboard",
         viewport: "desktop"
       },
       {
-        src: "/projects/gold-mine-erp/Roles.png",
+        src: "/demo/projects/gold-mine-erp/Roles.png",
         alt: { en: "Administration - Roles", ar: "الإدارة - الأدوار" },
         caption: { en: "Administration - Roles", ar: "الإدارة - الأدوار" },
         type: "dashboard",
         viewport: "desktop"
       },
       {
-        src: "/projects/gold-mine-erp/Users.png",
+        src: "/demo/projects/gold-mine-erp/Users.png",
         alt: { en: "Administration - Users", ar: "الإدارة - المستخدمين" },
         caption: { en: "Administration - Users", ar: "الإدارة - المستخدمين" },
         type: "dashboard",
@@ -2086,7 +2086,7 @@ export const projects: Project[] = [
     ],
     operationsScreenshots: [
       {
-        src: "/projects/gold-mine-erp/Tasks.png",
+        src: "/demo/projects/gold-mine-erp/Tasks.png",
         alt: { en: "Operations & Tasks", ar: "العمليات والمهام" },
         caption: { en: "Operations & Tasks", ar: "العمليات والمهام" },
         type: "dashboard",
@@ -2095,14 +2095,14 @@ export const projects: Project[] = [
     ],
     mineScreenshots: [
       {
-        src: "/projects/gold-mine-erp/Mine Reports.png",
+        src: "/demo/projects/gold-mine-erp/Mine Reports.png",
         alt: { en: "Mine Management - Mine Reports", ar: "إدارة المنجم - تقارير المنجم" },
         caption: { en: "Mine Management - Mine Reports", ar: "إدارة المنجم - تقارير المنجم" },
         type: "reports",
         viewport: "desktop"
       },
       {
-        src: "/projects/gold-mine-erp/Mine Reports2.png",
+        src: "/demo/projects/gold-mine-erp/Mine Reports2.png",
         alt: { en: "Mine Management - Mine Reports 2", ar: "إدارة المنجم - تقارير المنجم 2" },
         caption: { en: "Mine Management - Mine Reports 2", ar: "إدارة المنجم - تقارير المنجم 2" },
         type: "reports",
@@ -2111,14 +2111,14 @@ export const projects: Project[] = [
     ],
     factoryScreenshots: [
       {
-        src: "/projects/gold-mine-erp/Factory Reports.png",
+        src: "/demo/projects/gold-mine-erp/Factory Reports.png",
         alt: { en: "Factory Management - Factory Reports", ar: "إدارة المصنع - تقارير المصنع" },
         caption: { en: "Factory Management - Factory Reports", ar: "إدارة المصنع - تقارير المصنع" },
         type: "reports",
         viewport: "desktop"
       },
       {
-        src: "/projects/gold-mine-erp/Factory Reports2.png",
+        src: "/demo/projects/gold-mine-erp/Factory Reports2.png",
         alt: { en: "Factory Management - Factory Reports 2", ar: "إدارة المصنع - تقارير المصنع 2" },
         caption: { en: "Factory Management - Factory Reports 2", ar: "إدارة المصنع - تقارير المصنع 2" },
         type: "reports",
@@ -2127,35 +2127,35 @@ export const projects: Project[] = [
     ],
     warehouseScreenshots: [
       {
-        src: "/projects/gold-mine-erp/Warehouse Reports.png",
+        src: "/demo/projects/gold-mine-erp/Warehouse Reports.png",
         alt: { en: "Warehouse Management - Warehouse Reports", ar: "إدارة المخازن - تقارير المخازن" },
         caption: { en: "Warehouse Management - Warehouse Reports", ar: "إدارة المخازن - تقارير المخازن" },
         type: "reports",
         viewport: "desktop"
       },
       {
-        src: "/projects/gold-mine-erp/Warehouse Items.png",
+        src: "/demo/projects/gold-mine-erp/Warehouse Items.png",
         alt: { en: "Warehouse Management - Warehouse Items", ar: "إدارة المخازن - أصناف المخزن" },
         caption: { en: "Warehouse Management - Warehouse Items", ar: "إدارة المخازن - أصناف المخزن" },
         type: "dashboard",
         viewport: "desktop"
       },
       {
-        src: "/projects/gold-mine-erp/Warehouse Receipts.png",
+        src: "/demo/projects/gold-mine-erp/Warehouse Receipts.png",
         alt: { en: "Warehouse Management - Warehouse Receipts", ar: "إدارة المخازن - وارد المخزن" },
         caption: { en: "Warehouse Management - Warehouse Receipts", ar: "إدارة المخازن - وارد المخزن" },
         type: "dashboard",
         viewport: "desktop"
       },
       {
-        src: "/projects/gold-mine-erp/Warehouse Issues.png",
+        src: "/demo/projects/gold-mine-erp/Warehouse Issues.png",
         alt: { en: "Warehouse Management - Warehouse Issues", ar: "إدارة المخازن - منصرف المخزن" },
         caption: { en: "Warehouse Management - Warehouse Issues", ar: "إدارة المخازن - منصرف المخزن" },
         type: "dashboard",
         viewport: "desktop"
       },
       {
-        src: "/projects/gold-mine-erp/Stock Movements.png",
+        src: "/demo/projects/gold-mine-erp/Stock Movements.png",
         alt: { en: "Warehouse Management - Stock Movements", ar: "إدارة المخازن - حركات المخزون" },
         caption: { en: "Warehouse Management - Stock Movements", ar: "إدارة المخازن - حركات المخزون" },
         type: "dashboard",
@@ -2164,21 +2164,21 @@ export const projects: Project[] = [
     ],
     accountingScreenshots: [
       {
-        src: "/projects/gold-mine-erp/Accounting Reports.png",
+        src: "/demo/projects/gold-mine-erp/Accounting Reports.png",
         alt: { en: "Accounting - Accounting Reports", ar: "الحسابات - تقارير الحسابات" },
         caption: { en: "Accounting - Accounting Reports", ar: "الحسابات - تقارير الحسابات" },
         type: "reports",
         viewport: "desktop"
       },
       {
-        src: "/projects/gold-mine-erp/Operating Costs.png",
+        src: "/demo/projects/gold-mine-erp/Operating Costs.png",
         alt: { en: "Accounting - Operating Costs", ar: "الحسابات - التكاليف التشغيلية" },
         caption: { en: "Accounting - Operating Costs", ar: "الحسابات - التكاليف التشغيلية" },
         type: "dashboard",
         viewport: "desktop"
       },
       {
-        src: "/projects/gold-mine-erp/Cash Receipts.png",
+        src: "/demo/projects/gold-mine-erp/Cash Receipts.png",
         alt: { en: "Accounting - Cash Receipts", ar: "الحسابات - المقبوضات النقدية" },
         caption: { en: "Accounting - Cash Receipts", ar: "الحسابات - المقبوضات النقدية" },
         type: "dashboard",
@@ -2326,21 +2326,21 @@ export const projects: Project[] = [
       "بناء أساس CRM قابل للتوسع لإضافة تكاملات، تحليلات، أتمتة، وسير عمل للفريق."
     ],
     screenshots: [
-      "/projects/crm-order-management/dashboard.png",
-      "/projects/crm-order-management/إدارة الطلبات.png",
-      "/projects/crm-order-management/العملاء.png",
-      "/projects/crm-order-management/ربط WooCommerce.png"
+      "/demo/projects/crm-order-management/dashboard.png",
+      "/demo/projects/crm-order-management/إدارة الطلبات.png",
+      "/demo/projects/crm-order-management/العملاء.png",
+      "/demo/projects/crm-order-management/ربط WooCommerce.png"
     ],
     authThemeScreenshots: [
       {
-        src: "/projects/crm-order-management/تسجيل الدخول.png",
+        src: "/demo/projects/crm-order-management/تسجيل الدخول.png",
         alt: { en: "CRM login screen in Arabic RTL interface", ar: "شاشة تسجيل الدخول في نظام CRM العربي" },
         caption: { en: "Authentication - Login", ar: "تسجيل الدخول" },
         type: "auth",
         viewport: "desktop"
       },
       {
-        src: "/projects/crm-order-management/دارك سكرين و وايت سكرين.png",
+        src: "/demo/projects/crm-order-management/دارك سكرين و وايت سكرين.png",
         alt: { en: "CRM dashboard light and dark mode preview", ar: "معاينة الوضع الفاتح والداكن في لوحة التحكم" },
         caption: { en: "Light and Dark Modes", ar: "الوضع الفاتح والداكن" },
         type: "dashboard",
@@ -2349,7 +2349,7 @@ export const projects: Project[] = [
     ],
     dashboardScreenshots: [
       {
-        src: "/projects/crm-order-management/dashboard.png",
+        src: "/demo/projects/crm-order-management/dashboard.png",
         alt: { en: "CRM dashboard with order metrics, sales charts, customers, and recent orders", ar: "لوحة تحكم CRM تعرض مؤشرات الطلبات والمبيعات والعملاء وآخر الطلبات" },
         caption: { en: "Dashboard & Analytics", ar: "لوحة التحكم والتحليلات" },
         type: "dashboard",
@@ -2358,7 +2358,7 @@ export const projects: Project[] = [
     ],
     ordersScreenshots: [
       {
-        src: "/projects/crm-order-management/إدارة الطلبات.png",
+        src: "/demo/projects/crm-order-management/إدارة الطلبات.png",
         alt: { en: "Order management table with search, filters, pagination, export, and order tracking", ar: "جدول إدارة الطلبات مع البحث والفلاتر والتصدير وتتبع الطلبات" },
         caption: { en: "Orders Management", ar: "إدارة الطلبات" },
         type: "dashboard",
@@ -2367,35 +2367,35 @@ export const projects: Project[] = [
     ],
     customersScreenshots: [
       {
-        src: "/projects/crm-order-management/العملاء.png",
+        src: "/demo/projects/crm-order-management/العملاء.png",
         alt: { en: "Customer management table", ar: "جدول إدارة العملاء" },
         caption: { en: "Customers", ar: "العملاء" },
         type: "dashboard",
         viewport: "desktop"
       },
       {
-        src: "/projects/crm-order-management/مصادر العملاء المحتملين.png",
+        src: "/demo/projects/crm-order-management/مصادر العملاء المحتملين.png",
         alt: { en: "Lead sources lookup table", ar: "جدول مصادر العملاء المحتملين" },
         caption: { en: "Lead Sources", ar: "مصادر العملاء المحتملين" },
         type: "dashboard",
         viewport: "desktop"
       },
       {
-        src: "/projects/crm-order-management/حالات العملاء المحتملين.png",
+        src: "/demo/projects/crm-order-management/حالات العملاء المحتملين.png",
         alt: { en: "Lead statuses lookup table", ar: "جدول حالات العملاء المحتملين" },
         caption: { en: "Lead Statuses", ar: "حالات العملاء المحتملين" },
         type: "dashboard",
         viewport: "desktop"
       },
       {
-        src: "/projects/crm-order-management/حالات المتابعة.png",
+        src: "/demo/projects/crm-order-management/حالات المتابعة.png",
         alt: { en: "Follow-up statuses lookup table", ar: "جدول حالات المتابعة" },
         caption: { en: "Follow-Up Statuses", ar: "حالات المتابعة" },
         type: "dashboard",
         viewport: "desktop"
       },
       {
-        src: "/projects/crm-order-management/أولويات المتابعة.png",
+        src: "/demo/projects/crm-order-management/أولويات المتابعة.png",
         alt: { en: "Follow-up priorities lookup table", ar: "جدول أولويات المتابعة" },
         caption: { en: "Follow-Up Priorities", ar: "أولويات المتابعة" },
         type: "dashboard",
@@ -2404,28 +2404,28 @@ export const projects: Project[] = [
     ],
     adminScreenshots: [
       {
-        src: "/projects/crm-order-management/المستخدمون.png",
+        src: "/demo/projects/crm-order-management/المستخدمون.png",
         alt: { en: "Users management screen", ar: "شاشة إدارة المستخدمين" },
         caption: { en: "Users Management", ar: "إدارة المستخدمين" },
         type: "dashboard",
         viewport: "desktop"
       },
       {
-        src: "/projects/crm-order-management/الأدوار.png",
+        src: "/demo/projects/crm-order-management/الأدوار.png",
         alt: { en: "Roles management screen", ar: "شاشة إدارة الأدوار" },
         caption: { en: "Roles Management", ar: "إدارة الأدوار" },
         type: "dashboard",
         viewport: "desktop"
       },
       {
-        src: "/projects/crm-order-management/الصلاحيات.png",
+        src: "/demo/projects/crm-order-management/الصلاحيات.png",
         alt: { en: "Permissions management screen", ar: "شاشة إدارة الصلاحيات" },
         caption: { en: "Permissions Management", ar: "إدارة الصلاحيات" },
         type: "dashboard",
         viewport: "desktop"
       },
       {
-        src: "/projects/crm-order-management/الإعدادات.png",
+        src: "/demo/projects/crm-order-management/الإعدادات.png",
         alt: { en: "System settings management screen", ar: "شاشة إدارة الإعدادات" },
         caption: { en: "System Settings", ar: "الإعدادات" },
         type: "settings",
@@ -2434,7 +2434,7 @@ export const projects: Project[] = [
     ],
     woocommerceScreenshots: [
       {
-        src: "/projects/crm-order-management/ربط WooCommerce.png",
+        src: "/demo/projects/crm-order-management/ربط WooCommerce.png",
         alt: { en: "WooCommerce webhook integration setup screen", ar: "شاشة إعداد ربط WooCommerce عبر Webhooks" },
         caption: { en: "WooCommerce Integration", ar: "ربط WooCommerce" },
         type: "settings",
@@ -2443,77 +2443,77 @@ export const projects: Project[] = [
     ],
     lookupTablesScreenshots: [
       {
-        src: "/projects/crm-order-management/تصنيفات المنتجات.png",
+        src: "/demo/projects/crm-order-management/تصنيفات المنتجات.png",
         alt: { en: "Product categories lookup table", ar: "جدول تصنيفات المنتجات" },
         caption: { en: "Product Categories", ar: "تصنيفات المنتجات" },
         type: "dashboard",
         viewport: "desktop"
       },
       {
-        src: "/projects/crm-order-management/وسائل الدفع.png",
+        src: "/demo/projects/crm-order-management/وسائل الدفع.png",
         alt: { en: "Payment methods lookup table", ar: "جدول وسائل الدفع" },
         caption: { en: "Payment Methods", ar: "وسائل الدفع" },
         type: "dashboard",
         viewport: "desktop"
       },
       {
-        src: "/projects/crm-order-management/أنواع المرفقات.png",
+        src: "/demo/projects/crm-order-management/أنواع المرفقات.png",
         alt: { en: "Attachment types lookup table", ar: "جدول أنواع المرفقات" },
         caption: { en: "Attachment Types", ar: "أنواع المرفقات" },
         type: "dashboard",
         viewport: "desktop"
       },
       {
-        src: "/projects/crm-order-management/حالات الطلبات.png",
+        src: "/demo/projects/crm-order-management/حالات الطلبات.png",
         alt: { en: "Order statuses lookup table", ar: "جدول حالات الطلبات" },
         caption: { en: "Order Statuses", ar: "حالات الطلبات" },
         type: "dashboard",
         viewport: "desktop"
       },
       {
-        src: "/projects/crm-order-management/حالات الدفع.png",
+        src: "/demo/projects/crm-order-management/حالات الدفع.png",
         alt: { en: "Payment statuses lookup table", ar: "جدول حالات الدفع" },
         caption: { en: "Payment Statuses", ar: "حالات الدفع" },
         type: "dashboard",
         viewport: "desktop"
       },
       {
-        src: "/projects/crm-order-management/حالات الشحنات.png",
+        src: "/demo/projects/crm-order-management/حالات الشحنات.png",
         alt: { en: "Shipment statuses lookup table", ar: "جدول حالات الشحنات" },
         caption: { en: "Shipment Statuses", ar: "حالات الشحنات" },
         type: "dashboard",
         viewport: "desktop"
       },
       {
-        src: "/projects/crm-order-management/حالات المرتجعات.png",
+        src: "/demo/projects/crm-order-management/حالات المرتجعات.png",
         alt: { en: "Return statuses lookup table", ar: "جدول حالات المرتجعات" },
         caption: { en: "Return Statuses", ar: "حالات المرتجعات" },
         type: "dashboard",
         viewport: "desktop"
       },
       {
-        src: "/projects/crm-order-management/حالات التأخير.png",
+        src: "/demo/projects/crm-order-management/حالات التأخير.png",
         alt: { en: "Delay statuses lookup table", ar: "جدول حالات التأخير" },
         caption: { en: "Delay Statuses", ar: "حالات التأخير" },
         type: "dashboard",
         viewport: "desktop"
       },
       {
-        src: "/projects/crm-order-management/أسباب الإلغاء.png",
+        src: "/demo/projects/crm-order-management/أسباب الإلغاء.png",
         alt: { en: "Cancellation reasons lookup table", ar: "جدول أسباب الإلغاء" },
         caption: { en: "Cancellation Reasons", ar: "أسباب الإلغاء" },
         type: "dashboard",
         viewport: "desktop"
       },
       {
-        src: "/projects/crm-order-management/أسباب التأخير.png",
+        src: "/demo/projects/crm-order-management/أسباب التأخير.png",
         alt: { en: "Delay reasons lookup table", ar: "جدول أسباب التأخير" },
         caption: { en: "Delay Reasons", ar: "أسباب التأخير" },
         type: "dashboard",
         viewport: "desktop"
       },
       {
-        src: "/projects/crm-order-management/أسباب المرتجعات.png",
+        src: "/demo/projects/crm-order-management/أسباب المرتجعات.png",
         alt: { en: "Return reasons lookup table", ar: "جدول أسباب المرتجعات" },
         caption: { en: "Return Reasons", ar: "أسباب المرتجعات" },
         type: "dashboard",
