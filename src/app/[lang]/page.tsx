@@ -602,102 +602,138 @@ export default async function Home({
         })()}
       </section>
 
-      {/* Why Work With Me Section */}
+      {/* More than a WordPress implementer Section */}
       <section className="container mx-auto px-4 py-24 border-t border-white/5 relative overflow-hidden">
         {/* Subtle background glow */}
         <div className="absolute inset-0 bg-[#0B1020]/30 -z-10" />
         <div className="absolute top-0 left-1/2 -translate-x-1/2 w-3/4 h-[500px] bg-[#38BDF8]/5 blur-[120px] rounded-full -z-10 pointer-events-none" />
 
-        <div className="max-w-7xl mx-auto flex flex-col lg:flex-row gap-16 lg:gap-24 items-center">
-          {/* Left Side: Content */}
-          <div className="lg:w-5/12 space-y-8">
-            <h2 className="text-3xl md:text-5xl font-extrabold tracking-tight leading-tight">
-              {lang === "ar" ? "أكثر من مجرد تنفيذ WordPress" : "More than a WordPress implementer"}
-            </h2>
-            <div className="space-y-6 text-[#94A3B8] text-lg leading-relaxed">
-              <p>
-                {lang === "ar"
-                  ? "أبني حلول WordPress وWooCommerce وLaravel مبنية على سير العمل الحقيقي للشركات — وليس مجرد صفحات أو قوالب جاهزة أو تركيب إضافات."
-                  : "I build WordPress, WooCommerce, and Laravel solutions around real business workflows — not just pages, themes, or plugin installations."}
+        <div className="max-w-7xl mx-auto flex flex-col lg:flex-row gap-12 lg:gap-20 items-start">
+
+          {/* Left Side: Portrait */}
+          <div className="w-full lg:w-72 flex-shrink-0 flex flex-col items-center lg:items-start">
+            <div className="relative w-56 h-56 lg:w-64 lg:h-64 rounded-2xl overflow-hidden border border-white/10 shadow-2xl">
+              <Image
+                src="/demo/profile.png"
+                alt={lang === "ar" ? "محمد ناصر، مطور WordPress وWooCommerce" : "Muhammed Nasser, WordPress and WooCommerce Developer"}
+                fill
+                sizes="(max-width: 1024px) 224px, 256px"
+                className="object-cover object-top"
+                priority
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-[#0B1020]/40 via-transparent to-transparent pointer-events-none" />
+            </div>
+            <div className="mt-5 text-center lg:text-start">
+              <p className="text-white font-bold text-lg">Muhammed Nasser</p>
+              <p className="text-[#38BDF8] text-sm font-medium mt-1">
+                {lang === "ar" ? "مطور WordPress & WooCommerce" : "WordPress & WooCommerce Developer"}
               </p>
-              <p>
-                {lang === "ar"
-                  ? "من تخصيص مسارات الدفع ودمج وسائل الدفع إلى لوحات التحكم والمتاجر متعددة الأسواق، أركز على جعل المنصة مناسبة لطريقة عمل الشركة فعليًا."
-                  : "From custom checkout logic and payment integrations to admin dashboards and multi-market stores, my focus is to make the platform fit how the business actually works."}
-              </p>
+              <div className="flex items-center gap-2 mt-3 justify-center lg:justify-start">
+                <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+                <span className="text-xs text-[#94A3B8]">
+                  {lang === "ar" ? "متاح لمشاريع جديدة" : "Available for new projects"}
+                </span>
+              </div>
             </div>
           </div>
 
-          {/* Right Side: 2x2 Grid */}
-          <div className="lg:w-7/12 grid grid-cols-1 sm:grid-cols-2 gap-6">
-            {/* Card 1 */}
-            <div className="bg-[#111827] border border-white/5 p-8 rounded-2xl hover:border-[#38BDF8]/30 hover:-translate-y-1 transition-all">
-              <div className="w-12 h-12 bg-[#38BDF8]/10 text-[#38BDF8] rounded-xl flex items-center justify-center mb-6">
-                <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-                </svg>
-              </div>
-              <h3 className="text-xl font-bold text-white mb-3">
-                {lang === "ar" ? "تطوير مبني على فهم العمل" : "Business-first development"}
-              </h3>
-              <p className="text-[#94A3B8] text-sm leading-relaxed">
-                {lang === "ar"
-                  ? "أبدأ من سير العمل واحتياجات الشركة، وليس من قالب جاهز."
-                  : "I start from the business workflow, not from a template."}
+          {/* Right Side: Content + Cards */}
+          <div className="flex-1 space-y-10">
+            {/* Eyebrow + Title + Body */}
+            <div className="space-y-6">
+              <p className="text-[#38BDF8] text-sm font-bold uppercase tracking-widest">
+                {lang === "ar" ? "عن محمد" : "About Muhammed"}
               </p>
+              <h2 className="text-3xl md:text-5xl font-extrabold tracking-tight leading-tight">
+                {lang === "ar" ? "أكثر من مجرد تنفيذ WordPress" : "More than a WordPress implementer"}
+              </h2>
+              <div className="space-y-4 text-[#94A3B8] text-lg leading-relaxed max-w-2xl">
+                <p>
+                  {lang === "ar"
+                    ? "أنا محمد ناصر، مطور WordPress وWooCommerce بخبرة أكثر من 8 سنوات في بناء مواقع مخصصة، متاجر إلكترونية، إضافات، وأنظمة ويب موجهة لاحتياجات الأعمال."
+                    : "I'm Muhammed Nasser, a WordPress & WooCommerce developer with 8+ years of experience building custom websites, online stores, plugins, and business-focused web systems."}
+                </p>
+                <p>
+                  {lang === "ar"
+                    ? "أبني حلول WordPress وWooCommerce وLaravel مبنية على سير العمل الحقيقي للشركات — وليس مجرد صفحات أو قوالب جاهزة أو تركيب إضافات."
+                    : "I build WordPress, WooCommerce, and Laravel solutions around real business workflows — not just pages, themes, or plugin installations."}
+                </p>
+              </div>
             </div>
 
-            {/* Card 2 */}
-            <div className="bg-[#111827] border border-white/5 p-8 rounded-2xl hover:border-[#38BDF8]/30 hover:-translate-y-1 transition-all">
-              <div className="w-12 h-12 bg-[#38BDF8]/10 text-[#38BDF8] rounded-xl flex items-center justify-center mb-6">
-                <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
-                </svg>
-              </div>
-              <h3 className="text-xl font-bold text-white mb-3">
-                {lang === "ar" ? "قدرة على تخصيص WordPress" : "Custom WordPress capability"}
-              </h3>
-              <p className="text-[#94A3B8] text-sm leading-relaxed">
-                {lang === "ar"
-                  ? "قوالب، إضافات، مسارات WooCommerce، وتجارب إدارة مبنية حول احتياجات فعلية."
-                  : "Themes, plugins, WooCommerce flows, and admin experiences built around real needs."}
-              </p>
-            </div>
+            {/* 4 Value Cards 2x2 Grid */}
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
 
-            {/* Card 3 */}
-            <div className="bg-[#111827] border border-white/5 p-8 rounded-2xl hover:border-[#38BDF8]/30 hover:-translate-y-1 transition-all">
-              <div className="w-12 h-12 bg-[#38BDF8]/10 text-[#38BDF8] rounded-xl flex items-center justify-center mb-6">
-                <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4m0 5c0 2.21-3.582 4-8 4s-8-1.79-8-4" />
-                </svg>
+              {/* Card 1 */}
+              <div className="bg-[#111827] border border-white/5 p-6 rounded-2xl hover:border-[#38BDF8]/30 hover:-translate-y-1 transition-all">
+                <div className="w-10 h-10 bg-[#38BDF8]/10 text-[#38BDF8] rounded-xl flex items-center justify-center mb-4">
+                  <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                  </svg>
+                </div>
+                <h3 className="text-base font-bold text-white mb-2">
+                  {lang === "ar" ? "تطوير مبني على فهم العمل" : "Business-first development"}
+                </h3>
+                <p className="text-[#94A3B8] text-sm leading-relaxed">
+                  {lang === "ar"
+                    ? "أبدأ من سير العمل واحتياجات الشركة، وليس من قالب جاهز."
+                    : "I start from the business workflow, not from a template."}
+                </p>
               </div>
-              <h3 className="text-xl font-bold text-white mb-3">
-                {lang === "ar" ? "تفكير يجمع بين WooCommerce والأنظمة الخلفية" : "WooCommerce + backend thinking"}
-              </h3>
-              <p className="text-[#94A3B8] text-sm leading-relaxed">
-                {lang === "ar"
-                  ? "أربط المتاجر، لوحات التحكم، APIs، وسائل الدفع، والعمليات التشغيلية."
-                  : "I connect storefronts, dashboards, APIs, payments, and operational processes."}
-              </p>
-            </div>
 
-            {/* Card 4 */}
-            <div className="bg-[#111827] border border-white/5 p-8 rounded-2xl hover:border-[#38BDF8]/30 hover:-translate-y-1 transition-all">
-              <div className="w-12 h-12 bg-[#38BDF8]/10 text-[#38BDF8] rounded-xl flex items-center justify-center mb-6">
-                <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                </svg>
+              {/* Card 2 */}
+              <div className="bg-[#111827] border border-white/5 p-6 rounded-2xl hover:border-[#38BDF8]/30 hover:-translate-y-1 transition-all">
+                <div className="w-10 h-10 bg-[#38BDF8]/10 text-[#38BDF8] rounded-xl flex items-center justify-center mb-4">
+                  <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
+                  </svg>
+                </div>
+                <h3 className="text-base font-bold text-white mb-2">
+                  {lang === "ar" ? "قدرة على تخصيص WordPress" : "Custom WordPress capability"}
+                </h3>
+                <p className="text-[#94A3B8] text-sm leading-relaxed">
+                  {lang === "ar"
+                    ? "قوالب، إضافات، مسارات WooCommerce، وتجارب إدارة مبنية حول احتياجات فعلية."
+                    : "Themes, plugins, WooCommerce flows, and admin experiences built around real needs."}
+                </p>
               </div>
-              <h3 className="text-xl font-bold text-white mb-3">
-                {lang === "ar" ? "خبرة في العربية والإنجليزية وRTL" : "Arabic, English & RTL experience"}
-              </h3>
-              <p className="text-[#94A3B8] text-sm leading-relaxed">
-                {lang === "ar"
-                  ? "أبني تجارب ثنائية اللغة وداعمة لاتجاه RTL للشركات في الخليج والشرق الأوسط."
-                  : "I build bilingual and RTL-friendly experiences for MENA and GCC businesses."}
-              </p>
+
+              {/* Card 3 */}
+              <div className="bg-[#111827] border border-white/5 p-6 rounded-2xl hover:border-[#38BDF8]/30 hover:-translate-y-1 transition-all">
+                <div className="w-10 h-10 bg-[#38BDF8]/10 text-[#38BDF8] rounded-xl flex items-center justify-center mb-4">
+                  <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4m0 5c0 2.21-3.582 4-8 4s-8-1.79-8-4" />
+                  </svg>
+                </div>
+                <h3 className="text-base font-bold text-white mb-2">
+                  {lang === "ar" ? "تفكير يجمع بين WooCommerce والأنظمة الخلفية" : "WooCommerce + backend thinking"}
+                </h3>
+                <p className="text-[#94A3B8] text-sm leading-relaxed">
+                  {lang === "ar"
+                    ? "أربط المتاجر، لوحات التحكم، APIs، وسائل الدفع، والعمليات التشغيلية."
+                    : "I connect storefronts, dashboards, APIs, payments, and operational processes."}
+                </p>
+              </div>
+
+              {/* Card 4 */}
+              <div className="bg-[#111827] border border-white/5 p-6 rounded-2xl hover:border-[#38BDF8]/30 hover:-translate-y-1 transition-all">
+                <div className="w-10 h-10 bg-[#38BDF8]/10 text-[#38BDF8] rounded-xl flex items-center justify-center mb-4">
+                  <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                  </svg>
+                </div>
+                <h3 className="text-base font-bold text-white mb-2">
+                  {lang === "ar" ? "خبرة في العربية والإنجليزية وRTL" : "Arabic, English & RTL experience"}
+                </h3>
+                <p className="text-[#94A3B8] text-sm leading-relaxed">
+                  {lang === "ar"
+                    ? "أبني تجارب ثنائية اللغة وداعمة لاتجاه RTL للشركات في الخليج والشرق الأوسط."
+                    : "I build bilingual and RTL-friendly experiences for MENA and GCC businesses."}
+                </p>
+              </div>
             </div>
           </div>
+
         </div>
       </section>
 
