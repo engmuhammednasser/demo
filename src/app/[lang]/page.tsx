@@ -58,8 +58,62 @@ export default async function Home({
         </div>
       </section>
 
+      {/* 2. Problems I Help Fix */}
+      <section className="container mx-auto px-4 py-14 max-w-6xl">
+        <div className="text-center mb-12">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold tracking-tight mb-4">
+            WordPress &amp; WooCommerce Problems I Help Businesses Fix
+          </h2>
+          <p className="text-[#94A3B8] text-base md:text-lg max-w-2xl mx-auto leading-relaxed">
+            I help businesses improve, customize, and scale their WordPress platforms with practical solutions built around real workflows.
+          </p>
+        </div>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+          {[
+            {
+              icon: "⚡",
+              title: "Slow WooCommerce Stores",
+              desc: "I optimize slow stores that affect user experience, conversions, and sales.",
+            },
+            {
+              icon: "💳",
+              title: "Checkout & Payment Issues",
+              desc: "I customize checkout flows and integrate payment methods that match business needs.",
+            },
+            {
+              icon: "🔌",
+              title: "Plugin Limitations",
+              desc: "I build custom plugins when ready-made solutions don't fit your workflow.",
+            },
+            {
+              icon: "⚙️",
+              title: "Custom Business Logic",
+              desc: "I create custom WordPress and Laravel solutions for booking, CRM, ERP, dashboards, and internal operations.",
+            },
+            {
+              icon: "🌐",
+              title: "Arabic & RTL Experiences",
+              desc: "I build clean Arabic, English, and bilingual interfaces with proper RTL support.",
+            },
+            {
+              icon: "📊",
+              title: "Admin Dashboards",
+              desc: "I develop backend systems and dashboards that help teams manage real business processes.",
+            },
+          ].map((item, i) => (
+            <div
+              key={i}
+              className="bg-[#0D1526] border border-white/5 rounded-2xl p-6 flex flex-col gap-3 hover:border-[#38BDF8]/25 hover:shadow-[0_0_20px_rgba(56,189,248,0.06)] transition-all"
+            >
+              <span className="text-2xl">{item.icon}</span>
+              <h3 className="text-base font-bold text-[#F8FAFC] leading-snug">{item.title}</h3>
+              <p className="text-[#94A3B8] text-sm leading-relaxed">{item.desc}</p>
+            </div>
+          ))}
+        </div>
+      </section>
 
-      {/* 2. Choose Your Path */}
+      {/* 3. Choose Your Path */}
       <section className="container mx-auto px-4 py-12">
         <h2 className="text-3xl md:text-4xl font-extrabold text-center mb-16 tracking-tight">{t.home.choosePath}</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
