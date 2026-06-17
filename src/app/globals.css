@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+:root {
+  --background: #05070D;
+  --foreground: #F8FAFC;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-inter: var(--font-inter);
+  --font-cairo: var(--font-cairo);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+}
+
+/* Apply Inter font when the inter variable class is present */
+.font-inter {
+  font-family: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+}
+
+/* Apply Cairo font when the cairo variable class is present — covers ALL elements */
+.font-cairo,
+.font-cairo * {
+  font-family: var(--font-cairo), "Cairo", ui-sans-serif, system-ui, sans-serif;
+}

@@ -1,0 +1,281 @@
+[
+  {
+    "slug": "eventgift",
+    "title": "EventGift Multi-Market Gifting Platform",
+    "industry": "E-COMMERCE · CORPORATE GIFTING",
+    "category": "B2B Gifting",
+    "type": "Multi-Market Storefront",
+    "summary": "A scalable B2B gifting experience designed around localized storefronts, deep catalog navigation, and business-ready ordering flows.",
+    "description": "Developed as a comprehensive B2B ecommerce solution, EventGift handles complex multi-market catalog requirements with localized storefronts across the GCC. The platform focuses on high-intent business users, streamlining the corporate gifting workflow from product discovery to multi-destination logistics."
+  },
+  {
+    "slug": "techmart",
+    "title": "Techmart Apple Retail eCommerce Experience",
+    "industry": "E-COMMERCE · APPLE RETAIL",
+    "category": "Retail E-commerce",
+    "type": "Authorized Reseller Platform",
+    "summary": "An Apple-focused retail storefront designed around structured product discovery, offer-led merchandising, and smoother purchase journeys.",
+    "description": "Techmart is a high-performance Apple-centric storefront built to handle high-frequency retail transactions. The platform integrates specialized trade-in and installment modules, providing a premium shopping experience that mirrors Apple's retail standards in the Middle East."
+  },
+  {
+    "slug": "ashhalan",
+    "title": "Ashhalan Group Corporate Brand Platform",
+    "industry": "CORPORATE · GROUP PLATFORM",
+    "category": "Business Group",
+    "type": "Brand Architecture Platform",
+    "summary": "A corporate group platform built to present a diversified business portfolio with clearer structure, stronger trust signals, and subsidiary visibility.",
+    "description": "Ashhalan Group required a unified Brand Architecture that could represent multiple business units under one cohesive digital umbrella. The platform emphasizes executive-level trust, high-quality corporate storytelling, and effortless subsidiary discoverability for global stakeholders."
+  },
+  {
+    "slug": "botella",
+    "title": "Botella DTC Product Storefront",
+    "industry": "DTC E-COMMERCE · DRINKWARE",
+    "category": "DTC Lifestyle",
+    "type": "Product Collection Platform",
+    "summary": "A brand-led drinkware storefront built around product collections, variant-rich shopping, and a cleaner direct-to-consumer browsing experience.",
+    "description": "Botella is a Direct-to-Consumer (DTC) storefront that bridges lifestyle branding with efficient commerce loops. The experience focuses on product variant browsing and seamless collections, enabling customers to discover the perfect drinkware product through a high-performance, mobile-first interface."
+  },
+  {
+    "slug": "nora24jewelry",
+    "title": "Nora 24 Luxury Jewelry",
+    "industry": "E-COMMERCE · JEWELRY",
+    "category": "Retail E-commerce",
+    "type": "Product Catalog Platform",
+    "summary": "An elegant luxury storefront focusing on product collections, high-value visual merchandising, and seamless retail discovery.",
+    "description": "The Nora 24 digital experience handles jewelry product discovery through refined category logic, high-quality asset presentation, and an intuitive direct-to-consumer flow. The platform is optimized for luxury visual storytelling, ensuring every piece of jewelry is presented with maximum aesthetic impact."
+  },
+  {
+    "slug": "gobeagency",
+    "title": "Gobe Agency Corporate Portfolio",
+    "industry": "AGENCY · CREATIVE",
+    "category": "Digital Agency",
+    "type": "Agency Presentation Platform",
+    "summary": "A refined agency portfolio emphasizing creative services, structured case studies, and corporate branding authority.",
+    "description": "The Gobe Agency platform is architected to establish creative authority in the digital agency space. It focuses on presenting comprehensive service hierarchies alongside proven work, structured in a way that appeals to high-tier B2B clients looking for modern branding and performance-led digital solutions."
+  },
+  {
+    "slug": "genedyeg",
+    "title": "Genedy Group Construction Platform",
+    "industry": "CORPORATE · CONSTRUCTION",
+    "category": "Business Group",
+    "type": "Corporate Profile Platform",
+    "summary": "A corporate profile structured to present large-scale construction sectors, landmark projects, and institutional trust.",
+    "description": "Developed to reflect the immense scale of Genedy Construction, this platform structures vast arrays of operational data—from engineering sectors to landmark projects—into an easily navigable corporate overview. The user journey is tailored for global stakeholders seeking evidence of execution capacity and institutional reliability."
+  },
+  {
+    "slug": "a2mkw",
+    "title": "A2M Digital Marketing Agency",
+    "industry": "AGENCY · DIGITAL MARKETING",
+    "category": "Digital Agency",
+    "type": "Service Presentation Platform",
+    "summary": "A digital marketing agency platform focusing on service comprehensiveness, digital presence, and high-performance campaign management.",
+    "description": "Designed to effectively market the marketers, the A2M platform details the agency's proficiency across multiple digital verticals including SEO, PPC, and Social Media Management. The hierarchy is organized to lead B2B visitors directly toward service comprehensiveness and clear conversion pathways in the Kuwait market."
+  },
+  {
+    "slug": "nuc-kw",
+    "title": "National United Co. Profile",
+    "industry": "CORPORATE · INSTITUTIONAL",
+    "category": "Business Group",
+    "type": "Corporate Overview Platform",
+    "summary": "An institutional presentation for National United Co., emphasizing structural reliability, mission alignment, and industrial services.",
+    "description": "National United Co. utilizes this platform to present institutional maturity and structural reliability in the industrial sector. The site functions as an executive-level overview detailing comprehensive operational capabilities, industrial scale, and evidence of significant project capabilities within Kuwait."
+  },
+  {
+    "slug": "tbinnovation",
+    "title": "TB Innovation Tech Agency",
+    "industry": "AGENCY · TECHNOLOGY",
+    "category": "Digital Agency",
+    "type": "Service Presentation Platform",
+    "summary": "A technology-focused agency platform prioritizing digital innovation, technical service methodologies, and innovation cases.",
+    "description": "Targeted directly at modern corporate needs, the TB Innovation platform highlights robust digital transformation solutions. The experience acts as a lead generation tool that clearly articulates technical stacks, innovative methodologies, and demonstrated success records across multiple technology verticals."
+  },
+  {
+    "slug": "mediaandmore",
+    "title": "Media & More Production",
+    "industry": "AGENCY · MEDIA PRODUCTION",
+    "category": "Creative Agency",
+    "type": "Service Presentation Platform",
+    "summary": "A media production agency platform highlighting multimedia services, production trust, and visual capabilities.",
+    "description": "This platform serves as the digital front door for Media & More, focusing inherently on high-end visual production capabilities. By mapping out extensive related services like video production and content creation, the hierarchy perfectly routes media seekers directly to proof of visual excellence."
+  },
+  {
+    "slug": "pxls-creative",
+    "title": "PXLS Creative Studio",
+    "industry": "AGENCY · CREATIVE STUDIO",
+    "category": "Digital Agency",
+    "type": "Corporate Portfolio Platform",
+    "summary": "A creative studio platform prioritizing visual design storytelling, methodology, and designer-led branding.",
+    "description": "PXLS Creative operates natively in the visual and branding spaces. This portfolio project reflects that aesthetic orientation by maintaining a clean, premium interface designed to immediately communicate design excellence, branding authority, and visual storytelling capabilities."
+  },
+  {
+    "slug": "eventgift-sa",
+    "title": "Event Gift Saudi Arabia",
+    "industry": "E-COMMERCE · CORPORATE GIFTING",
+    "category": "B2B Gifting",
+    "type": "Regional Storefront Platform",
+    "summary": "A standalone regional gifting portal dedicated to the Saudi Arabian market, optimizing catalog discovery for localized business procurement.",
+    "description": "This standalone expansion of the EventGift ecosystem is tailored for the KSA demographic. The platform integrates local currency, specialized gifting categories compliant with regional corporate culture, and a streamlined checkout process designed for Saudi-specific logistics and procurement workflows."
+  },
+  {
+    "slug": "eventgift-eg",
+    "title": "Event Gift Egypt",
+    "industry": "E-COMMERCE · CORPORATE GIFTING",
+    "category": "B2B Gifting",
+    "type": "Regional Storefront Platform",
+    "summary": "A dedicated marketplace for corporate gifting in Egypt, focusing on local production highlights and simplified procurement loops.",
+    "description": "This standalone platform represents the Egyptian branch of the EventGift network. It focuses on local market demands, featuring EGP currency integration, localized product sourcing, and a catalog structure that emphasizes the unique gifting needs of the Egyptian corporate sector."
+  },
+  {
+    "slug": "ashhalanksa",
+    "title": "Ashhalan KSA Storefront",
+    "industry": "E-COMMERCE · SUPPLY STORE",
+    "category": "Supply Store",
+    "type": "Regional Storefront Platform",
+    "summary": "A high-performance KSA-specific retail storefront for industrial supplies, focusing on catalog volume and rapid procurement.",
+    "description": "Ashhalan KSA is a dedicated storefront for the Saudi Arabian industrial and supply market. The platform is architected to handle complex catalogs with thousands of items, providing a robust search-and-discovery engine tailored for high-volume B2B and retail industrial stakeholders."
+  },
+  {
+    "slug": "ashhalanlogistics",
+    "title": "Ashhalan Logistics",
+    "industry": "LOGISTICS · SERVICE PLATFORM",
+    "category": "Logistics Service",
+    "type": "Business Service Platform",
+    "summary": "A clean, high-performance service presentation platform for Ashhalan Group’s international logistics and supply chain operations.",
+    "description": "Ashhalan Logistics is a service-led platform designed to present global supply chain capabilities. The experience focuses on logistics architecture, surfacing complex freight and storage service hierarchies, and establishing executive-level trust through streamlined business-to-business content structures."
+  },
+  {
+    "slug": "ashhalancarrental",
+    "title": "Ashhalan Car Rental Platform",
+    "industry": "MOBILITY · CAR RENTAL PLATFORM",
+    "category": "Mobility Platform",
+    "type": "Booking & Fleet Management Platform",
+    "summary": "A comprehensive mobility platform for vehicle rentals, featuring high-volume fleet browsing, structured rental plan selection, and localized booking flows.",
+    "description": "Developed to handle complex mobility requirements, the Ashhalan Car Rental platform structures vast vehicle inventories into an intuitive browsing experience. The interface focuses on booking intent, providing stakeholders with clear vehicle attributes, transparent rental plan comparisons, and a streamlined path to service engagement."
+  },
+  {
+    "slug": "mahmmoud-gomaa",
+    "title": "Mahmmoud Gomaa Filmmaker Portfolio",
+    "industry": "MEDIA · FILMMAKING",
+    "category": "Artist Portfolio",
+    "type": "Creative Showcase Platform",
+    "summary": "A bold, high-contrast digital portfolio for Mahmmoud Gomaa, highlighting cinematic work, production reels, and creative services.",
+    "description": "Designed to reflect a modern filmmaking aesthetic, this portfolio utilizes a high-energy yellow and black palette to showcase Mahmmoud Gomaa's cinematic expertise. The platform integrates video-centric galleries and structured service categories, providing a high-impact visual narrative. Experience the complete creative journey also documented on Behance."
+  },
+  {
+    "slug": "mashora",
+    "title": "Mashora Business Consultation",
+    "industry": "CONSULTING · BUSINESS SERVICES",
+    "category": "Business Consultation",
+    "type": "Service Presentation Platform",
+    "summary": "A professional service platform for business consultation and strategic planning, focusing on expertise presentation and client engagement.",
+    "description": "Mashora provides a structured digital presence for business advisory services. The platform emphasizes professional trust, detailing a comprehensive suite of consulting services from strategic management to operational efficiency. Designed to bridge the gap between high-level expertise and client needs through a clean, conversion-ready interface."
+  },
+  {
+    "slug": "originals-hub",
+    "title": "Originals Hub WooCommerce Store",
+    "industry": "E-COMMERCE · FASHION & LIFESTYLE",
+    "category": "WooCommerce Store",
+    "type": "Product Discovery Platform",
+    "summary": "A high-performance WooCommerce storefront designed for seamless product discovery, featuring custom collection grids and a refined shopping experience.",
+    "description": "Originals Hub is an e-commerce platform built to drive conversion through visual-first product presentation. The store integrates custom collections and a mobile-optimized shopping flow, ensuring a fluid journey from discovery to checkout. Explore the full technical breakdown and creative process documented on Behance."
+  },
+  {
+    "slug": "arcadia-digital",
+    "title": "Arcadia Digital Solutions",
+    "industry": "DIGITAL AGENCY · ADVERTISING",
+    "category": "Digital Agency",
+    "type": "Agency Platform & Case Studies",
+    "summary": "A robust service platform for Arcadia Digital, showcasing a comprehensive suite of digital marketing, advertising, and branding solutions.",
+    "description": "Arcadia Digital Solutions functions as a high-authority hub for digital excellence. The platform integrates complex service architectures and brand storytelling, utilizing WordPress and Elementor Pro to deliver a performant, scalable digital experience. Designed for high-tier corporate engagement, it emphasizes strategic depth and creative precision."
+  },
+  {
+    "slug": "diwaniya",
+    "title": "Diwaniya Cultural Platform",
+    "industry": "COMMUNITY · CULTURAL HUB",
+    "category": "Cultural Platform",
+    "type": "Community Engagement System",
+    "summary": "A refined digital showcase for Diwaniya Al-Arbe'a, focusing on community engagement, cultural storytelling, and session documentation.",
+    "description": "Developed to preserve and project traditional cultural values in a digital age, the Diwaniya platform bridges cultural heritage with modern interface design. The system documents recurring sessions, attendee analytics, and community impact through a clean, typography-led architecture. Designed for institutional trust, it provides a performant narrative for cultural stakeholders and participants."
+  },
+  {
+    "slug": "kuwait-arc",
+    "title": "Kuwait Arc Industrial Platform",
+    "industry": "INDUSTRIAL · MANUFACTURING",
+    "category": "Industrial Branding",
+    "type": "Product Catalog & Service Showcase",
+    "summary": "A high-authority industrial platform for Kuwait Arc, showcasing over 50 years of excellence in stainless steel and aluminum fabrication.",
+    "description": "Kuwait Arc's digital presence serves as a comprehensive catalog and capability showcase for the industrial manufacturing sector. The platform integrates deep product hierarchies, specialized service architectures, and institutional trust signals, documenting the company's legacy since 1969. Designed for B2B procurement and corporate engagement, it emphasizes precision engineering and professional reliability."
+  },
+  {
+    "slug": "arabic-window",
+    "title": "Arabic Window Academy",
+    "industry": "EDUCATION · ONLINE LEARNING",
+    "category": "Academy Platform",
+    "type": "Course Presence & Enrollment System",
+    "summary": "A professional Islamic online academy for Arabic, Quran, and Islamic studies, featuring structured course discovery and high-authority education services.",
+    "description": "Arabic Window Academy functions as a high-authority hub for online Islamic education. The platform integrates complex course taxonomies, multi-tier pricing structures, and educational resource discovery, delivering a streamlined enrollment flow for students worldwide. Designed for trust and academic excellence, it emphasizes specialized instruction and interactive learning architectures."
+  },
+  {
+    "slug": "meshari-alali",
+    "title": "Meshari Al-Ali Engineering Consulting",
+    "industry": "ENGINEERING · CONSULTING",
+    "category": "Engineering Office",
+    "type": "Professional Services Platform",
+    "summary": "A high-authority digital presence for Meshari Al-Ali Engineering Consulting Office, showcasing specialized architectural and engineering expertise.",
+    "description": "The Meshari Al-Ali platform functions as a strategic hub for engineering excellence. Developed using WordPress and Elementor, the site integrates complex project portfolios, service architectures, and institutional trust signals. Designed for the Kuwaiti engineering landscape, it emphasizes precision, reliability, and professional storytelling for corporate and residential clients."
+  },
+  {
+    "slug": "light-islam",
+    "title": "Light Islam Maintenance Services",
+    "industry": "MAINTENANCE · SERVICES",
+    "category": "Home Services Platform",
+    "type": "Service-Led Digital Identity",
+    "summary": "A robust digital platform for Light Islam (نور الإسلام), a UAE-based maintenance and cleaning company providing comprehensive home care solutions.",
+    "description": "The Light Islam platform serves as a primary lead generation and service discovery hub for maintenance excellence. Built with Elementor, it integrates a detailed service catalog—ranging from plumbing and electrical work to general repairs—with streamlined booking pathways. Designed for the UAE market, it emphasizes trust, professional reliability, and clear conversion architectures."
+  },
+  {
+    "slug": "juli-tourism",
+    "title": "Juli for Tourism & Travel",
+    "industry": "TOURISM · TRAVEL",
+    "category": "Travel Agency Platform",
+    "type": "Service-Led Digital Identity",
+    "summary": "A creative and professional digital platform for Juli Tourism Company, featuring innovative travel service architectures and seamless engagement flows.",
+    "description": "The Juli Tourism platform serves as a high-authority hub for travel excellence. Built with WordPress, it integrates a comprehensive service catalog—ranging from tour booking and holiday planning to specialized travel services—with a modern, elegant UI. Designed for a global audience, it emphasizes adventure, professional reliability, and high-impact visual storytelling."
+  },
+  {
+    "slug": "baslim-auto",
+    "title": "Baslim Auto Showroom",
+    "industry": "AUTOMOTIVE · DEALERSHIP",
+    "category": "Auto Dealership Platform",
+    "type": "Vehicle Catalog & Lead Generation",
+    "summary": "A high-authority digital showroom for Baslim Auto (بسالم للسيارات), engineered for streamlined vehicle discovery and lead acquisition.",
+    "description": "The Baslim Auto platform serves as the primary digital sales floor for an automotive dealership. It integrates a robust vehicle inventory system with detailed specifications and high-impact galleries. Designed with conversion in mind, the architecture prioritizes seamless vehicle discovery and rapid inquiry pathways for prospective buyers."
+  },
+  {
+    "slug": "fast-shopping",
+    "title": "Fast Shopping E-Commerce",
+    "industry": "E-COMMERCE · RETAIL",
+    "category": "WooCommerce Store",
+    "type": "Online Shopping Platform",
+    "summary": "A high-performance WooCommerce platform for Fast Shopping, optimized for rapid product discovery and dynamic cart conversions.",
+    "description": "The Fast Shopping platform is a robust digital storefront designed for retail scale. Built on WooCommerce and Elementor, it integrates intuitive product cataloging with advanced shopping cart architectures. Designed for speed (as the brand implies), the user experience prioritizes seamless checkout flows, dynamic product filtering, and a fully responsive mobile-first shopping journey."
+  },
+  {
+    "slug": "mishari-oud",
+    "title": "Mishari Oud Store",
+    "industry": "FRAGRANCE · RETAIL",
+    "category": "E-Commerce Platform",
+    "type": "Luxury Goods Storefront",
+    "summary": "An elegant e-commerce experience for Mishari Oud, designed to reflect the luxury and heritage of premium fragrances and incense.",
+    "description": "The Mishari Oud platform serves as a digital boutique for high-end fragrances. Built to accommodate a premium retail aesthetic, the site integrates a sophisticated product catalog with a frictionless shopping cart architecture. It emphasizes visual elegance, heritage storytelling, and a highly optimized pathway from product discovery to secure checkout."
+  },
+  {
+    "slug": "lec-elevators",
+    "title": "LEC Elevator Company",
+    "industry": "INDUSTRIAL · ENGINEERING",
+    "category": "Corporate Platform",
+    "type": "B2B Service & Product Hub",
+    "summary": "A robust and authoritative digital presence for LEC, a leading elevator company, showcasing their engineering capabilities and product lines.",
+    "description": "The LEC Elevators platform serves as a primary digital anchor for industrial and commercial lift solutions. Built to accommodate complex engineering catalogs, it integrates detailed product specifications with a strong corporate narrative. It emphasizes safety, technical precision, and a highly optimized pathway for B2B contract inquiries and project consultations."
+  }
+]
