@@ -91,12 +91,12 @@ export default async function AboutPage({
         <div className="grid grid-cols-1 md:grid-cols-12 gap-12 items-center">
           {/* Photo */}
           <div className="md:col-span-5 flex justify-center">
-            <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-3xl overflow-hidden border-2 border-white/10 shadow-2xl bg-[#111827]">
+            <div className="relative w-full max-w-[280px] md:max-w-[320px] aspect-[4/5] rounded-3xl overflow-hidden border-2 border-white/10 shadow-2xl bg-[#111827]">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src="/demo/profile.png"
                 alt={isAr ? "محمد ناصر" : "Muhammed Nasser"}
-                className="object-cover w-full h-full grayscale hover:grayscale-0 transition-all duration-700"
+                className="object-cover w-full h-full object-[50%_8%] grayscale hover:grayscale-0 transition-all duration-700"
               />
             </div>
           </div>
