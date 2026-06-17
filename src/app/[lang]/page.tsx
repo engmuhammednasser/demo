@@ -119,30 +119,100 @@ export default async function Home({
 
 
       {/* 3. Choose Your Path */}
-      <section className="container mx-auto px-4 py-12">
-        <h2 className="text-3xl md:text-4xl font-extrabold text-center mb-16 tracking-tight">{t.home.choosePath}</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
-          {[
-            { label: t.home.pathWoo, href: `https://wa.me/201025811613?text=${encodeURIComponent(t.contact.wooMessage)}` },
-            { label: t.home.pathPlugin, href: `https://wa.me/201025811613?text=${encodeURIComponent(t.contact.pluginMessage)}` },
-            { label: t.home.pathTheme, href: `https://wa.me/201025811613?text=${encodeURIComponent(t.contact.themeMessage)}` },
-            { label: t.home.pathLaravel, href: `https://wa.me/201025811613?text=${encodeURIComponent(t.contact.laravelMessage)}` },
-            { label: t.home.pathPerformance, href: `/${lang}/contact` },
-            { label: t.home.pathSimilar, href: `/${lang}/work` },
-          ].map((path, i) => (
-            <Link 
-              key={i}
-              href={path.href}
-              className="bg-[#111827] border border-white/5 p-8 rounded-2xl hover:border-[#38BDF8]/50 hover:bg-[#111827]/80 hover:-translate-y-1 transition-all flex items-center justify-between group shadow-lg"
-            >
-              <span className="font-semibold text-lg md:text-xl text-[#F8FAFC] group-hover:text-[#38BDF8] transition-colors">{path.label}</span>
-              <svg className="w-6 h-6 text-[#38BDF8] opacity-50 transform group-hover:opacity-100 group-hover:translate-x-2 transition-all rtl:rotate-180 rtl:group-hover:-translate-x-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-              </svg>
-            </Link>
-          ))}
+      {/* 3. What Do You Need Built? */}
+      <section className="container mx-auto px-4 py-12 max-w-6xl">
+        <div className="text-center mb-10">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold tracking-tight mb-3">
+            What Do You Need Built?
+          </h2>
+          <p className="text-[#94A3B8] text-base md:text-lg max-w-xl mx-auto leading-relaxed">
+            Choose the type of project you need, and start a WhatsApp conversation with a ready message.
+          </p>
         </div>
+        {(() => {
+          const WA = t.contact.number.replace(/\D/g, "");
+          const cards = [
+            {
+              type: "whatsapp" as const,
+              title: "I need a WooCommerce Store",
+              desc: "Build or improve a fast, conversion-focused WooCommerce store with custom product, checkout, and payment flows.",
+              cta: "Start on WhatsApp",
+              message: "Hi Muhammed, I need a WooCommerce store. I\u2019d like to discuss the project details, features, timeline, and estimated cost.",
+            },
+            {
+              type: "whatsapp" as const,
+              title: "I need a Custom Plugin",
+              desc: "Create custom WordPress plugin functionality when ready-made solutions do not match your business workflow.",
+              cta: "Start on WhatsApp",
+              message: "Hi Muhammed, I need a custom WordPress plugin. I\u2019d like to explain the workflow and see how it can be built.",
+            },
+            {
+              type: "whatsapp" as const,
+              title: "I need a Custom Theme",
+              desc: "Develop a clean, responsive, and scalable WordPress theme tailored to your brand, content, and business needs.",
+              cta: "Start on WhatsApp",
+              message: "Hi Muhammed, I need a custom WordPress theme. I\u2019d like to discuss the design, pages, responsiveness, and implementation.",
+            },
+            {
+              type: "whatsapp" as const,
+              title: "I need a Laravel Dashboard or API",
+              desc: "Build internal dashboards, admin panels, APIs, and backend systems for real business operations.",
+              cta: "Start on WhatsApp",
+              message: "Hi Muhammed, I need a Laravel dashboard or API. I\u2019d like to discuss the business workflow, modules, and backend requirements.",
+            },
+            {
+              type: "whatsapp" as const,
+              title: "I need Performance Optimization",
+              desc: "Improve speed, stability, Core Web Vitals, and user experience for WordPress and WooCommerce websites.",
+              cta: "Start on WhatsApp",
+              message: "Hi Muhammed, I need help improving my WordPress or WooCommerce website performance. I\u2019d like to request a speed review.",
+            },
+            {
+              type: "internal" as const,
+              title: "I want to see similar work",
+              desc: "Browse real case studies and examples before starting a conversation.",
+              cta: "View Case Studies",
+              href: `/${lang}/work`,
+            },
+          ];
+          return (
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+              {cards.map((card, i) => {
+                const href =
+                  card.type === "whatsapp"
+                    ? `https://wa.me/${WA}?text=${encodeURIComponent(card.message)}`
+                    : card.href;
+                const isExternal = card.type === "whatsapp";
+                return (
+                  <div
+                    key={i}
+                    className="bg-[#111827] border border-white/5 rounded-2xl p-6 flex flex-col gap-3 hover:border-[#38BDF8]/30 hover:shadow-[0_0_20px_rgba(56,189,248,0.06)] transition-all"
+                  >
+                    <h3 className="text-base font-bold text-[#F8FAFC] leading-snug">{card.title}</h3>
+                    <p className="text-[#94A3B8] text-sm leading-relaxed flex-1">{card.desc}</p>
+                    <a
+                      href={href}
+                      {...(isExternal
+                        ? { target: "_blank", rel: "noopener noreferrer" }
+                        : {})}
+                      className="inline-flex items-center gap-2 mt-1 text-sm font-semibold text-[#38BDF8] hover:text-[#38BDF8]/80 transition-colors group"
+                    >
+                      {card.cta}
+                      <svg
+                        className="w-4 h-4 transform group-hover:translate-x-1 transition-transform rtl:rotate-180 rtl:group-hover:-translate-x-1"
+                        fill="none" viewBox="0 0 24 24" stroke="currentColor"
+                      >
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                      </svg>
+                    </a>
+                  </div>
+                );
+              })}
+            </div>
+          );
+        })()}
       </section>
+
 
       {/* 4. Featured Case Studies */}
       <section className="container mx-auto px-4 py-16">
