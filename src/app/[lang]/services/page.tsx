@@ -2,7 +2,7 @@ import type { Locale } from "@/lib/i18n";
 import Link from "next/link";
 
 // ─── WhatsApp Config ────────────────────────────────────────────────────────
-const WA_PHONE = "201065942956"; // no + prefix for wa.me
+const WA_PHONE = "201025811613"; // no + prefix for wa.me
 
 function waLink(message: string) {
   return `https://wa.me/${WA_PHONE}?text=${encodeURIComponent(message)}`;

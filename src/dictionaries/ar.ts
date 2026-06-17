@@ -70,7 +70,7 @@ export const ar = {
     email: "البريد الإلكتروني",
     linkedin: "لينكد إن",
     github: "جيت هاب",
-    number: "+201065942956",
+    number: "+201025811613",
     emailAddress: "eng.mohamed_nasser@hotmail.com"
   }
 };

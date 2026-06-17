@@ -162,7 +162,7 @@ export default async function PluginDetailPage({
           </div>
           <div className="pt-6 border-t border-white/5">
             <a
-              href={`https://wa.me/201065942956?text=${encodeURIComponent(locale === "ar" ? "أهلاً محمد، شاهدت إضافة " + title + " وأحتاج لمشروع مشابه." : "Hello Muhammed, I saw the " + title + " plugin and I need a similar project.")}`}
+              href={`https://wa.me/201025811613?text=${encodeURIComponent(locale === "ar" ? "أهلاً محمد، شاهدت إضافة " + title + " وأحتاج لمشروع مشابه." : "Hello Muhammed, I saw the " + title + " plugin and I need a similar project.")}`}
               target="_blank"
               rel="noopener noreferrer"
               className="block w-full text-center py-4 bg-[#38BDF8] text-[#0B1020] font-bold text-lg rounded-lg hover:bg-[#38BDF8]/90 hover:scale-105 transition-all shadow-[0_0_15px_rgba(56,189,248,0.2)]"

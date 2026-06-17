@@ -63,7 +63,7 @@ export const en = {
     email: "Email",
     linkedin: "LinkedIn",
     github: "GitHub",
-    number: "+201065942956",
+    number: "+201025811613",
     emailAddress: "eng.mohamed_nasser@hotmail.com"
   }
 };
