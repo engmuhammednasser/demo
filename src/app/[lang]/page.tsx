@@ -775,6 +775,89 @@ export default async function Home({
           </section>
         );
       })()}
+      {/* How I Work Section */}
+      {(() => {
+        const steps = [
+          {
+            num: "01",
+            title: lang === "ar" ? "فهم المشروع" : "Discovery",
+            desc: lang === "ar" 
+              ? "أفهم أهدافك، المستخدمين، سير العمل، والاحتياجات التقنية."
+              : "I understand your goals, users, business workflow, and technical needs."
+          },
+          {
+            num: "02",
+            title: lang === "ar" ? "التخطيط" : "Planning",
+            desc: lang === "ar"
+              ? "أحدد الهيكل، المميزات، التكاملات، الجدول الزمني، واتجاه المشروع."
+              : "I define the structure, features, integrations, timeline, and project direction."
+          },
+          {
+            num: "03",
+            title: lang === "ar" ? "التطوير" : "Development",
+            desc: lang === "ar"
+              ? "أبني حلول WordPress أو WooCommerce أو الإضافات أو القوالب أو أنظمة Laravel بكود منظم وقابل للتوسع."
+              : "I build the WordPress, WooCommerce, plugin, theme, or Laravel system with clean, scalable code."
+          },
+          {
+            num: "04",
+            title: lang === "ar" ? "الاختبار" : "Testing",
+            desc: lang === "ar"
+              ? "أختبر التجاوب، الأداء، النماذج، مسارات الدفع، التكاملات، ورحلة المستخدم الأساسية."
+              : "I test responsiveness, performance, forms, checkout flows, integrations, and key user journeys."
+          },
+          {
+            num: "05",
+            title: lang === "ar" ? "الإطلاق والدعم" : "Launch & Support",
+            desc: lang === "ar"
+              ? "أساعد في النشر، الإصلاحات النهائية، التحسينات، والدعم المستقبلي."
+              : "I help with deployment, final fixes, improvements, and future support."
+          }
+        ];
+
+        return (
+          <section className="container mx-auto px-4 py-24 border-t border-white/5 relative overflow-hidden">
+            {/* Subtle background glow */}
+            <div className="absolute inset-0 bg-[#0B1020]/30 -z-10" />
+            
+            <div className="max-w-4xl mx-auto text-center mb-16 space-y-6">
+              <h2 className="text-3xl md:text-5xl font-extrabold tracking-tight leading-tight">
+                {lang === "ar" ? "كيف أعمل؟" : "How I Work"}
+              </h2>
+              <p className="text-[#94A3B8] text-lg max-w-2xl mx-auto leading-relaxed">
+                {lang === "ar"
+                  ? "عملية واضحة لتحويل احتياجات العمل إلى حلول WordPress وWooCommerce وLaravel موثوقة."
+                  : "A clear process for turning business needs into reliable WordPress, WooCommerce, and Laravel solutions."}
+              </p>
+            </div>
+
+            <div className="max-w-7xl mx-auto relative">
+              {/* Connecting Line (Desktop) */}
+              <div className="hidden lg:block absolute top-6 left-0 right-0 h-[2px] bg-gradient-to-r from-transparent via-white/10 to-transparent pointer-events-none" />
+              
+              <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-8 lg:gap-6 relative">
+                {steps.map((step, idx) => (
+                  <div key={idx} className="flex flex-col relative group">
+                    {/* Number Indicator */}
+                    <div className="w-12 h-12 bg-[#0B1020] border-2 border-white/10 rounded-full flex items-center justify-center text-[#38BDF8] font-bold text-lg mb-6 z-10 group-hover:border-[#38BDF8]/50 group-hover:bg-[#38BDF8]/10 transition-all mx-auto lg:mx-0">
+                      {step.num}
+                    </div>
+                    {/* Content */}
+                    <div className="text-center lg:text-start lg:rtl:text-right">
+                      <h3 className="text-xl font-bold text-white mb-3">
+                        {step.title}
+                      </h3>
+                      <p className="text-[#94A3B8] text-sm leading-relaxed">
+                        {step.desc}
+                      </p>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </section>
+        );
+      })()}
     </div>
   );
 }
