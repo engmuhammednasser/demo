@@ -25,11 +25,11 @@ export default async function Home({
           {t.home.heroExperience}
         </div>
         {/* Main Title */}
-        <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold leading-tight tracking-tight text-transparent bg-clip-text bg-gradient-to-br from-white via-[#E2E8F0] to-[#94A3B8]">
+        <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold leading-snug tracking-tight text-transparent bg-clip-text bg-gradient-to-br from-white via-[#E2E8F0] to-[#94A3B8] max-w-4xl mx-auto">
           {t.home.heroTitle}
         </h1>
         {/* Subtitle */}
-        <p className="text-lg md:text-xl text-[#94A3B8] max-w-2xl mx-auto leading-relaxed">
+        <p className="text-base md:text-lg text-[#94A3B8] max-w-3xl mx-auto leading-relaxed">
           {t.home.heroCopy}
         </p>
         {/* CTAs */}
