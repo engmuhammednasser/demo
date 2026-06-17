@@ -436,7 +436,7 @@ export default async function Home({
               category: "سياحة / Marketplace",
               desc: "تجربة Marketplace للسياحة السعودية تساعد المستخدمين على اكتشاف العروض والتجارب والخدمات السياحية.",
               tags: ["Marketplace", "سياحة", "السعودية"],
-              image: "", // Placeholder
+              image: "/demo/projects/atour/frontend/01-homepage-hero-desktop.png",
               hasDetail: false,
             },
             {
@@ -492,7 +492,7 @@ export default async function Home({
               category: "Tourism / Marketplace",
               desc: "A Saudi tourism marketplace experience designed to help users discover travel, tourism, and experience-based offerings.",
               tags: ["Marketplace", "Tourism", "Saudi Arabia"],
-              image: "", // Placeholder
+              image: "/demo/projects/atour/frontend/01-homepage-hero-desktop.png",
               hasDetail: false,
             },
             {

@@ -1450,11 +1450,11 @@ export const projects: Project[] = [
       "تسهيل مراجعة وعرض العمليات التعليمية بشكل أوضح."
     ],
     screenshots: [
-      "/demo/projects/edusmart-system/backend/02-teacher-dashboard-overview-desktop.png"
+      "/demo/backend/edusmart-system/02-teacher-dashboard-overview-desktop.png"
     ],
     dashboardScreenshots: [
       {
-        src: "/demo/projects/edusmart-system/backend/01-login-page-desktop.png",
+        src: "/demo/backend/edusmart-system/01-login-page-desktop.png",
         alt: {
           en: "Secure login entry for users based on their assigned role",
           ar: "بوابة دخول آمنة للمستخدمين حسب الصلاحيات"
@@ -1467,7 +1467,7 @@ export const projects: Project[] = [
         viewport: "desktop"
       },
       {
-        src: "/demo/projects/edusmart-system/backend/02-teacher-dashboard-overview-desktop.png",
+        src: "/demo/backend/edusmart-system/02-teacher-dashboard-overview-desktop.png",
         alt: {
           en: "Teacher dashboard overview for daily academic tasks, schedules, and alerts",
           ar: "لوحة مدرس تعرض ملخص المهام اليومية والجداول والتنبيهات"
@@ -1480,7 +1480,7 @@ export const projects: Project[] = [
         viewport: "desktop"
       },
       {
-        src: "/demo/projects/edusmart-system/backend/13-profile-settings-desktop.png",
+        src: "/demo/backend/edusmart-system/13-profile-settings-desktop.png",
         alt: {
           en: "Profile and settings screen",
           ar: "شاشة الإعدادات والملف الشخصي"
@@ -1495,7 +1495,7 @@ export const projects: Project[] = [
     ],
     academicScreenshots: [
       {
-        src: "/demo/projects/edusmart-system/backend/03-students-list-desktop.png",
+        src: "/demo/backend/edusmart-system/03-students-list-desktop.png",
         alt: {
           en: "Student records screen for browsing and managing assigned students",
           ar: "شاشة سجلات الطلاب لعرض وإدارة الطلاب المرتبطين بالمدرس"
@@ -1508,7 +1508,7 @@ export const projects: Project[] = [
         viewport: "desktop"
       },
       {
-        src: "/demo/projects/edusmart-system/backend/06-grades-management-desktop.png",
+        src: "/demo/backend/edusmart-system/06-grades-management-desktop.png",
         alt: {
           en: "Grades management screen for reviewing and organizing student performance",
           ar: "شاشة إدارة الدرجات لمراجعة وتنظيم أداء الطلاب"
@@ -1521,7 +1521,7 @@ export const projects: Project[] = [
         viewport: "desktop"
       },
       {
-        src: "/demo/projects/edusmart-system/backend/07-assignments-desktop.png",
+        src: "/demo/backend/edusmart-system/07-assignments-desktop.png",
         alt: {
           en: "Assignments screen for managing homework, deadlines, and submissions",
           ar: "شاشة الواجبات لإدارة المهام، المواعيد النهائية، والتسليمات"
@@ -1534,7 +1534,7 @@ export const projects: Project[] = [
         viewport: "desktop"
       },
       {
-        src: "/demo/projects/edusmart-system/backend/08-schedule-desktop.png",
+        src: "/demo/backend/edusmart-system/08-schedule-desktop.png",
         alt: {
           en: "Schedule view for lessons, classes, and academic timing",
           ar: "عرض الجداول للحصص والمواعيد الدراسية"
@@ -1549,7 +1549,7 @@ export const projects: Project[] = [
     ],
     frontendScreenshots: [
       {
-        src: "/demo/projects/edusmart-system/backend/09-reports-dashboard-desktop.png",
+        src: "/demo/backend/edusmart-system/09-reports-dashboard-desktop.png",
         alt: {
           en: "Reporting screen for academic and operational insights",
           ar: "شاشة تقارير لعرض مؤشرات تعليمية وتشغيلية"
@@ -1562,7 +1562,7 @@ export const projects: Project[] = [
         viewport: "desktop"
       },
       {
-        src: "/demo/projects/edusmart-system/backend/10-messages-desktop.png",
+        src: "/demo/backend/edusmart-system/10-messages-desktop.png",
         alt: {
           en: "Internal messaging screen for communication between school users",
           ar: "شاشة رسائل داخلية للتواصل بين مستخدمي النظام"
@@ -1575,7 +1575,7 @@ export const projects: Project[] = [
         viewport: "desktop"
       },
       {
-        src: "/demo/projects/edusmart-system/backend/11-announcements-desktop.png",
+        src: "/demo/backend/edusmart-system/11-announcements-desktop.png",
         alt: {
           en: "Announcements screen for sharing school updates and alerts",
           ar: "شاشة إعلانات لنشر تحديثات وتنبيهات المؤسسة"
@@ -1588,7 +1588,7 @@ export const projects: Project[] = [
         viewport: "desktop"
       },
       {
-        src: "/demo/projects/edusmart-system/backend/12-calendar-desktop.png",
+        src: "/demo/backend/edusmart-system/12-calendar-desktop.png",
         alt: {
           en: "Calendar view for academic events, reminders, and school activities",
           ar: "تقويم للأحداث الدراسية، التذكيرات، وأنشطة المؤسسة"
