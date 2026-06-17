@@ -17,29 +17,47 @@ export default async function Home({
   return (
     <div className="space-y-24 pb-20">
       {/* 1. Hero */}
-      <section className="container mx-auto px-4 pt-32 pb-16 text-center max-w-4xl space-y-8 relative">
-        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-[#38BDF8]/10 blur-[120px] rounded-full pointer-events-none -z-10" />
-        <h1 className="text-5xl md:text-7xl font-extrabold leading-tight md:leading-tight tracking-tight text-transparent bg-clip-text bg-gradient-to-br from-white to-[#94A3B8]">
+      <section className="container mx-auto px-4 pt-32 pb-16 text-center max-w-5xl space-y-8 relative">
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[400px] bg-[#38BDF8]/8 blur-[140px] rounded-full pointer-events-none -z-10" />
+        {/* Badge */}
+        <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[#38BDF8]/10 border border-[#38BDF8]/20 text-[#38BDF8] text-sm font-semibold tracking-wide uppercase">
+          <span className="w-2 h-2 rounded-full bg-[#22C55E] animate-pulse" />
+          {t.home.heroExperience}
+        </div>
+        {/* Main Title */}
+        <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold leading-tight tracking-tight text-transparent bg-clip-text bg-gradient-to-br from-white via-[#E2E8F0] to-[#94A3B8]">
           {t.home.heroTitle}
         </h1>
-        <p className="text-xl md:text-2xl font-semibold text-[#22C55E] tracking-wide uppercase text-sm">
-          {t.home.heroExperience}
-        </p>
-        <p className="text-lg md:text-xl text-[#94A3B8] max-w-3xl mx-auto leading-relaxed md:leading-loose">
+        {/* Subtitle */}
+        <p className="text-lg md:text-xl text-[#94A3B8] max-w-2xl mx-auto leading-relaxed">
           {t.home.heroCopy}
         </p>
-        <div className="flex flex-col sm:flex-row flex-wrap justify-center gap-4 pt-10">
-          <Link href={`/${lang}/work`} className="px-8 py-4 rounded-lg bg-[#38BDF8] text-[#0B1020] font-bold text-lg hover:bg-[#38BDF8]/90 hover:scale-105 transition-all shadow-[0_0_20px_rgba(56,189,248,0.3)]">
+        {/* CTAs */}
+        <div className="flex flex-col sm:flex-row flex-wrap justify-center items-center gap-4 pt-6">
+          {/* Primary */}
+          <Link
+            href={`/${lang}/work`}
+            className="px-8 py-4 rounded-xl bg-[#38BDF8] text-[#0B1020] font-bold text-lg hover:bg-[#38BDF8]/90 hover:scale-105 transition-all shadow-[0_0_30px_rgba(56,189,248,0.35)] w-full sm:w-auto"
+          >
             {t.home.viewWork}
           </Link>
-          <Link href={`/${lang}/contact`} className="px-8 py-4 rounded-lg bg-[#22C55E] text-white font-bold text-lg hover:bg-[#22C55E]/90 hover:scale-105 transition-all shadow-[0_0_20px_rgba(34,197,94,0.3)]">
+          {/* Secondary */}
+          <Link
+            href={`/${lang}/contact`}
+            className="px-8 py-4 rounded-xl bg-[#22C55E] text-white font-bold text-lg hover:bg-[#22C55E]/90 hover:scale-105 transition-all shadow-[0_0_30px_rgba(34,197,94,0.25)] w-full sm:w-auto"
+          >
             {t.home.startProject}
           </Link>
-          <Link href={`/${lang}/lab`} className="px-8 py-4 rounded-lg border-2 border-[#38BDF8]/30 text-[#38BDF8] font-bold text-lg hover:bg-[#38BDF8]/10 hover:border-[#38BDF8]/50 transition-all">
+          {/* Tertiary / outline */}
+          <Link
+            href={`/${lang}/lab`}
+            className="px-8 py-4 rounded-xl border border-[#38BDF8]/30 text-[#38BDF8] font-semibold text-lg hover:bg-[#38BDF8]/10 hover:border-[#38BDF8]/60 transition-all w-full sm:w-auto"
+          >
             {t.home.exploreLab}
           </Link>
         </div>
       </section>
+
 
       {/* 2. Choose Your Path */}
       <section className="container mx-auto px-4 py-12">

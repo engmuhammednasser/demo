@@ -9,10 +9,10 @@ export const en = {
     contact: "Contact",
   },
   home: {
-    heroTitle: "WordPress & WooCommerce Developer building custom websites, plugins, themes, and backend systems.",
+    heroTitle: "WordPress & WooCommerce Developer building custom stores, plugins, themes, and Laravel-powered business systems.",
     heroExperience: "8+ years of WordPress experience, 2+ years of Laravel/PHP backend development.",
-    heroCopy: "I’m Muhammed Nasser, a WordPress & WooCommerce Developer with 8+ years of experience building custom websites, plugins, themes, and Laravel-powered backend systems for real business needs.",
-    viewWork: "View Work",
+    heroCopy: "I help businesses turn WordPress into fast, scalable, and business-ready platforms — from WooCommerce stores to custom plugins and internal dashboards.",
+    viewWork: "View Case Studies",
     startProject: "Start a Project",
     exploreLab: "Explore Developer Lab",
     choosePath: "Choose Your Path",
