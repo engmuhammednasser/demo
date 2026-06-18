@@ -37,10 +37,10 @@ const BASE = "/demo/projects/eventgift";
 const homepageScreenshots: EGScreenshot[] = [
   {
     src: `${BASE}/uae-homepage-hero-desktop.png`,
-    alt: { en: "EventGift UAE – Homepage Hero Section", ar: "ايفنت جيفت الإمارات – قسم الهيرو" },
-    title: { en: "UAE — Homepage Hero", ar: "الإمارات — هيرو الرئيسية" },
+    alt: { en: "EventGift UAE – Header & Navigation", ar: "ايفنت جيفت الإمارات – الهيدر والقائمة الرئيسية" },
+    title: { en: "UAE — Header & Navigation", ar: "الإمارات — الهيدر والقوائم" },
     market: { en: "UAE", ar: "الإمارات" },
-    description: { en: "Main hero section of the UAE storefront with the primary gifting headline.", ar: "قسم الهيرو الرئيسي لمتجر الإمارات مع العنوان الأساسي للهدايا." },
+    description: { en: "Header and mega menu navigation showing category structure.", ar: "الهيدر والقائمة الرئيسية المنسدلة توضح هيكلة تصنيفات الهدايا." },
     isFullPage: false,
   },
   {
@@ -53,10 +53,10 @@ const homepageScreenshots: EGScreenshot[] = [
   },
   {
     src: `${BASE}/egypt-homepage-hero-desktop.png`,
-    alt: { en: "EventGift Egypt – Homepage Hero", ar: "ايفنت جيفت مصر – هيرو الرئيسية" },
-    title: { en: "Egypt — Homepage Hero", ar: "مصر — هيرو الرئيسية" },
+    alt: { en: "EventGift Egypt – Header & Navigation", ar: "ايفنت جيفت مصر – الهيدر والقائمة الرئيسية" },
+    title: { en: "Egypt — Header & Navigation", ar: "مصر — الهيدر والقوائم" },
     market: { en: "Egypt", ar: "مصر" },
-    description: { en: "Hero section of the Egyptian market storefront.", ar: "قسم الهيرو في متجر السوق المصري." },
+    description: { en: "Header and mega menu navigation showing the Egyptian market category structure.", ar: "الهيدر والقائمة الرئيسية المنسدلة توضح هيكلة التصنيفات للسوق المصري." },
     isFullPage: false,
   },
   {
@@ -69,10 +69,10 @@ const homepageScreenshots: EGScreenshot[] = [
   },
   {
     src: `${BASE}/saudi-homepage-hero-desktop.png`,
-    alt: { en: "EventGift Saudi Arabia – Homepage Hero", ar: "ايفنت جيفت السعودية – هيرو الرئيسية" },
-    title: { en: "Saudi Arabia — Homepage Hero", ar: "السعودية — هيرو الرئيسية" },
+    alt: { en: "EventGift Saudi Arabia – Header & Navigation", ar: "ايفنت جيفت السعودية – الهيدر والقائمة الرئيسية" },
+    title: { en: "Saudi Arabia — Header & Navigation", ar: "السعودية — الهيدر والقوائم" },
     market: { en: "Saudi Arabia", ar: "السعودية" },
-    description: { en: "Hero section of the Saudi Arabian market storefront.", ar: "قسم الهيرو في متجر السوق السعودي." },
+    description: { en: "Header and mega menu navigation showing the Saudi market category structure.", ar: "الهيدر والقائمة الرئيسية المنسدلة توضح هيكلة التصنيفات للسوق السعودي." },
     isFullPage: false,
   },
   {
