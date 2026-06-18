@@ -33,61 +33,79 @@ const BASE = "/demo/projects/eventgift";
 
 // ─── Screenshot data (EGScreenshot format) ────────────────────────────────────
 
+// ─── Group 1: Homepage — hero first, then full-page, per market ───────────────
 const homepageScreenshots: EGScreenshot[] = [
   {
     src: `${BASE}/uae-homepage-hero-desktop.png`,
-    alt: { en: "EventGift UAE – Homepage Hero", ar: "ايفنت جيفت الإمارات – هيرو الصفحة الرئيسية" },
+    alt: { en: "EventGift UAE – Homepage Hero Section", ar: "ايفنت جيفت الإمارات – قسم الهيرو" },
     title: { en: "UAE — Homepage Hero", ar: "الإمارات — هيرو الرئيسية" },
     market: { en: "UAE", ar: "الإمارات" },
-    description: { en: "Main hero section of the UAE storefront highlighting the gifting proposition.", ar: "قسم الهيرو الرئيسي لمتجر الإمارات مع عرض منتجات الهدايا." },
+    description: { en: "Main hero section of the UAE storefront with the primary gifting headline.", ar: "قسم الهيرو الرئيسي لمتجر الإمارات مع العنوان الأساسي للهدايا." },
     isFullPage: false,
   },
   {
     src: `${BASE}/uae-homepage-full-desktop.png`,
-    alt: { en: "EventGift UAE – Full Homepage", ar: "ايفنت جيفت الإمارات – الصفحة الرئيسية كاملة" },
-    title: { en: "UAE — Full Homepage Archive", ar: "الإمارات — أرشيف الصفحة الرئيسية" },
+    alt: { en: "EventGift UAE – Full Homepage Archive", ar: "ايفنت جيفت الإمارات – الصفحة الرئيسية كاملة" },
+    title: { en: "UAE — Full Homepage", ar: "الإمارات — الصفحة الرئيسية كاملة" },
     market: { en: "UAE", ar: "الإمارات" },
-    description: { en: "Full-page homepage showing product categories, featured gifts, and the complete UAE storefront layout.", ar: "الصفحة الرئيسية كاملة مع التصنيفات والمنتجات المميزة وتخطيط متجر الإمارات." },
+    description: { en: "Complete homepage layout — categories, featured gifts, and full UAE storefront structure.", ar: "تخطيط الصفحة الرئيسية كاملاً — التصنيفات، الهدايا المميزة، وهيكل متجر الإمارات." },
     isFullPage: true,
+  },
+  {
+    src: `${BASE}/egypt-homepage-hero-desktop.png`,
+    alt: { en: "EventGift Egypt – Homepage Hero", ar: "ايفنت جيفت مصر – هيرو الرئيسية" },
+    title: { en: "Egypt — Homepage Hero", ar: "مصر — هيرو الرئيسية" },
+    market: { en: "Egypt", ar: "مصر" },
+    description: { en: "Hero section of the Egyptian market storefront.", ar: "قسم الهيرو في متجر السوق المصري." },
+    isFullPage: false,
   },
   {
     src: `${BASE}/egypt-homepage-full-desktop.png`,
     alt: { en: "EventGift Egypt – Full Homepage", ar: "ايفنت جيفت مصر – الصفحة الرئيسية كاملة" },
-    title: { en: "Egypt — Full Homepage Archive", ar: "مصر — أرشيف الصفحة الرئيسية" },
+    title: { en: "Egypt — Full Homepage", ar: "مصر — الصفحة الرئيسية كاملة" },
     market: { en: "Egypt", ar: "مصر" },
-    description: { en: "Full-page homepage archive of the Egyptian market storefront.", ar: "أرشيف كامل للصفحة الرئيسية للمتجر المصري." },
+    description: { en: "Complete homepage archive of the Egyptian market — sections, product discovery, and layout.", ar: "أرشيف كامل للصفحة الرئيسية المصرية — الأقسام، اكتشاف المنتجات، والتخطيط." },
     isFullPage: true,
+  },
+  {
+    src: `${BASE}/saudi-homepage-hero-desktop.png`,
+    alt: { en: "EventGift Saudi Arabia – Homepage Hero", ar: "ايفنت جيفت السعودية – هيرو الرئيسية" },
+    title: { en: "Saudi Arabia — Homepage Hero", ar: "السعودية — هيرو الرئيسية" },
+    market: { en: "Saudi Arabia", ar: "السعودية" },
+    description: { en: "Hero section of the Saudi Arabian market storefront.", ar: "قسم الهيرو في متجر السوق السعودي." },
+    isFullPage: false,
   },
   {
     src: `${BASE}/saudi-homepage-full-desktop.png`,
     alt: { en: "EventGift Saudi Arabia – Full Homepage", ar: "ايفنت جيفت السعودية – الصفحة الرئيسية كاملة" },
-    title: { en: "Saudi Arabia — Full Homepage Archive", ar: "السعودية — أرشيف الصفحة الرئيسية" },
+    title: { en: "Saudi Arabia — Full Homepage", ar: "السعودية — الصفحة الرئيسية كاملة" },
     market: { en: "Saudi Arabia", ar: "السعودية" },
-    description: { en: "Full-page homepage archive of the Saudi Arabian market storefront.", ar: "أرشيف كامل للصفحة الرئيسية للمتجر السعودي." },
+    description: { en: "Complete homepage archive of the Saudi market — categories, highlights, and layout.", ar: "أرشيف كامل للصفحة الرئيسية السعودية — التصنيفات، المميزات، والتخطيط." },
     isFullPage: true,
   },
 ];
 
+// ─── Group 2: Catalog & Browsing ──────────────────────────────────────────────
 const catalogScreenshots: EGScreenshot[] = [
   {
     src: `${BASE}/uae-catalog-navigation-desktop.png`,
     alt: { en: "EventGift UAE – Shop / Catalog Navigation", ar: "ايفنت جيفت الإمارات – تصفح الكتالوج" },
     title: { en: "UAE — Shop & Category Navigation", ar: "الإمارات — التصفح والتصنيفات" },
     market: { en: "UAE", ar: "الإمارات" },
-    description: { en: "Shop page with structured category navigation and full product browsing layout.", ar: "صفحة المتجر مع التصفح المنظم للتصنيفات وعرض كامل للمنتجات." },
+    description: { en: "Full shop page with structured category navigation and product browsing layout.", ar: "صفحة المتجر الكاملة مع التصفح المنظم للتصنيفات وعرض المنتجات." },
     isFullPage: true,
   },
   {
     src: `${BASE}/uae-product-grid-focused.png`,
-    alt: { en: "EventGift UAE – Product Grid", ar: "ايفنت جيفت الإمارات – شبكة المنتجات" },
+    alt: { en: "EventGift UAE – Gift Product Grid", ar: "ايفنت جيفت الإمارات – شبكة المنتجات" },
     title: { en: "UAE — Gift Product Grid", ar: "الإمارات — شبكة منتجات الهدايا" },
     market: { en: "UAE", ar: "الإمارات" },
-    description: { en: "Focused product grid view showing gift items with clear visual presentation.", ar: "عرض مركّز لشبكة المنتجات مع وضوح بصري احترافي للهدايا." },
+    description: { en: "Focused product grid showing gift items with clear visual presentation.", ar: "عرض مركّز لشبكة المنتجات مع وضوح بصري احترافي للهدايا." },
     isFullPage: false,
   },
   {
     src: `${BASE}/egypt-catalog-products-desktop.png`,
-    alt: { en: "EventGift Egypt – Category / Products Page", ar: "ايفنت جيفت مصر – صفحة التصنيفات" },
+    alt: { en: "EventGift Egypt – Gift Category Page", ar: "ايفنت جيفت مصر – صفحة التصنيفات" },
     title: { en: "Egypt — Gift Category Page", ar: "مصر — صفحة تصنيف الهدايا" },
     market: { en: "Egypt", ar: "مصر" },
     description: { en: "Full gift category page showing the Egyptian market product catalog.", ar: "صفحة تصنيف الهدايا كاملة للسوق المصري." },
@@ -95,102 +113,138 @@ const catalogScreenshots: EGScreenshot[] = [
   },
   {
     src: `${BASE}/saudi-catalog-products-desktop.png`,
-    alt: { en: "EventGift Saudi Arabia – Category Page", ar: "ايفنت جيفت السعودية – صفحة التصنيفات" },
+    alt: { en: "EventGift Saudi Arabia – Team Gifts Category", ar: "ايفنت جيفت السعودية – تصنيف هدايا الفرق" },
     title: { en: "Saudi Arabia — Team Gifts Category", ar: "السعودية — تصنيف هدايا الفرق" },
     market: { en: "Saudi Arabia", ar: "السعودية" },
-    description: { en: "Team gifts category page showcasing the Saudi product catalog.", ar: "صفحة تصنيف هدايا الفرق مع الكتالوج السعودي." },
+    description: { en: "Team gifts category page showcasing the Saudi product catalog.", ar: "صفحة تصنيف هدايا الفرق مع عرض الكتالوج السعودي." },
     isFullPage: true,
   },
 ];
 
+// ─── Group 3: Product Detail ───────────────────────────────────────────────────
 const productDetailScreenshots: EGScreenshot[] = [
   {
     src: `${BASE}/uae-product-detail-desktop.png`,
-    alt: { en: "EventGift UAE – Product Detail Page", ar: "ايفنت جيفت الإمارات – تفاصيل المنتج" },
-    title: { en: "UAE — Product Detail", ar: "الإمارات — تفاصيل المنتج" },
+    alt: { en: "EventGift UAE – Product Detail", ar: "ايفنت جيفت الإمارات – تفاصيل المنتج" },
+    title: { en: "UAE — Product Detail Page", ar: "الإمارات — صفحة تفاصيل المنتج" },
     market: { en: "UAE", ar: "الإمارات" },
-    description: { en: "Single product detail page with gifting options and add-to-cart flow.", ar: "صفحة المنتج المفرد مع خيارات الإهداء وإضافة للسلة." },
+    description: { en: "Product detail with gifting options, add-to-cart, and trust elements.", ar: "تفاصيل المنتج مع خيارات الإهداء، إضافة للسلة، وعناصر الثقة." },
     isFullPage: false,
   },
   {
     src: `${BASE}/egypt-product-detail-desktop.png`,
-    alt: { en: "EventGift Egypt – Product Detail Page", ar: "ايفنت جيفت مصر – تفاصيل المنتج" },
-    title: { en: "Egypt — Product Detail", ar: "مصر — تفاصيل المنتج" },
+    alt: { en: "EventGift Egypt – Product Detail", ar: "ايفنت جيفت مصر – تفاصيل المنتج" },
+    title: { en: "Egypt — Product Detail Page", ar: "مصر — صفحة تفاصيل المنتج" },
     market: { en: "Egypt", ar: "مصر" },
     description: { en: "Product detail with clear presentation and purchase CTA for the Egyptian storefront.", ar: "تفاصيل المنتج مع عرض واضح ودعوة للشراء في المتجر المصري." },
     isFullPage: false,
   },
   {
     src: `${BASE}/saudi-product-detail-desktop.png`,
-    alt: { en: "EventGift Saudi Arabia – Product Detail Page", ar: "ايفنت جيفت السعودية – تفاصيل المنتج" },
-    title: { en: "Saudi Arabia — Product Detail", ar: "السعودية — تفاصيل المنتج" },
+    alt: { en: "EventGift Saudi Arabia – Product Detail", ar: "ايفنت جيفت السعودية – تفاصيل المنتج" },
+    title: { en: "Saudi Arabia — Product Detail Page", ar: "السعودية — صفحة تفاصيل المنتج" },
     market: { en: "Saudi Arabia", ar: "السعودية" },
-    description: { en: "Product detail page tailored for the Saudi market storefront experience.", ar: "صفحة تفاصيل المنتج المخصصة لتجربة المتجر السعودي." },
+    description: { en: "Product detail tailored for the Saudi market storefront experience.", ar: "تفاصيل المنتج المخصصة لتجربة متجر السوق السعودي." },
     isFullPage: false,
   },
 ];
 
+// ─── Group 4: Cart & Checkout ─────────────────────────────────────────────────
 const cartScreenshots: EGScreenshot[] = [
   {
     src: `${BASE}/uae-cart-action-flow.png`,
-    alt: { en: "EventGift UAE – Cart / Order Flow", ar: "ايفنت جيفت الإمارات – سلة الشراء" },
+    alt: { en: "EventGift UAE – Shopping Cart", ar: "ايفنت جيفت الإمارات – سلة الشراء" },
     title: { en: "UAE — Shopping Cart", ar: "الإمارات — سلة الشراء" },
     market: { en: "UAE", ar: "الإمارات" },
-    description: { en: "Shopping cart with clear order summary and action flow for the UAE storefront.", ar: "سلة الشراء مع ملخص واضح للطلب في متجر الإمارات." },
+    description: { en: "Shopping cart with clear order summary and action flow.", ar: "سلة الشراء مع ملخص واضح للطلب ومسار الإجراء." },
     isFullPage: false,
   },
   {
     src: `${BASE}/egypt-cart-action-flow.png`,
     alt: { en: "EventGift Egypt – Cart", ar: "ايفنت جيفت مصر – السلة" },
-    title: { en: "Egypt — Cart & Order Flow", ar: "مصر — السلة ومسار الطلب" },
+    title: { en: "Egypt — Shopping Cart", ar: "مصر — سلة الشراء" },
     market: { en: "Egypt", ar: "مصر" },
     description: { en: "Cart page showing the order flow before checkout in the Egyptian storefront.", ar: "صفحة السلة قبل إتمام الطلب في المتجر المصري." },
     isFullPage: false,
   },
   {
+    src: `${BASE}/egypt-checkout-flow.png`,
+    alt: { en: "EventGift Egypt – Checkout", ar: "ايفنت جيفت مصر – إتمام الطلب" },
+    title: { en: "Egypt — Checkout Flow", ar: "مصر — مسار إتمام الطلب" },
+    market: { en: "Egypt", ar: "مصر" },
+    description: { en: "Checkout page with order completion flow for the Egyptian market.", ar: "صفحة إتمام الطلب للسوق المصري." },
+    isFullPage: false,
+  },
+  {
+    src: `${BASE}/saudi-add-to-cart-desktop.png`,
+    alt: { en: "EventGift Saudi Arabia – Add to Cart", ar: "ايفنت جيفت السعودية – إضافة للسلة" },
+    title: { en: "Saudi Arabia — Add to Cart", ar: "السعودية — إضافة للسلة" },
+    market: { en: "Saudi Arabia", ar: "السعودية" },
+    description: { en: "Add-to-cart action and product selection flow on the Saudi storefront.", ar: "مسار إضافة المنتج للسلة في المتجر السعودي." },
+    isFullPage: false,
+  },
+  {
     src: `${BASE}/saudi-checkout-flow.png`,
     alt: { en: "EventGift Saudi Arabia – Checkout", ar: "ايفنت جيفت السعودية – إتمام الطلب" },
-    title: { en: "Saudi Arabia — Checkout Flow", ar: "السعودية — مسار إتمام الطلب" },
+    title: { en: "Saudi Arabia — Checkout", ar: "السعودية — إتمام الطلب" },
     market: { en: "Saudi Arabia", ar: "السعودية" },
-    description: { en: "Checkout page with localized order completion flow for the Saudi market.", ar: "صفحة إتمام الطلب المخصصة للسوق السعودي." },
+    description: { en: "Checkout flow for the Saudi market with localized order completion.", ar: "مسار إتمام الطلب المخصص للسوق السعودي." },
     isFullPage: false,
   },
 ];
 
+// ─── Group 5: Market Variations & Extras ──────────────────────────────────────
 const marketScreenshots: EGScreenshot[] = [
   {
     src: `${BASE}/uae-landing-page-desktop.png`,
-    alt: { en: "EventGift UAE – Landing Page", ar: "ايفنت جيفت الإمارات – صفحة الهبوط" },
-    title: { en: "UAE — Gifting Campaign Landing Page", ar: "الإمارات — صفحة هبوط حملة الهدايا" },
+    alt: { en: "EventGift UAE – Campaign Landing Page", ar: "ايفنت جيفت الإمارات – صفحة الهبوط" },
+    title: { en: "UAE — Campaign Landing Page", ar: "الإمارات — صفحة هبوط الحملة" },
     market: { en: "UAE", ar: "الإمارات" },
-    description: { en: "Dedicated landing page for gifting campaigns and corporate promotions.", ar: "صفحة هبوط مخصصة لحملات الهدايا والعروض للشركات." },
+    description: { en: "Landing page for gifting campaigns and corporate promotions.", ar: "صفحة هبوط لحملات الهدايا والعروض للشركات." },
     isFullPage: true,
   },
   {
     src: `${BASE}/uae-catalog-feature-desktop.png`,
-    alt: { en: "EventGift UAE – Get Catalog Feature", ar: "ايفنت جيفت الإمارات – طلب الكتالوج" },
+    alt: { en: "EventGift UAE – Corporate Catalog Request", ar: "ايفنت جيفت الإمارات – طلب الكتالوج" },
     title: { en: "UAE — Corporate Catalog Request", ar: "الإمارات — طلب الكتالوج للشركات" },
     market: { en: "UAE", ar: "الإمارات" },
-    description: { en: "Get catalog feature allowing corporate clients to request the full gifting product catalog.", ar: "ميزة طلب الكتالوج الكامل لعملاء الشركات." },
+    description: { en: "Get catalog feature allowing corporate clients to request the full gifting catalog.", ar: "ميزة طلب الكتالوج الكامل لعملاء الشركات." },
     isFullPage: true,
   },
   {
-    src: `${BASE}/saudi-homepage-hero-desktop.png`,
-    alt: { en: "EventGift Saudi Arabia – Homepage Hero", ar: "ايفنت جيفت السعودية – هيرو الرئيسية" },
-    title: { en: "Saudi Arabia — Homepage Hero", ar: "السعودية — هيرو الصفحة الرئيسية" },
+    src: `${BASE}/saudi-landing-page-desktop.png`,
+    alt: { en: "EventGift Saudi Arabia – Landing Page", ar: "ايفنت جيفت السعودية – صفحة الهبوط" },
+    title: { en: "Saudi Arabia — Landing Page", ar: "السعودية — صفحة الهبوط" },
     market: { en: "Saudi Arabia", ar: "السعودية" },
-    description: { en: "Homepage hero section of the Saudi market storefront.", ar: "قسم الهيرو للصفحة الرئيسية للمتجر السعودي." },
+    description: { en: "Dedicated landing page for the Saudi market gifting experience.", ar: "صفحة هبوط مخصصة لتجربة الهدايا في السوق السعودي." },
+    isFullPage: true,
+  },
+  {
+    src: `${BASE}/saudi-landing-feature-desktop.png`,
+    alt: { en: "EventGift Saudi Arabia – Landing Feature Section", ar: "ايفنت جيفت السعودية – قسم المميزات" },
+    title: { en: "Saudi Arabia — Feature Section", ar: "السعودية — قسم المميزات" },
+    market: { en: "Saudi Arabia", ar: "السعودية" },
+    description: { en: "Feature section of the Saudi landing page highlighting gifting services.", ar: "قسم المميزات في صفحة الهبوط السعودية مع إبراز خدمات الهدايا." },
+    isFullPage: true,
+  },
+  {
+    src: `${BASE}/uae-about-desktop.png`,
+    alt: { en: "EventGift UAE – About / Brand Page", ar: "ايفنت جيفت الإمارات – صفحة من نحن" },
+    title: { en: "UAE — About / Brand Page", ar: "الإمارات — صفحة من نحن" },
+    market: { en: "UAE", ar: "الإمارات" },
+    description: { en: "Brand and about page presenting EventGift's story and corporate services.", ar: "صفحة العلامة التجارية تقدم قصة ايفنت جيفت وخدماتها للشركات." },
     isFullPage: false,
   },
   {
-    src: `${BASE}/egypt-homepage-hero-desktop.png`,
-    alt: { en: "EventGift Egypt – Homepage Hero", ar: "ايفنت جيفت مصر – هيرو الرئيسية" },
-    title: { en: "Egypt — Homepage Hero", ar: "مصر — هيرو الصفحة الرئيسية" },
-    market: { en: "Egypt", ar: "مصر" },
-    description: { en: "Homepage hero section of the Egyptian market storefront.", ar: "قسم الهيرو للصفحة الرئيسية للمتجر المصري." },
+    src: `${BASE}/uae-reseller-desktop.png`,
+    alt: { en: "EventGift UAE – Reseller / Partner Page", ar: "ايفنت جيفت الإمارات – صفحة الشركاء" },
+    title: { en: "UAE — Reseller / Partner Page", ar: "الإمارات — صفحة الموزعين والشركاء" },
+    market: { en: "UAE", ar: "الإمارات" },
+    description: { en: "Reseller and partner program page for corporate gifting distribution partners.", ar: "صفحة برنامج الموزعين والشركاء لتوزيع خدمات الهدايا للشركات." },
     isFullPage: false,
   },
 ];
+
 
 // ─── Page content strings ─────────────────────────────────────────────────────
 

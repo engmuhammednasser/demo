@@ -40,20 +40,28 @@ function ScreenshotCard({
   const marketText = shot.market      ? (isAr ? shot.market.ar      : shot.market.en)      : null;
   const descText   = shot.description ? (isAr ? shot.description.ar : shot.description.en) : null;
 
-  const panDuration = shot.isFullPage ? 9 : 3;
+  // Full-page: slow upward pan. Non-full-page: static object-cover crop from top (no pan).
+  const isFullPage = shot.isFullPage === true;
 
-  // Image transform: pan from top → bottom on hover/focus (disabled when reducedMotion)
-  const imgStyle: React.CSSProperties = reducedMotion
-    ? { width: "100%", height: "auto", display: "block" }
-    : {
+  // Styles differ based on isFullPage flag
+  const imgStyle: React.CSSProperties = isFullPage && !reducedMotion
+    ? {
         width: "100%",
         height: "auto",
         display: "block",
-        transform: hovered
-          ? `translateY(calc(-100% + ${FRAME_H}px))`
-          : "translateY(0)",
-        transition: `transform ${hovered ? panDuration : 1.5}s ease-in-out`,
+        transform: hovered ? `translateY(calc(-100% + ${FRAME_H}px))` : "translateY(0)",
+        transition: `transform ${hovered ? 9 : 1.5}s ease-in-out`,
         willChange: "transform",
+      }
+    : {
+        width: "100%",
+        height: "100%",
+        display: "block",
+        objectFit: "cover" as const,
+        objectPosition: "top",
+        // Subtle scale on hover for non-full-page
+        transform: hovered ? "scale(1.03)" : "scale(1)",
+        transition: "transform 0.5s ease",
       };
 
   const handleOpen = useCallback(() => onOpen(index), [onOpen, index]);
@@ -74,45 +82,47 @@ function ScreenshotCard({
             ? `عرض ${titleText} كاملاً`
             : `View ${titleText} full screenshot`
         }
-        className="relative block w-full text-left rtl:text-right outline-none focus-visible:ring-2 focus-visible:ring-[#38BDF8] focus-visible:ring-inset cursor-zoom-in"
+        className={`relative block w-full text-left rtl:text-right outline-none focus-visible:ring-2 focus-visible:ring-[#38BDF8] focus-visible:ring-inset ${isFullPage ? "cursor-zoom-in" : "cursor-pointer"}`}
         style={{ height: FRAME_H, overflow: "hidden", flexShrink: 0 }}
       >
         {/* Image */}
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img src={shot.src} alt={altText} style={imgStyle} />
 
-        {/* Bottom fade — hides when panning */}
-        <div
-          aria-hidden="true"
-          style={{
-            position: "absolute",
-            bottom: 0,
-            left: 0,
-            right: 0,
-            height: 80,
-            background:
-              "linear-gradient(to top, rgba(17,24,39,0.95) 0%, transparent 100%)",
-            opacity: hovered ? 0 : 1,
-            transition: "opacity 0.5s ease",
-            pointerEvents: "none",
-          }}
-        />
+        {/* Bottom fade — only for full-page (hides when panning) */}
+        {isFullPage && (
+          <div
+            aria-hidden="true"
+            style={{
+              position: "absolute",
+              bottom: 0,
+              left: 0,
+              right: 0,
+              height: 80,
+              background:
+                "linear-gradient(to top, rgba(17,24,39,0.95) 0%, transparent 100%)",
+              opacity: hovered ? 0 : 1,
+              transition: "opacity 0.5s ease",
+              pointerEvents: "none",
+            }}
+          />
+        )}
 
-        {/* Market badge — top start */}
+        {/* Market badge — top start, larger and more prominent */}
         {marketText && (
           <div
             aria-hidden="true"
-            className={`absolute top-3 ${isAr ? "right-3" : "left-3"} px-2.5 py-1 bg-[#38BDF8] text-[#0B1020] text-xs font-bold rounded-md shadow`}
+            className={`absolute top-3 ${isAr ? "right-3" : "left-3"} px-3 py-1.5 bg-[#38BDF8] text-[#0B1020] text-sm font-extrabold rounded-lg shadow-lg tracking-wide`}
           >
             {marketText}
           </div>
         )}
 
-        {/* Full-page badge — top end */}
-        {shot.isFullPage && (
+        {/* Full-page indicator — top end */}
+        {isFullPage && (
           <div
             aria-hidden="true"
-            className={`absolute top-3 ${isAr ? "left-3" : "right-3"} flex items-center gap-1 px-2 py-1 bg-black/50 border border-white/10 text-white/60 text-xs rounded-md backdrop-blur-sm`}
+            className={`absolute top-3 ${isAr ? "left-3" : "right-3"} flex items-center gap-1 px-2.5 py-1.5 bg-black/60 border border-white/15 text-white/70 text-xs font-semibold rounded-lg backdrop-blur-sm`}
           >
             <svg className="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h7" />
@@ -121,8 +131,8 @@ function ScreenshotCard({
           </div>
         )}
 
-        {/* Hover hint badge — bottom centre, fades out on hover */}
-        {!reducedMotion && (
+        {/* Hint badge — only show for full-page screenshots (pan hint) */}
+        {isFullPage && !reducedMotion && (
           <div
             aria-hidden="true"
             style={{
@@ -130,18 +140,18 @@ function ScreenshotCard({
               bottom: 12,
               left: "50%",
               transform: "translateX(-50%)",
-              opacity: hovered ? 0 : 1,
+              opacity: hovered ? 0 : 0.85,
               transition: "opacity 0.3s ease",
               whiteSpace: "nowrap",
               pointerEvents: "none",
             }}
-            className="flex items-center gap-1.5 px-3 py-1.5 bg-black/60 backdrop-blur-sm border border-white/10 rounded-full"
+            className="flex items-center gap-1.5 px-3 py-1.5 bg-black/70 backdrop-blur-sm border border-white/10 rounded-full"
           >
             <svg className="w-3 h-3 text-[#38BDF8]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 10l7-7m0 0l7 7M12 3v18" />
             </svg>
             <span className="text-white/70 text-xs font-medium hidden md:inline">
-              {isAr ? "مرّر لعرض الصورة" : "Hover to preview"}
+              {isAr ? "مرّر لعرض الصورة كاملة" : "Hover to scroll preview"}
             </span>
             <span className="text-white/70 text-xs font-medium md:hidden">
               {isAr ? "اضغط للعرض" : "Tap to view"}
