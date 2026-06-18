@@ -6,6 +6,8 @@ import { notFound } from "next/navigation";
 import ScreenshotLightbox from "@/components/ui/ScreenshotLightbox";
 import type { Metadata } from "next";
 
+import FullPageScreenshotPreview from "@/components/ui/FullPageScreenshotPreview";
+
 export async function generateStaticParams() {
   const params: { lang: string; slug: string }[] = [];
   ['en', 'ar'].forEach(lang => {
@@ -257,24 +259,19 @@ export default async function ProjectDetailPage({
       {!isEnriched && allScreenshots.length > 1 && (
         <section className="max-w-6xl mx-auto space-y-8">
           <h2 className="text-3xl font-bold tracking-tight">{t.work.project.gallery}</h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-            {allScreenshots.slice(1).map((src, i) => (
-              <div
-                key={i}
-                className="relative aspect-video rounded-xl overflow-hidden border border-white/10 shadow-lg bg-[#111827] hover:border-[#38BDF8]/30 transition-colors"
-              >
-                <Image
-                  src={src}
-                  alt={locale === "ar"
-                    ? `لقطة من مشروع ${title}`
-                    : `${title} screenshot`}
-                  fill
-                  className="object-cover hover:scale-105 transition-transform duration-500"
-                  sizes="(max-width: 640px) 100vw, 50vw"
-                />
-              </div>
-            ))}
-          </div>
+          <FullPageScreenshotPreview
+            lang={lang as "en" | "ar"}
+            screenshots={allScreenshots.slice(1).map((src) => {
+              // Automatically apply full-page pan for long screenshots in eventgift
+              const isFullPage = slug.startsWith("eventgift-") && !src.includes("header");
+              return {
+                src,
+                alt: { en: `${title} screenshot`, ar: `لقطة من مشروع ${title}` },
+                title: { en: "Project Screenshot", ar: "لقطة من المشروع" },
+                isFullPage,
+              };
+            })}
+          />
         </section>
       )}
 
