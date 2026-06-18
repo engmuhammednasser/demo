@@ -10,7 +10,9 @@ export async function generateStaticParams() {
   const params: { lang: string; slug: string }[] = [];
   ['en', 'ar'].forEach(lang => {
     projects.forEach(project => {
-      if (!project.type.includes("laravel") && !project.type.includes("php")) {
+      // Skip laravel/php projects (they go to backend page)
+      // Skip eventgift — it has a dedicated route at /work/eventgift/page.tsx
+      if (!project.type.includes("laravel") && !project.type.includes("php") && project.slug !== "eventgift") {
         params.push({ lang, slug: project.slug });
       }
     });

@@ -74,33 +74,35 @@ export type Project = {
 export const projects: Project[] = [
   {
     slug: "eventgift",
-    title: "EventGift Multi-Market Gifting Platform",
-    titleAr: "منصة إهداء الشركات المتكاملة EventGift",
+    title: "EventGift — Multi-Market Gifting Platform",
+    titleAr: "ايفنت جيفت — منصة هدايا متعددة الأسواق",
     type: ["woocommerce","wordpress"] as WorkType[],
     category: "WooCommerce / eCommerce",
     industry: "E-COMMERCE · CORPORATE GIFTING",
     goal: ["Performance", "Sales"],
-    summary: "A scalable B2B gifting experience designed around localized storefronts, deep catalog navigation, and business-ready ordering flows.",
-    summaryAr: "منصة متطورة لتسهيل حلول الإهداء بين الشركات (B2B) من خلال واجهات متعددة الأسواق وتسهيل عمليات الشراء والخدمات اللوجستية.",
-    problem: "The project needed a clearer storefront experience that helped users browse products, discover key categories, and move through the purchase journey with less friction.",
-    problemAr: "كان المشروع يحتاج إلى تجربة متجر أوضح تساعد المستخدم على تصفح المنتجات بسهولة، الوصول للأقسام المهمة بسرعة، وتحسين رحلة الشراء بدون تعقيد.",
-    solution: "Developed as a comprehensive B2B ecommerce solution, EventGift handles complex multi-market catalog requirements with localized storefronts across the GCC. The platform focuses on high-intent business users, streamlining the corporate gifting workflow from product discovery to multi-destination logistics.",
-    solutionAr: "تطوير متجر إلكتروني متكامل للشركات يدعم الأسواق المتعددة والعملات المحلية في دول الخليج العربي مع تبسيط تجربة التسوق والدفع للعملاء التجاريين.",
-    role: ["Lead Developer"],
+    summary: "A multi-market gifting and ecommerce platform built for product discovery, market-specific storefronts, and a professional shopping experience across UAE, Egypt, and Saudi Arabia.",
+    summaryAr: "منصة هدايا ومتاجر إلكترونية متعددة الأسواق، تم تنفيذها لتخدم الإمارات ومصر والسعودية من خلال تجربة تصفح واضحة، عرض احترافي للمنتجات، وتجربة شراء مناسبة للمستخدم على الديسكتوب والموبايل.",
+    problem: "EventGift needed a professional gifting platform that could serve multiple regional markets while keeping the shopping experience clear, trustworthy, and easy to browse.",
+    problemAr: "احتاج مشروع ايفنت جيفت إلى منصة هدايا احترافية قادرة على خدمة أكثر من سوق إقليمي، مع الحفاظ على تجربة تصفح واضحة، موثوقة، وسهلة للمستخدم.",
+    solution: "A WordPress / WooCommerce ecommerce platform was built with structured product browsing, clear product presentation, market-specific storefront experiences, responsive frontend implementation, and a scalable backend setup.",
+    solutionAr: "تم تنفيذ منصة تجارة إلكترونية باستخدام WordPress و WooCommerce، مع تنظيم واضح لتصفح المنتجات، عرض احترافي للهدايا، وواجهات مناسبة لكل سوق.",
+    role: ["WordPress / WooCommerce Developer"],
+    roleAr: ["مطور WordPress / WooCommerce"],
     stack: ["WordPress","WooCommerce","PHP","HTML","CSS","JavaScript"],
-    features: ["Custom Theme", "Performance Optimization", "SEO Structure"],
-    featuresAr: ["ثيم مخصص", "تحسين الأداء", "تهيئة محركات البحث"],
+    features: ["Multi-market storefront experience", "Product and category browsing", "WooCommerce product structure", "Responsive ecommerce UI", "Market-specific frontend structure"],
+    featuresAr: ["تجربة متاجر متعددة الأسواق", "تصفح المنتجات والتصنيفات", "هيكلة منتجات WooCommerce", "واجهة متجر متجاوبة", "واجهات مناسبة لكل سوق"],
+    businessValue: ["Clearer product discovery", "Stronger brand trust", "Reusable multi-market ecommerce structure", "Better mobile shopping experience", "Professional product presentation"],
+    businessValueAr: ["وضوح أكبر في اكتشاف المنتجات", "تعزيز ثقة العميل في العلامة التجارية", "هيكلة قابلة لإعادة الاستخدام لأكثر من سوق", "تجربة تسوق أفضل على الموبايل", "عرض احترافي للمنتجات"],
     screenshots: [
       "/demo/projects/eventgift/cover.png",
-      "/demo/projects/eventgift/preview-01.png",
-      "/demo/projects/eventgift/preview-02.png"
     ],
-    liveUrl: "https://eventgift.com",
+    liveUrl: "https://eventgift.net",
     isFeatured: true,
     isPrivate: false,
     status: "live",
-    needsReview: true
+    needsReview: false
   },
+
 
   {
     slug: "techmart",
