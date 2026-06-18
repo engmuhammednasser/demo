@@ -140,7 +140,7 @@ export default async function ProjectDetailPage({
             src={allScreenshots[0]}
             alt={`${title} screenshot`}
             fill
-            className="object-cover"
+            className="object-cover object-top"
             priority
           />
         </div>
