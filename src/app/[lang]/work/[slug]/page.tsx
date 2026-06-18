@@ -217,6 +217,29 @@ export default async function ProjectDetailPage({
               ))}
             </div>
           </div>
+          {project.relatedProjects && project.relatedProjects.length > 0 && (
+            <div className="pt-6 border-t border-white/5">
+              <h3 className="text-xs font-bold uppercase tracking-widest text-[#94A3B8] mb-4">
+                {locale === "ar" ? "مشاريع ذات صلة" : "Related Projects"}
+              </h3>
+              <ul className="space-y-3">
+                {project.relatedProjects.map((slug, i) => {
+                  const relatedProject = projects.find((p) => p.slug === slug);
+                  if (!relatedProject) return null;
+                  return (
+                    <li key={i}>
+                      <a
+                        href={`/${locale}/work/${slug}`}
+                        className="block px-4 py-3 bg-[#1E293B] rounded-lg border border-white/5 text-[#38BDF8] font-semibold text-sm hover:bg-[#38BDF8]/10 hover:border-[#38BDF8]/30 transition-all"
+                      >
+                        {locale === "ar" ? relatedProject.titleAr : relatedProject.title}
+                      </a>
+                    </li>
+                  );
+                })}
+              </ul>
+            </div>
+          )}
           <div className="pt-6 border-t border-white/5">
             <a
               href={`https://wa.me/201025811613?text=${encodeURIComponent(locale === "ar" ? "أهلاً محمد، شاهدت مشروع " + title + " وأحتاج لمشروع مشابه." : "Hello Muhammed, I saw the " + title + " project and I need a similar project.")}`}
