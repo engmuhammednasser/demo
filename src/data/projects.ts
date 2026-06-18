@@ -97,6 +97,7 @@ export const projects: Project[] = [
     relatedProjects: ["eventgift", "eventgift-egypt", "eventgift-saudi"],
     screenshots: [
       "/demo/projects/eventgift-uae/home.webp",
+      "/demo/projects/eventgift-uae/home.webp",
       "/demo/projects/eventgift-uae/header.webp",
       "/demo/projects/eventgift-uae/header2.webp",
       "/demo/projects/eventgift-uae/header3.webp",
@@ -138,6 +139,7 @@ export const projects: Project[] = [
     businessValueAr: ["حضور أقوى للعلامة التجارية محليًا", "تسلسل طلبات محلي أكثر سلاسة", "ربط فعال مع حسابات الشركات"],
     relatedProjects: ["eventgift", "eventgift-uae", "eventgift-saudi"],
     screenshots: [
+      "/demo/projects/eventgift-egypt/homepage-full.webp",
       "/demo/projects/eventgift-egypt/homepage-full.webp",
       "/demo/projects/eventgift-egypt/header.webp",
       "/demo/projects/eventgift-egypt/01-category-gift-category-gifts-for-events-full.webp",
@@ -186,6 +188,7 @@ export const projects: Project[] = [
     businessValueAr: ["تعزيز التفاعل في المنطقة", "تحسين تحويل المبيعات للشركات", "تتبع أفضل لطلبات الشركات"],
     relatedProjects: ["eventgift", "eventgift-uae", "eventgift-egypt"],
     screenshots: [
+      "/demo/projects/eventgift-saudi/homepage-full.webp",
       "/demo/projects/eventgift-saudi/homepage-full.webp",
       "/demo/projects/eventgift-saudi/hedaer1.webp",
       "/demo/projects/eventgift-saudi/hedaer2.webp",
