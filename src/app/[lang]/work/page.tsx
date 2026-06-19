@@ -3,6 +3,7 @@ import { getDictionary } from "@/lib/i18n";
 import { projects } from "@/data/projects";
 import Image from "next/image";
 import Link from "next/link";
+import LiveButton from "@/components/ui/LiveButton";
 
 export default async function WorkPage({
   params,
@@ -53,9 +54,15 @@ export default async function WorkPage({
                 <div className="p-8 flex-1 flex flex-col">
                   <div className="text-xs font-bold text-[#38BDF8] mb-3 uppercase tracking-widest">{locale === "ar" && project.categoryAr ? project.categoryAr : project.category}</div>
                   <h3 className="text-2xl font-bold mb-3 leading-snug group-hover:text-[#38BDF8] transition-colors">{locale === "ar" ? project.titleAr : project.title}</h3>
-                  <p className="text-[#94A3B8] text-sm leading-relaxed line-clamp-2 flex-1">
-                    {locale === "ar" ? project.summaryAr : project.summary}
-                  </p>
+                  <p className="text-[#94A3B8] text-sm leading-relaxed line-clamp-2">{locale === "ar" ? project.summaryAr : project.summary}</p>
+                  {project.liveUrl && (
+                    <LiveButton
+                      href={project.liveUrl}
+                      labelAr="زيارة الموقع"
+                      labelEn="Live Site"
+                      locale={locale}
+                    />
+                  )}
                   <div className="mt-6 flex flex-wrap gap-2">
                     {project.stack.slice(0, 3).map((tech) => (
                       <span key={tech} className="text-xs font-semibold px-3 py-1.5 bg-[#1E293B] border border-white/5 rounded-md text-[#94A3B8]">
