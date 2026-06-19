@@ -108,7 +108,7 @@ export default async function ProjectDetailPage({
     <div className="container mx-auto px-4 py-20 space-y-20">
       {/* Hero Section */}
       <header className="max-w-4xl mx-auto space-y-8 text-center">
-        <div className="text-sm font-bold text-[#38BDF8] uppercase tracking-widest">{project.category}</div>
+        <div className="text-sm font-bold text-[#38BDF8] uppercase tracking-widest">{locale === "ar" && project.categoryAr ? project.categoryAr : project.category}</div>
         <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight leading-tight">{title}</h1>
         <p className="text-xl md:text-2xl text-[#94A3B8] max-w-3xl mx-auto leading-relaxed whitespace-pre-wrap">{summary}</p>
         <div className="flex flex-wrap items-center justify-center gap-4 pt-4">

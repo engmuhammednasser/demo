@@ -53,7 +53,7 @@ export default async function BackendPage({
                   <div className="absolute inset-0 bg-gradient-to-t from-[#111827] via-transparent to-transparent opacity-80" />
                 </div>
                 <div className="p-8 flex-1 flex flex-col">
-                  <div className="text-xs font-bold text-[#38BDF8] mb-3 uppercase tracking-widest">{project.category}</div>
+                  <div className="text-xs font-bold text-[#38BDF8] mb-3 uppercase tracking-widest">{locale === "ar" && project.categoryAr ? project.categoryAr : project.category}</div>
                   <h3 className="text-2xl font-bold mb-3 leading-snug group-hover:text-[#38BDF8] transition-colors">{locale === "ar" ? project.titleAr : project.title}</h3>
                   <p className="text-[#94A3B8] text-sm leading-relaxed line-clamp-2 flex-1">
                     {locale === "ar" ? project.summaryAr : project.summary}
