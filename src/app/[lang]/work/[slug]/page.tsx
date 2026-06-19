@@ -73,8 +73,8 @@ export default async function ProjectDetailPage({
   const businessValue = locale === "ar" && project.businessValueAr ? project.businessValueAr : project.businessValue;
 
   // Determine if the live site is available
-  const isLiveAvailable = !!project.liveUrl && project.status === "live";
-  const isArchived = project.status === "archived" || project.status === "case-study" || project.status === "private";
+  const isLiveAvailable = !!project.liveUrl;
+  const isArchived = project.status === "archived" || project.status === "private";
 
   // Check if project uses the new enriched screenshot system
   const isEnriched =
