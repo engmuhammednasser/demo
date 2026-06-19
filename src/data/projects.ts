@@ -70,6 +70,7 @@ export type Project = {
   isPrivate: boolean;
   status: "live" | "archived" | "private" | "github" | "case-study";
   needsReview?: boolean;
+  hidden?: boolean;
   relatedProjects?: string[];
 };
 
@@ -246,6 +247,7 @@ export const projects: Project[] = [
     liveUrl: "https://eventgift.net",
     isFeatured: true,
     isPrivate: false,
+    hidden: true,
     status: "live",
     needsReview: false
   },

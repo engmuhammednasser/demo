@@ -29,9 +29,9 @@ export default async function WorkPage({
           {/* Filters can go here later in a client component */}
         </div>
 
-        {projects.filter(p => !p.type.includes("laravel") && !p.type.includes("php")).length > 0 ? (
+        {projects.filter(p => !p.hidden && !p.type.includes("laravel") && !p.type.includes("php")).length > 0 ? (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {projects.filter(p => !p.type.includes("laravel") && !p.type.includes("php")).map((project) => (
+            {projects.filter(p => !p.hidden && !p.type.includes("laravel") && !p.type.includes("php")).map((project) => (
               <Link 
                 key={project.slug} 
                 href={`/${locale}/work/${project.slug}`}
