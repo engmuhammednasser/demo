@@ -96,9 +96,9 @@ export const projects: Project[] = [
     businessValueAr: ["زيادة حصة السوق في الإمارات", "جلب عملاء شركات أفضل", "تقديم واجهة موجهة بفعالية"],
     relatedProjects: ["eventgift", "eventgift-egypt", "eventgift-saudi"],
     screenshots: [
-      "/demo/projects/eventgift-uae/landing-page.webp",
-      "/demo/projects/eventgift-uae/landing-page.webp",
       "/demo/projects/eventgift-uae/home.webp",
+      "/demo/projects/eventgift-uae/home.webp",
+      "/demo/projects/eventgift-uae/landing-page.webp",
       "/demo/projects/eventgift-uae/header.webp",
       "/demo/projects/eventgift-uae/header2.webp",
       "/demo/projects/eventgift-uae/header3.webp",
@@ -188,9 +188,9 @@ export const projects: Project[] = [
     businessValueAr: ["تعزيز التفاعل في المنطقة", "تحسين تحويل المبيعات للشركات", "تتبع أفضل لطلبات الشركات"],
     relatedProjects: ["eventgift", "eventgift-uae", "eventgift-egypt"],
     screenshots: [
-      "/demo/projects/eventgift-saudi/landing-page.webp",
-      "/demo/projects/eventgift-saudi/landing-page.webp",
       "/demo/projects/eventgift-saudi/homepage-full.webp",
+      "/demo/projects/eventgift-saudi/homepage-full.webp",
+      "/demo/projects/eventgift-saudi/landing-page.webp",
       "/demo/projects/eventgift-saudi/hedaer1.webp",
       "/demo/projects/eventgift-saudi/hedaer2.webp",
       "/demo/projects/eventgift-saudi/01-category-gift-category-gifts-for-team-full.webp",
