@@ -394,13 +394,12 @@ export default async function Home({
           // Curate exactly the 6 requested projects
           const curatedList = lang === "ar" ? [
             {
-              slug: "eventgift",
-              title: "منصة EventGift متعددة الأسواق",
+              slug: "eventgift-saudi",
+              title: "ايفنت جيفت السعودية — واجهة المتجر",
               category: "ووكومرس / تجارة إلكترونية",
-              desc: "منصة هدايا متعددة الأسواق تم تنفيذها للإمارات والسعودية ومصر، مع واجهات محلية، كتالوجات منتجات، ومسارات طلب مخصصة.",
-              tags: ["WooCommerce", "متعدد الأسواق", "تجربة استخدام مخصصة"],
-              markets: ["الإمارات", "السعودية", "مصر"],
-              image: "/demo/projects/eventgift/cover.png",
+              desc: "الواجهة المخصصة لسوق السعودية لمنصة ايفنت جيفت، توفر هدايا للفرق وخيارات هدايا مستدامة وميزات مخصصة لإدارة الحسابات في السوق السعودي.",
+              tags: ["WooCommerce", "السعودية", "هدايا الشركات"],
+              image: "/demo/projects/eventgift-saudi/landing-page.webp",
               hasDetail: true,
             },
             {
@@ -450,13 +449,12 @@ export default async function Home({
             },
           ] : [
             {
-              slug: "eventgift",
-              title: "EventGift Multi-Market Gifting Platform",
+              slug: "eventgift-saudi",
+              title: "EventGift Saudi Arabia — Storefront",
               category: "WooCommerce / eCommerce",
-              desc: "A multi-market gifting platform built across the UAE, Saudi Arabia, and Egypt, with localized storefronts, product catalogs, and custom order flows.",
-              tags: ["WooCommerce", "Multi-market", "Custom UX"],
-              markets: ["UAE", "Saudi Arabia", "Egypt"],
-              image: "/demo/projects/eventgift/cover.png",
+              desc: "The tailored Saudi Arabian storefront for EventGift, bringing team gifts, sustainable options, and dedicated account management features to the Saudi market.",
+              tags: ["WooCommerce", "Saudi Arabia", "Corporate Gifting"],
+              image: "/demo/projects/eventgift-saudi/landing-page.webp",
               hasDetail: true,
             },
             {
@@ -542,19 +540,7 @@ export default async function Home({
                       )}
                       <div className="absolute inset-0 bg-gradient-to-t from-[#111827] via-transparent to-transparent opacity-80" />
 
-                      {/* Markets Badge Overlay */}
-                      {item.markets && item.markets.length > 0 && (
-                        <div className="absolute top-4 left-4 right-4 flex flex-wrap gap-1.5 z-10 pointer-events-none">
-                          {item.markets.map((market, idx) => (
-                            <span
-                              key={idx}
-                              className="px-2.5 py-0.5 rounded-full text-[10px] font-bold bg-[#38BDF8]/20 border border-[#38BDF8]/30 text-[#38BDF8] shadow-sm uppercase backdrop-blur-md"
-                            >
-                              {market}
-                            </span>
-                          ))}
-                        </div>
-                      )}
+
                     </div>
 
                     {/* Content */}
