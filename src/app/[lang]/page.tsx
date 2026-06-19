@@ -399,7 +399,7 @@ export default async function Home({
               category: "ووكومرس / تجارة إلكترونية",
               desc: "الواجهة المخصصة لسوق الإمارات لمنصة ايفنت جيفت، مع ميزات تصفح منتجات محلية وهيكلة تصنيفات مخصصة وطلب كتالوج لعملاء الشركات.",
               tags: ["WooCommerce", "الإمارات", "هدايا الشركات"],
-              image: "/demo/projects/eventgift-uae/landing-page.webp",
+              image: "/demo/projects/eventgift-uae/home.webp",
               hasDetail: true,
             },
             {
@@ -454,7 +454,7 @@ export default async function Home({
               category: "WooCommerce / eCommerce",
               desc: "The dedicated UAE storefront for the EventGift platform, featuring localized product discovery, specific category structures, and B2B catalog request features.",
               tags: ["WooCommerce", "UAE", "Corporate Gifting"],
-              image: "/demo/projects/eventgift-uae/landing-page.webp",
+              image: "/demo/projects/eventgift-uae/home.webp",
               hasDetail: true,
             },
             {
