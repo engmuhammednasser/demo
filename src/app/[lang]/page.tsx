@@ -394,12 +394,12 @@ export default async function Home({
           // Curate exactly the 6 requested projects
           const curatedList = lang === "ar" ? [
             {
-              slug: "eventgift-saudi",
-              title: "ايفنت جيفت السعودية — واجهة المتجر",
+              slug: "eventgift-uae",
+              title: "ايفنت جيفت الإمارات — واجهة المتجر",
               category: "ووكومرس / تجارة إلكترونية",
-              desc: "الواجهة المخصصة لسوق السعودية لمنصة ايفنت جيفت، توفر هدايا للفرق وخيارات هدايا مستدامة وميزات مخصصة لإدارة الحسابات في السوق السعودي.",
-              tags: ["WooCommerce", "السعودية", "هدايا الشركات"],
-              image: "/demo/projects/eventgift-saudi/landing-page.webp",
+              desc: "الواجهة المخصصة لسوق الإمارات لمنصة ايفنت جيفت، مع ميزات تصفح منتجات محلية وهيكلة تصنيفات مخصصة وطلب كتالوج لعملاء الشركات.",
+              tags: ["WooCommerce", "الإمارات", "هدايا الشركات"],
+              image: "/demo/projects/eventgift-uae/landing-page.webp",
               hasDetail: true,
             },
             {
@@ -449,12 +449,12 @@ export default async function Home({
             },
           ] : [
             {
-              slug: "eventgift-saudi",
-              title: "EventGift Saudi Arabia — Storefront",
+              slug: "eventgift-uae",
+              title: "EventGift UAE — Storefront Case Study",
               category: "WooCommerce / eCommerce",
-              desc: "The tailored Saudi Arabian storefront for EventGift, bringing team gifts, sustainable options, and dedicated account management features to the Saudi market.",
-              tags: ["WooCommerce", "Saudi Arabia", "Corporate Gifting"],
-              image: "/demo/projects/eventgift-saudi/landing-page.webp",
+              desc: "The dedicated UAE storefront for the EventGift platform, featuring localized product discovery, specific category structures, and B2B catalog request features.",
+              tags: ["WooCommerce", "UAE", "Corporate Gifting"],
+              image: "/demo/projects/eventgift-uae/landing-page.webp",
               hasDetail: true,
             },
             {
