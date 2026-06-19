@@ -61,6 +61,7 @@ export default async function WorkPage({
                       labelAr="زيارة الموقع"
                       labelEn="Live Site"
                       locale={locale}
+                      archiveHref={`/${locale}/work/${project.slug}`}
                     />
                   )}
                   <div className="mt-6 flex flex-wrap gap-2">
