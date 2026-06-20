@@ -262,12 +262,30 @@ export default async function ProjectDetailPage({
           <FullPageScreenshotPreview
             lang={lang as "en" | "ar"}
             screenshots={allScreenshots.slice(1).map((src) => {
-              // Automatically apply full-page pan for long screenshots in eventgift
-              const isFullPage = slug.startsWith("eventgift-") && !src.includes("header");
+              // Automatically apply full-page pan for long screenshots in eventgift and botella
+              const isFullPage = (slug.startsWith("eventgift-") || slug === "botella") && !src.includes("header");
+              
+              let customTitleEn = "Project Screenshot";
+              let customTitleAr = "لقطة من المشروع";
+              
+              if (slug === "botella") {
+                const filename = src.split("/").pop()?.replace(".webp", "") || "";
+                let cleanName = filename.replace(/^\d+-/, "").replace(/-en$/, "").replace(/-ar$/, "").replace(/-/g, " ");
+                cleanName = cleanName.charAt(0).toUpperCase() + cleanName.slice(1);
+                
+                if (src.includes("-ar.webp")) {
+                  customTitleAr = cleanName;
+                  customTitleEn = "Screenshot";
+                } else {
+                  customTitleEn = cleanName;
+                  customTitleAr = cleanName; // Show english name in arabic too if it's the english pic
+                }
+              }
+
               return {
                 src,
                 alt: { en: `${title} screenshot`, ar: `لقطة من مشروع ${title}` },
-                title: { en: "Project Screenshot", ar: "لقطة من المشروع" },
+                title: { en: customTitleEn, ar: customTitleAr },
                 isFullPage,
               };
             })}
