@@ -326,10 +326,18 @@ export const projects: Project[] = [
     screenshots: [
       "/projects/ashhalan/section-1.png",
       "/projects/ashhalan/home-page.png",
+      "/projects/ashhalan/home-page-ar.png",
+      "/projects/ashhalan/section-1.png",
+      "/projects/ashhalan/section-1-ar.png",
       "/projects/ashhalan/section-2.png",
+      "/projects/ashhalan/section-2-ar.png",
       "/projects/ashhalan/section-3.png",
+      "/projects/ashhalan/section-3-ar.png",
       "/projects/ashhalan/section-4.png",
-      "/projects/ashhalan/section-5.png"
+      "/projects/ashhalan/section-4-ar.png",
+      "/projects/ashhalan/section-5.png",
+      "/projects/ashhalan/section-5-ar.png",
+      "/projects/ashhalan/section-6-ar.png"
     ],
     liveUrl: "https://ashhalan.com",
     isFeatured: true,
