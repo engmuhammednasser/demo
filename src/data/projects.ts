@@ -444,10 +444,18 @@ export const projects: Project[] = [
     features: ["Custom Theme", "Performance Optimization", "SEO Structure"],
     featuresAr: ["ثيم مخصص", "تحسين الأداء", "تهيئة محركات البحث"],
     screenshots: [
-      "/demo/projects/genedyeg/cover.png",
-      "/demo/projects/genedyeg/preview-01.png",
-      "/demo/projects/genedyeg/preview-02.png"
-    ],
+        "/projects/genedyeg/cover.png",
+        "/projects/genedyeg/home.png",
+        "/projects/genedyeg/about.png",
+        "/projects/genedyeg/Chairman's Message - Construction.png",
+        "/projects/genedyeg/sectors.png",
+        "/projects/genedyeg/GENEDY CONSTRUCTION - Construction.png",
+        "/projects/genedyeg/projects.png",
+        "/projects/genedyeg/Careers - Construction.png",
+        "/projects/genedyeg/single job caeers.png",
+        "/projects/genedyeg/News Update - Construction.png",
+        "/projects/genedyeg/- Construction.png"
+      ],
     liveUrl: "https://genedyeg.com",
     isFeatured: true,
     isPrivate: false,
