@@ -581,36 +581,6 @@ export const projects: Project[] = [
     needsReview: true
   },
 
-  {
-    slug: "eventgift-eg",
-    title: "Event Gift Egypt",
-    titleAr: "منصة إهداء الشركات - مصر EventGift EG",
-    type: ["woocommerce","wordpress"] as WorkType[],
-    category: "WooCommerce / eCommerce",
-    categoryAr: "وكومرس / وردبريس",
-    industry: "E-COMMERCE · CORPORATE GIFTING",
-    goal: ["Performance", "Sales"],
-    summary: "A dedicated marketplace for corporate gifting in Egypt, focusing on local production highlights and simplified procurement loops.",
-    summaryAr: "بوابة تسوق محلية مخصصة للإهداء وتجهيز طلبات الشركات في جمهورية مصر العربية تدعم حلول الدفع والشحن المحلية.",
-    problem: "The project needed a clearer storefront experience that helped users browse products, discover key categories, and move through the purchase journey with less friction.",
-    problemAr: "كان المشروع يحتاج إلى تجربة متجر أوضح تساعد المستخدم على تصفح المنتجات بسهولة، الوصول للأقسام المهمة بسرعة، وتحسين رحلة الشراء بدون تعقيد.",
-    solution: "This standalone platform represents the Egyptian branch of the EventGift network. It focuses on local market demands, featuring EGP currency integration, localized product sourcing, and a catalog structure that emphasizes the unique gifting needs of the Egyptian corporate sector.",
-    solutionAr: "إطلاق المنصة في مصر مع تفعيل حلول الدفع المحلية وربطها بالموردين المحليين لتسهيل لوجستيات الشحن والتسليم للشركات في مصر.",
-    role: ["Lead Developer"],
-    stack: ["WordPress","WooCommerce","PHP","HTML","CSS","JavaScript"],
-    features: ["Custom Theme", "Performance Optimization", "SEO Structure"],
-    featuresAr: ["ثيم مخصص", "تحسين الأداء", "تهيئة محركات البحث"],
-    screenshots: [
-      "/demo/projects/eventgift-eg/cover.png",
-      "/demo/projects/eventgift-eg/preview-01.png",
-      "/demo/projects/eventgift-eg/preview-02.png"
-    ],
-    liveUrl: "https://eventgift-eg.com",
-    isFeatured: false,
-    isPrivate: false,
-    status: "live",
-    needsReview: true
-  },
 
   {
     slug: "ashhalanksa",
