@@ -468,12 +468,20 @@ export const projects: Project[] = [
     features: ["Custom Theme", "Performance Optimization", "SEO Structure"],
     featuresAr: ["ثيم مخصص", "تحسين الأداء", "تهيئة محركات البحث"],
     screenshots: [
-      "/demo/projects/a2mkw/cover.png",
-      "/demo/projects/a2mkw/preview-01.png",
-      "/demo/projects/a2mkw/preview-02.png"
-    ],
+        "/projects/a2mkw/cover.png",
+        "/projects/a2mkw/000_ar.png",
+        "/projects/a2mkw/001_ar_contact.png",
+        "/projects/a2mkw/002_ar_solutions.png",
+        "/projects/a2mkw/003_ar_portfolio_paydo.png",
+        "/projects/a2mkw/004_ar_portfolio_nuc.png",
+        "/projects/a2mkw/005_ar_portfolio_patients-helping-fund-society.png",
+        "/projects/a2mkw/006_ar_blogs_the-correct-way-of-content-creation-using-ai-in-2026.png",
+        "/projects/a2mkw/007_ar_blogs_9-e-commerce-strategies-to-double-your-sales-in-2025.png",
+        "/projects/a2mkw/008_ar_blogs_professional-website-design-the-difference-between-a-website-that-sells-and-one-that-goes-unseen.png",
+        "/projects/a2mkw/009_ar_blogs.png"
+      ],
     liveUrl: "https://a2mkw.com",
-    isFeatured: false,
+    isFeatured: true,
     isPrivate: false,
     status: "live",
     needsReview: true
