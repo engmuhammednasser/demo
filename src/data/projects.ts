@@ -377,12 +377,17 @@ export const projects: Project[] = [
     features: ["Custom Theme", "Performance Optimization", "SEO Structure"],
     featuresAr: ["ثيم مخصص", "تحسين الأداء", "تهيئة محركات البحث"],
     screenshots: [
-      "/demo/projects/nora24jewelry/cover.png",
-      "/demo/projects/nora24jewelry/preview-01.png",
-      "/demo/projects/nora24jewelry/preview-02.png"
-    ],
+        "/projects/nora24jewelry/cover.png",
+        "/projects/nora24jewelry/home.png",
+        "/projects/nora24jewelry/shop.png",
+        "/projects/nora24jewelry/prodcut.png",
+        "/projects/nora24jewelry/cart.png",
+        "/projects/nora24jewelry/checkout.png",
+        "/projects/nora24jewelry/about.png",
+        "/projects/nora24jewelry/contact.png"
+      ],
     liveUrl: "https://nora24jewelry.com",
-    isFeatured: false,
+    isFeatured: true,
     isPrivate: false,
     status: "live",
     needsReview: true
