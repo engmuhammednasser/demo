@@ -308,7 +308,7 @@ export const projects: Project[] = [
     slug: "ashhalan",
     title: "Ashhalan Group Corporate Brand Platform",
     titleAr: "مجموعة أشهلان القابضة Ashhalan",
-    type: ["wordpress"] as WorkType[],
+    type: ["nextjs"] as WorkType[],
     category: "Corporate / Business Website",
     categoryAr: "موقع شركة / أعمال",
     industry: "CORPORATE · GROUP PLATFORM",
@@ -320,7 +320,7 @@ export const projects: Project[] = [
     solution: "Ashhalan Group required a unified Brand Architecture that could represent multiple business units under one cohesive digital umbrella. The platform emphasizes executive-level trust, high-quality corporate storytelling, and effortless subsidiary discoverability for global stakeholders.",
     solutionAr: "تصميم وتطوير بوابة رقمية متكاملة لربط الشركات التابعة للمجموعة تحت هوية بصرية وتعبيرية موحدة تسلط الضوء على نقاط القوة والخدمات المشتركة.",
     role: ["Lead Developer"],
-    stack: ["WordPress","PHP","HTML","CSS","JavaScript"],
+    stack: ["Next.js","HTML","CSS"],
     features: ["Custom Theme", "Performance Optimization", "SEO Structure"],
     featuresAr: ["ثيم مخصص", "تحسين الأداء", "تهيئة محركات البحث"],
     screenshots: [
