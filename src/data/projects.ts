@@ -451,6 +451,7 @@ export const projects: Project[] = [
         "/projects/genedyeg/sectors.png",
         "/projects/genedyeg/GENEDY CONSTRUCTION - Construction.png",
         "/projects/genedyeg/projects.png",
+        "/projects/genedyeg/single prodcut.png",
         "/projects/genedyeg/Careers - Construction.png",
         "/projects/genedyeg/single job caeers.png",
         "/projects/genedyeg/News Update - Construction.png",
