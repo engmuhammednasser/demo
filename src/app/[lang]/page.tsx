@@ -422,11 +422,11 @@ export default async function Home({
             },
             {
               slug: "botella",
-              title: "متجر Bottella للمنتجات المباشرة",
-              category: "ووكومرس / تجارة إلكترونية",
-              desc: "متجر منتجات مباشر للمستهلك مبني حول عرض المنتجات، تنظيم المجموعات، وتجربة تصفح سلسة.",
+              title: "متجر زجاجات المياه بوتيلا Botella",
+              category: "وكومرس / وردبريس",
+              desc: "متجر تسوق مباشر للمستهلكين (DTC) يتميز بتصميمه العصري لتقديم منتجات زجاجات المياه الرياضية الأنيقة وحلول الشراء السريعة.",
               tags: ["WooCommerce", "DTC", "متجر منتجات"],
-              image: "/demo/projects/botella/cover.png",
+              image: "/demo/projects/botella/02-home-page-en.webp",
               hasDetail: true,
             },
             {
@@ -477,11 +477,11 @@ export default async function Home({
             },
             {
               slug: "botella",
-              title: "Bottella DTC Product Storefront",
+              title: "Botella Water Bottles Store",
               category: "WooCommerce / eCommerce",
               desc: "A direct-to-consumer product storefront built around product collections, visual presentation, and a smooth browsing experience.",
               tags: ["WooCommerce", "DTC", "Product Storefront"],
-              image: "/demo/projects/botella/cover.png",
+              image: "/demo/projects/botella/02-home-page-en.webp",
               hasDetail: true,
             },
             {
