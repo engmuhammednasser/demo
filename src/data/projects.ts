@@ -545,12 +545,20 @@ export const projects: Project[] = [
     features: ["Custom Theme", "Performance Optimization", "SEO Structure"],
     featuresAr: ["ثيم مخصص", "تحسين الأداء", "تهيئة محركات البحث"],
     screenshots: [
-      "/demo/projects/tbinnovation/cover.png",
-      "/demo/projects/tbinnovation/preview-01.png",
-      "/demo/projects/tbinnovation/preview-02.png"
-    ],
+        "/projects/tbinnovation/cover.png",
+        "/projects/tbinnovation/home.png",
+        "/projects/tbinnovation/الرئيسيه.png",
+        "/projects/tbinnovation/aboutus.png",
+        "/projects/tbinnovation/عن الشركة.png",
+        "/projects/tbinnovation/Sevices.png",
+        "/projects/tbinnovation/الخدمات.png",
+        "/projects/tbinnovation/Industries.png",
+        "/projects/tbinnovation/الصناعات.png",
+        "/projects/tbinnovation/Contacts.png",
+        "/projects/tbinnovation/اتصل بنا.png"
+      ],
     liveUrl: "https://tbinnovation.com",
-    isFeatured: false,
+    isFeatured: true,
     isPrivate: false,
     status: "live",
     needsReview: true
