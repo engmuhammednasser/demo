@@ -251,8 +251,8 @@ export default async function ProjectDetailPage({
           <FullPageScreenshotPreview
             lang={lang as "en" | "ar"}
             screenshots={allScreenshots.slice(1).map((src) => {
-              // Automatically apply full-page pan for long screenshots in eventgift and botella
-              const isFullPage = ((slug.startsWith("eventgift-") || slug === "botella") && !src.includes("header")) || (slug === "ashhalan" && src.includes("home-page"));
+              // Automatically apply full-page pan for long screenshots in eventgift, botella, and techmart
+              const isFullPage = ((slug.startsWith("eventgift-") || slug === "botella" || slug === "techmart") && !src.includes("header")) || (slug === "ashhalan" && src.includes("home-page"));
               
               let customTitleEn = "Project Screenshot";
               let customTitleAr = "لقطة من المشروع";
