@@ -557,7 +557,7 @@ export const projects: Project[] = [
         "/projects/tbinnovation/Contacts.png",
         "/projects/tbinnovation/اتصل بنا.png"
       ],
-    liveUrl: "https://tbinnovation.com",
+    liveUrl: "https://tbinnovation.net",
     isFeatured: true,
     isPrivate: false,
     status: "live",
