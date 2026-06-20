@@ -324,12 +324,12 @@ export const projects: Project[] = [
     features: ["Custom Theme", "Performance Optimization", "SEO Structure"],
     featuresAr: ["ثيم مخصص", "تحسين الأداء", "تهيئة محركات البحث"],
     screenshots: [
-      "/demo/projects/ashhalan/section-1.png",
-      "/demo/projects/ashhalan/home-page.png",
-      "/demo/projects/ashhalan/section-2.png",
-      "/demo/projects/ashhalan/section-3.png",
-      "/demo/projects/ashhalan/section-4.png",
-      "/demo/projects/ashhalan/section-5.png"
+      "/projects/ashhalan/section-1.png",
+      "/projects/ashhalan/home-page.png",
+      "/projects/ashhalan/section-2.png",
+      "/projects/ashhalan/section-3.png",
+      "/projects/ashhalan/section-4.png",
+      "/projects/ashhalan/section-5.png"
     ],
     liveUrl: "https://ashhalan.com",
     isFeatured: true,
