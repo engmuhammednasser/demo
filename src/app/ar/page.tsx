@@ -401,10 +401,10 @@ export default async function Home() {
             {
               slug: "techmart",
               title: "تجربة Techmart لمتجر Apple Retail",
-              category: "ووكومرس / تجارة إلكترونية",
+              category: "ووردبريس / وكومرس",
               desc: "تجربة متجر إلكتروني موجهة لمنتجات Apple، مع تنظيم واضح للمنتجات والعروض وتجربة شراء نظيفة.",
               tags: ["WooCommerce", "Retail", "تجربة منتجات"],
-              image: "/demo/projects/techmart/cover.png",
+              image: "/projects/techmart/cover.png",
               hasDetail: true,
             },
             {
@@ -456,10 +456,10 @@ export default async function Home() {
             {
               slug: "techmart",
               title: "Techmart Apple Retail eCommerce Experience",
-              category: "WooCommerce / eCommerce",
+              category: "WordPress / WooCommerce",
               desc: "An Apple-focused retail eCommerce experience designed around structured product discovery, offers, and a clean shopping flow.",
               tags: ["WooCommerce", "Retail", "Product UX"],
-              image: "/demo/projects/techmart/cover.png",
+              image: "/projects/techmart/cover.png",
               hasDetail: true,
             },
             {

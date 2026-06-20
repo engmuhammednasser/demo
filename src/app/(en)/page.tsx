@@ -361,34 +361,7 @@ export default async function Home() {
       <section className="container mx-auto px-4 py-16">
         <div className="flex flex-col sm:flex-row justify-between items-center sm:items-end mb-12 max-w-7xl mx-auto gap-4">
           <div>
-            <h2 className="text-3xl md:text-4xl font-extrabold tracking-tight mb-3">
-              {lang === "ar" ? "دراسات حالة مختارة" : "Featured Case Studies"}
-            </h2>
-            <p className="text-[#94A3B8] text-base max-w-2xl leading-relaxed">
-              {lang === "ar"
-                ? "مجموعة مختارة من متاجر ووكومرس، ومنصات وردبريس، وأنظمة الأعمال المبنية حول احتياجات تشغيلية حقيقية."
-                : "A curated selection of WooCommerce stores, WordPress platforms, and business systems built around real workflows."}
-            </p>
-          </div>
-          <Link
-            href={`/${lang}/work`}
-            className="text-[#38BDF8] hover:text-[#38BDF8]/80 font-semibold group flex items-center gap-2 shrink-0"
-          >
-            {lang === "ar" ? "عرض كل المشاريع" : "View All Projects"}
-            <svg
-              className="w-4 h-4 transform group-hover:translate-x-1 transition-transform rtl:rotate-180 rtl:group-hover:-translate-x-1"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-            </svg>
-          </Link>
-        </div>
-
-        {(() => {
-          // Curate exactly the 6 requested projects
-          const curatedList = lang === "ar" ? [
+},
             {
               slug: "eventgift-uae",
               title: "ايفنت جيفت الإمارات — واجهة المتجر",
@@ -401,10 +374,10 @@ export default async function Home() {
             {
               slug: "techmart",
               title: "تجربة Techmart لمتجر Apple Retail",
-              category: "ووكومرس / تجارة إلكترونية",
+              category: "ووردبريس / وكومرس",
               desc: "تجربة متجر إلكتروني موجهة لمنتجات Apple، مع تنظيم واضح للمنتجات والعروض وتجربة شراء نظيفة.",
               tags: ["WooCommerce", "Retail", "تجربة منتجات"],
-              image: "/demo/projects/techmart/cover.png",
+              image: "/projects/techmart/cover.png",
               hasDetail: true,
             },
             {
@@ -456,10 +429,10 @@ export default async function Home() {
             {
               slug: "techmart",
               title: "Techmart Apple Retail eCommerce Experience",
-              category: "WooCommerce / eCommerce",
+              category: "WordPress / WooCommerce",
               desc: "An Apple-focused retail eCommerce experience designed around structured product discovery, offers, and a clean shopping flow.",
               tags: ["WooCommerce", "Retail", "Product UX"],
-              image: "/demo/projects/techmart/cover.png",
+              image: "/projects/techmart/cover.png",
               hasDetail: true,
             },
             {
