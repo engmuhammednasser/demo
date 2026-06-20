@@ -53,8 +53,16 @@ export default function MobileMenu({ lang, locale, nav }: MobileMenuProps) {
     return () => { document.body.style.overflow = ""; };
   }, [isOpen]);
 
-  const nextLang = locale === "ar" ? "en" : "ar";
-  const nextLangUrl = pathname ? pathname.replace(`/${locale}`, `/${nextLang}`) : `/${nextLang}`;
+  const getNextLangUrl = () => {
+    if (!pathname) return locale === "ar" ? "/" : "/ar";
+    if (locale === "ar") {
+      const newPath = pathname.replace(/^\/ar/, "");
+      return newPath === "" ? "/" : newPath;
+    } else {
+      return `/ar${pathname === "/" ? "" : pathname}`;
+    }
+  };
+  const nextLangUrl = getNextLangUrl();
 
   const links = [
     {

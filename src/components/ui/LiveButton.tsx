@@ -1,4 +1,5 @@
 "use client";
+import AppLink from "@/components/ui/AppLink";
 
 interface LiveButtonProps {
   href: string;
@@ -35,16 +36,16 @@ export default function LiveButton({
         </svg>
       </a>
       {archiveHref && (
-        <a
+        <AppLink
           href={archiveHref}
-          onClick={(e) => e.stopPropagation()}
+          onClick={(e: React.MouseEvent<HTMLAnchorElement>) => e.stopPropagation()}
           className="inline-flex items-center gap-2 text-xs font-bold px-4 py-2 rounded-lg bg-[#38BDF8]/10 text-[#38BDF8] border border-[#38BDF8]/20 hover:bg-[#38BDF8]/20 hover:border-[#38BDF8]/40 transition-all"
         >
           <svg className="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>
             <path strokeLinecap="round" strokeLinejoin="round" d="M5 8h14M5 8a2 2 0 110-4h14a2 2 0 110 4M5 8v10a2 2 0 002 2h10a2 2 0 002-2V8m-9 4h4" />
           </svg>
           {locale === "ar" ? archiveLabelAr : archiveLabelEn}
-        </a>
+        </AppLink>
       )}
     </div>
   );

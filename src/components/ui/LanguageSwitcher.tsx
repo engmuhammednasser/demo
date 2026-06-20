@@ -8,10 +8,16 @@ export default function LanguageSwitcher({ currentLang }: { currentLang: Locale 
   const pathname = usePathname();
   
   const getNextLangUrl = () => {
-    const nextLang = currentLang === "ar" ? "en" : "ar";
-    if (!pathname) return `/${nextLang}`;
+    if (!pathname) return currentLang === "ar" ? "/" : "/ar";
     
-    return pathname.replace(`/${currentLang}`, `/${nextLang}`);
+    if (currentLang === "ar") {
+      // Switch to English: Remove the /ar prefix
+      const newPath = pathname.replace(/^\/ar/, "");
+      return newPath === "" ? "/" : newPath;
+    } else {
+      // Switch to Arabic: Add the /ar prefix
+      return `/ar${pathname === "/" ? "" : pathname}`;
+    }
   };
 
   return (
