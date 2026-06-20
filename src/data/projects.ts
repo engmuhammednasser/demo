@@ -327,7 +327,7 @@ export const projects: Project[] = [
       "/demo/projects/botella/23-حسابي-ar.webp",
       "/demo/projects/botella/24-اتمام-الطلب-ar.webp"
     ],
-    liveUrl: "https://botella.com",
+    liveUrl: "https://gobotella.com/",
     isFeatured: true,
     isPrivate: false,
     status: "live",
