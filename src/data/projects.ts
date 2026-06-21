@@ -394,38 +394,8 @@ export const projects: Project[] = [
   },
 
   {
-    slug: "gobeagency",
-    title: "Gobe Agency Corporate Portfolio",
-    titleAr: "وكالة غوبي الإبداعية Gobe Agency",
-    type: ["wordpress"] as WorkType[],
-    category: "Agency / Creative / Portfolio",
-    categoryAr: "وكالة / إبداعي / بورتفوليو",
-    industry: "AGENCY · CREATIVE",
-    goal: ["Performance", "Sales"],
-    summary: "A refined agency portfolio emphasizing creative services, structured case studies, and corporate branding authority.",
-    summaryAr: "معرض أعمال ومنصة رقمية لوكالة إبداعية تسلط الضوء على الخدمات البصرية والحملات التسويقية وقصص النجاح للعملاء.",
-    problem: "The project needed a clearer visual presentation that highlighted creative services, work, and identity in a professional, easily navigable format.",
-    problemAr: "كان المشروع يحتاج إلى طريقة عرض بصرية أوضح تبرز الخدمات، الأعمال، وطبيعة الهوية الإبداعية بشكل احترافي وسهل التصفح.",
-    solution: "The Gobe Agency platform is architected to establish creative authority in the digital agency space. It focuses on presenting comprehensive service hierarchies alongside proven work, structured in a way that appeals to high-tier B2B clients looking for modern branding and performance-led digital solutions.",
-    solutionAr: "تطوير منصة تبرز الهوية البصرية للوكالة وتوفر وصولًا سهلًا لخدماتها وسجل أعمالها المتميز لجذب شريحة جديدة من العملاء التجاريين.",
-    role: ["Lead Developer"],
-    stack: ["WordPress","HTML","CSS","JavaScript"],
-    features: ["Custom Theme", "Performance Optimization", "SEO Structure"],
-    featuresAr: ["ثيم مخصص", "تحسين الأداء", "تهيئة محركات البحث"],
-    screenshots: [
-      "/demo/projects/gobeagency/cover.png",
-      "/demo/projects/gobeagency/preview-01.png",
-      "/demo/projects/gobeagency/preview-02.png"
-    ],
-    liveUrl: "https://gobeagency.com",
-    isFeatured: false,
-    isPrivate: false,
-    status: "live",
-    needsReview: true
-  },
-
-  {
     slug: "gobe",
+    liveUrl: "https://gobeagency.com",
     title: "وكالة غوبي الإبداعية Gobe Agency",
     titleAr: "جو بي للدعايا",
     type: ["wordpress"] as WorkType[],
