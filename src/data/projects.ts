@@ -607,33 +607,53 @@ export const projects: Project[] = [
 
   {
     slug: "mediaandmore",
-    title: "Media & More Production",
-    titleAr: "وكالة ميديا أند مور للإنتاج الإعلامي Media & More",
+    title: "Media & More House of Software",
+    titleAr: "ميديا أند مور هاوس أوف سوفتوير Media & More",
     type: ["wordpress"] as WorkType[],
-    category: "Corporate / Business Website",
-    categoryAr: "موقع شركة / أعمال",
-    industry: "AGENCY · MEDIA PRODUCTION",
+    category: "Corporate Website / Software & Business Solutions",
+    categoryAr: "موقع شركة / شركة برمجيات وحلول أعمال",
+    industry: "SOFTWARE · BUSINESS SOLUTIONS",
     goal: ["Performance", "Sales"],
-    summary: "A media production agency platform highlighting multimedia services, production trust, and visual capabilities.",
-    summaryAr: "موقع رسمي يعرض خدمات الإنتاج الفني وتصوير الفيديو وحلول التسويق البصري بجودة ممتازة لتلبية احتياجات الشركات والعلامات.",
-    problem: "The project needed a more structured digital presence that clearly presented the company’s services, identity, and trust signals.",
-    problemAr: "كان المشروع يحتاج إلى حضور رقمي منظم يعرض الخدمات والهوية والثقة بشكل أوضح، بدل الاعتماد على عرض عام لا يشرح قيمة الشركة جيدًا.",
-    solution: "This platform serves as the digital front door for Media & More, focusing inherently on high-end visual production capabilities. By mapping out extensive related services like video production and content creation, the hierarchy perfectly routes media seekers directly to proof of visual excellence.",
-    solutionAr: "بناء معرض أعمال مرئي وتفاعلي يستعرض المشروعات السابقة وجودة الإنتاج لتسهيل عملية طلب خدمات التصوير والمونتاج وتوليد العملاء المهتمين.",
+    summary: "The official website for Media & More, specializing in software development and business solutions. It showcases services such as web design and development, ERP/CRM systems, e-commerce, mobile apps, hosting, and digital marketing solutions for brands and companies.",
+    summaryAr: "موقع رسمي لشركة Media & More المتخصصة في تطوير البرمجيات وحلول الأعمال، ويعرض خدمات تصميم وتطوير المواقع، أنظمة ERP وCRM، التجارة الإلكترونية، تطبيقات الموبايل، الاستضافة، وحلول التسويق الرقمي للشركات والعلامات التجارية.",
+    problem: "The project required a structured digital presence to professionally present the company's software and business solutions, rather than providing generic content that didn't highlight its expertise in software development, ERP/CRM, e-commerce, and web/mobile apps.",
+    problemAr: "كان المشروع يحتاج إلى حضور رقمي منظم يوضح خدمات الشركة البرمجية وحلول الأعمال بشكل احترافي، بدل تقديم محتوى عام لا يبرز تخصص الشركة في تطوير البرمجيات، أنظمة ERP/CRM، التجارة الإلكترونية، وتطبيقات الويب والموبايل.",
+    solution: "Developed a corporate software company website that clearly displays core services, products, partners, clients, and contact points. The site is organized to facilitate access for potential clients to services like web development, software engineering, e-commerce, ERP/CRM systems, and digital marketing.",
+    solutionAr: "تطوير موقع تعريفي لشركة برمجيات يعرض الخدمات الرئيسية، المنتجات، الشركاء والعملاء، ونقاط التواصل بوضوح، مع تنظيم أقسام الموقع لتسهيل وصول العملاء المحتملين إلى خدمات مثل تطوير المواقع، تطوير البرمجيات، التجارة الإلكترونية، أنظمة ERP وCRM، والتسويق الرقمي.",
     role: ["Lead Developer"],
-    stack: ["WordPress","PHP","HTML","CSS","JavaScript"],
-    features: ["Custom Theme", "Performance Optimization", "SEO Structure"],
-    featuresAr: ["ثيم مخصص", "تحسين الأداء", "تهيئة محركات البحث"],
-    screenshots: [
-      "/demo/projects/mediaandmore/cover.png",
-      "/demo/projects/mediaandmore/preview-01.png",
-      "/demo/projects/mediaandmore/preview-02.png"
+    stack: ["WordPress", "PHP", "HTML", "CSS", "JavaScript"],
+    features: [
+      "Professional corporate website design",
+      "Clear presentation of software and business solutions",
+      "Dedicated sections for services, products, and clients",
+      "Enhanced user experience and content organization",
+      "Basic SEO implementation",
+      "Contact and quote request forms"
     ],
-    liveUrl: "https://mediaandmore.com",
-    isFeatured: false,
+    featuresAr: [
+      "تصميم موقع شركة احترافي",
+      "عرض واضح للخدمات البرمجية وحلول الأعمال",
+      "أقسام للخدمات والمنتجات والعملاء",
+      "تحسين تجربة المستخدم وتنظيم المحتوى",
+      "تهيئة أساسية لمحركات البحث",
+      "نماذج تواصل وطلب عرض سعر"
+    ],
+      screenshots: [
+        "/projects/mediaandmore/cover.png",
+        "/projects/mediaandmore/header1.png",
+        "/projects/mediaandmore/header2.png",
+        "/projects/mediaandmore/header3.png",
+        "/projects/mediaandmore/home.png",
+        "/projects/mediaandmore/about-us.png",
+        "/projects/mediaandmore/servcies.png",
+        "/projects/mediaandmore/products.png",
+        "/projects/mediaandmore/contacts.png"
+      ],
+    liveUrl: "https://mediaandmore.org/",
+    isFeatured: true,
     isPrivate: false,
     status: "live",
-    needsReview: true
+    needsReview: false
   },
 
   {
