@@ -490,7 +490,7 @@ export const projects: Project[] = [
     solution: "Designed to effectively market the marketers, the A2M platform details the agency's proficiency across multiple digital verticals including SEO, PPC, and Social Media Management. The hierarchy is organized to lead B2B visitors directly toward service comprehensiveness and clear conversion pathways in the Kuwait market.",
     solutionAr: "تطوير موقع إلكتروني يعكس خبرات الوكالة في مجالات التسويق المختلفة مع توفير قنوات واضحة وسريعة لطلب الاستشارات والخدمات.",
     role: ["Lead Developer"],
-    stack: ["WordPress","HTML","CSS","JavaScript"],
+    stack: ["WordPress", "Next.js", "HTML", "CSS", "JavaScript"],
     features: ["Custom Theme", "Performance Optimization", "SEO Structure"],
     featuresAr: ["ثيم مخصص", "تحسين الأداء", "تهيئة محركات البحث"],
     screenshots: [
