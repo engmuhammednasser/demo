@@ -396,8 +396,8 @@ export const projects: Project[] = [
   {
     slug: "gobe",
     liveUrl: "https://gobeagency.com",
-    title: "وكالة غوبي الإبداعية Gobe Agency",
-    titleAr: "جو بي للدعايا",
+    title: "Gobe Agency",
+    titleAr: "وكالة جو بي للتسويق",
     type: ["wordpress"] as WorkType[],
     category: "Agency / Creative / Portfolio",
     categoryAr: "وكالة إبداعية / بورتفوليو",
