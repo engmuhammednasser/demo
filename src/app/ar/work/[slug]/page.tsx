@@ -252,7 +252,7 @@ export default async function ProjectDetailPage({
             lang={lang as "en" | "ar"}
             screenshots={allScreenshots.slice(1).map((src) => {
               // Automatically apply full-page pan for long screenshots in eventgift, botella, and techmart
-              const isFullPage = ((slug.startsWith("eventgift-") || slug === "botella" || slug === "techmart" || slug === "a2mkw" || slug === "nora24jewelry" || slug === "tbinnovation" || slug === "genedyeg" || slug === "gobe" || slug === "nuc-kw" || slug === "mediaandmore") && !src.includes("header") && !src.includes("هيدر")) || (slug === "ashhalan" && src.includes("home-page"));
+              const isFullPage = ((slug.startsWith("eventgift-") || slug === "botella" || slug === "techmart" || slug === "a2mkw" || slug === "nora24jewelry" || slug === "tbinnovation" || slug === "genedyeg" || slug === "gobe" || slug === "nuc-kw" || slug === "mediaandmore" || slug === "ashhalanksa") && !src.includes("header") && !src.includes("هيدر")) || (slug === "ashhalan" && src.includes("home-page"));
               
               let customTitleEn = "Project Screenshot";
               let customTitleAr = "لقطة من المشروع";
@@ -269,7 +269,7 @@ export default async function ProjectDetailPage({
                   customTitleEn = cleanName;
                   customTitleAr = cleanName; // Show english name in arabic too if it's the english pic
                 }
-              } else if (slug === "tbinnovation" || slug === "genedyeg" || slug === "gobe" || slug === "nuc-kw" || slug === "mediaandmore") {
+              } else if (slug === "tbinnovation" || slug === "genedyeg" || slug === "gobe" || slug === "nuc-kw" || slug === "mediaandmore" || slug === "ashhalanksa") {
                 const filename = src.split("/").pop()?.replace(".png", "") || "";
                 customTitleEn = filename;
                 customTitleAr = filename;
