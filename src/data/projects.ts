@@ -656,37 +656,6 @@ export const projects: Project[] = [
     needsReview: false
   },
 
-  {
-    slug: "pxls-creative",
-    title: "PXLS Creative Studio",
-    titleAr: "استوديو بيكسلز الإبداعي PXLS Creative",
-    type: ["wordpress"] as WorkType[],
-    category: "Corporate / Business Website",
-    categoryAr: "موقع شركة / أعمال",
-    industry: "AGENCY · CREATIVE STUDIO",
-    goal: ["Performance", "Sales"],
-    summary: "A creative studio platform prioritizing visual design storytelling, methodology, and designer-led branding.",
-    summaryAr: "موقع تعريفي خاص باستوديو تصميم وبناء هوية تجارية يركز على سرد القصص البصرية والمنهجيات الإبداعية الراقية.",
-    problem: "The project needed a more structured digital presence that clearly presented the company’s services, identity, and trust signals.",
-    problemAr: "كان المشروع يحتاج إلى حضور رقمي منظم يعرض الخدمات والهوية والثقة بشكل أوضح، بدل الاعتماد على عرض عام لا يشرح قيمة الشركة جيدًا.",
-    solution: "PXLS Creative operates natively in the visual and branding spaces. This portfolio project reflects that aesthetic orientation by maintaining a clean, premium interface designed to immediately communicate design excellence, branding authority, and visual storytelling capabilities.",
-    solutionAr: "تطوير موقع مبسط بهيكل أنيق يعكس الهوية البصرية الفريدة للاستوديو ويوفر تجربة بصرية غامرة لاستعراض منهجيات التصميم المتبعة.",
-    role: ["Lead Developer"],
-    stack: ["WordPress","PHP","HTML","CSS","JavaScript"],
-    features: ["Custom Theme", "Performance Optimization", "SEO Structure"],
-    featuresAr: ["ثيم مخصص", "تحسين الأداء", "تهيئة محركات البحث"],
-    screenshots: [
-      "/demo/projects/pxls-creative/cover.png",
-      "/demo/projects/pxls-creative/preview-01.png",
-      "/demo/projects/pxls-creative/preview-02.png"
-    ],
-    liveUrl: "https://pxls-creative.com",
-    isFeatured: false,
-    isPrivate: false,
-    status: "live",
-    needsReview: true
-  },
-
 
   {
     slug: "ashhalanksa",
