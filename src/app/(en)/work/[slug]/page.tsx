@@ -252,12 +252,44 @@ export default async function ProjectDetailPage({
             lang={lang as "en" | "ar"}
             screenshots={allScreenshots.slice(1).map((src) => {
               // Automatically apply full-page pan for long screenshots in eventgift, botella, and techmart
-              const isFullPage = ((slug.startsWith("eventgift-") || slug === "botella" || slug === "techmart" || slug === "a2mkw" || slug === "nora24jewelry" || slug === "tbinnovation" || slug === "genedyeg" || slug === "gobe" || slug === "nuc-kw" || slug === "mediaandmore" || slug === "ashhalanksa") && !src.includes("header") && !src.includes("هيدر")) || (slug === "ashhalan" && src.includes("home-page"));
+              const isFullPage = ((slug.startsWith("eventgift-") || slug === "botella" || slug === "techmart" || slug === "a2mkw" || slug === "nora24jewelry" || slug === "tbinnovation" || slug === "genedyeg" || slug === "gobe" || slug === "nuc-kw" || slug === "mediaandmore" || slug === "ashhalanksa" || slug === "ashhalanlogistics") && !src.includes("header") && !src.includes("هيدر")) || (slug === "ashhalan" && src.includes("home-page"));
               
               let customTitleEn = "Project Screenshot";
               let customTitleAr = "لقطة من المشروع";
               
-              if (slug === "botella") {
+              const titleMap: Record<string, { en: string; ar: string }> = {
+                // ashhalanksa
+                "checkout": { en: "Checkout Page", ar: "صفحة الدفع والشراء" },
+                "cart": { en: "Cart Page", ar: "صفحة السلة" },
+                "store": { en: "Store Page", ar: "صفحة المتجر" },
+                "package": { en: "Product Packages", ar: "صفحة باقات المنتجات" },
+                "detergents": { en: "Detergents Section", ar: "صفحة قسم المنظفات" },
+                "landing-page": { en: "Landing Page", ar: "صفحة الهبوط" },
+                "home": { en: "Home Page", ar: "الصفحة الرئيسية" },
+                "404": { en: "404 Page", ar: "صفحة 404" },
+
+                // ashhalanlogistics
+                "section01": { en: "Our Services", ar: "خدماتنا" },
+                "section02": { en: "Why Choose Us", ar: "مميزاتنا" },
+                "section03": { en: "Contact Us", ar: "اتصل بنا" },
+
+                // ashhalan (Group)
+                "section-1": { en: "About the Group", ar: "عن المجموعة" },
+                "section-2": { en: "Our Services", ar: "خدماتنا" },
+                "section-3": { en: "Our Companies / Subsidiaries", ar: "شركاتنا والشركات التابعة" },
+                "section-4": { en: "Partners & Clients", ar: "الشركاء والعملاء" },
+                "section-5": { en: "Contact Us", ar: "اتصل بنا" },
+                "section-6": { en: "Careers", ar: "الوظائف والتوظيف" },
+                "home-page": { en: "Home Page", ar: "الصفحة الرئيسية" }
+              };
+
+              const rawFilename = src.split("/").pop()?.replace(".png", "").replace(".webp", "") || "";
+              const normalizedKey = rawFilename.replace("-ar", "");
+
+              if (titleMap[normalizedKey]) {
+                customTitleEn = titleMap[normalizedKey].en;
+                customTitleAr = titleMap[normalizedKey].ar;
+              } else if (slug === "botella") {
                 const filename = src.split("/").pop()?.replace(".webp", "") || "";
                 let cleanName = filename.replace(/^\d+-/, "").replace(/-en$/, "").replace(/-ar$/, "").replace(/-/g, " ");
                 cleanName = cleanName.charAt(0).toUpperCase() + cleanName.slice(1);
@@ -269,7 +301,7 @@ export default async function ProjectDetailPage({
                   customTitleEn = cleanName;
                   customTitleAr = cleanName; // Show english name in arabic too if it's the english pic
                 }
-              } else if (slug === "tbinnovation" || slug === "genedyeg" || slug === "gobe" || slug === "nuc-kw" || slug === "mediaandmore" || slug === "ashhalanksa") {
+              } else if (slug === "tbinnovation" || slug === "genedyeg" || slug === "gobe" || slug === "nuc-kw" || slug === "mediaandmore" || slug === "ashhalanksa" || slug === "ashhalanlogistics") {
                 const filename = src.split("/").pop()?.replace(".png", "") || "";
                 customTitleEn = filename;
                 customTitleAr = filename;
