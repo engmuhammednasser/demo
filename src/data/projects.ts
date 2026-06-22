@@ -702,11 +702,11 @@ export const projects: Project[] = [
       "/projects/ashhalanksa/cover.png",
       "/projects/ashhalanksa/home.png",
       "/projects/ashhalanksa/landing-page.png",
-      "/projects/ashhalanksa/section-1.png",
-      "/projects/ashhalanksa/section-2.png",
-      "/projects/ashhalanksa/section-3.png",
-      "/projects/ashhalanksa/section-4.png",
-      "/projects/ashhalanksa/section-5.png"
+      "/projects/ashhalanksa/checkout.png",
+      "/projects/ashhalanksa/cart.png",
+      "/projects/ashhalanksa/store.png",
+      "/projects/ashhalanksa/package.png",
+      "/projects/ashhalanksa/detergents.png"
     ],
     liveUrl: "https://engmuhammednasser.github.io/work/ashhalanksa/",
     isFeatured: true,
