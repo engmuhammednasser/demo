@@ -708,7 +708,7 @@ export const projects: Project[] = [
       "/projects/ashhalanksa/package.png",
       "/projects/ashhalanksa/detergents.png"
     ],
-    liveUrl: "https://engmuhammednasser.github.io/work/ashhalanksa/",
+    liveUrl: "https://ashhalanksa.com/",
     isFeatured: true,
     isPrivate: false,
     status: "live",
